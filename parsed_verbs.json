@@ -1,0 +1,6519 @@
+{
+  "አሰበ": {
+    "english": "think, intend",
+    "infinitive": {
+      "fidel": "ማሰብ",
+      "translit": "massäb"
+    },
+    "perfect": {
+      "1sg": {
+        "fidel": "አሰብኩ",
+        "translit": "assäbku",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አሰብክ",
+        "translit": "assäbk",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አሰብሽ",
+        "translit": "assäbš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አሰበ",
+        "translit": "assäbä",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አሰበች",
+        "translit": "assäbäčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አሰብን",
+        "translit": "assäbn",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አሰባችሁ",
+        "translit": "assäbaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አሰቡ",
+        "translit": "assäbu",
+        "en": ""
+      }
+    },
+    "imperfective_compound": {
+      "1sg": {
+        "fidel": "አስባለሁ",
+        "translit": "assəballähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "ታስባለህ",
+        "translit": "tassəballäh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "ታስቢያለሽ",
+        "translit": "tassəbiyalläš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያስባል",
+        "translit": "yassəball",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታስባለች",
+        "translit": "tassəballäčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናስባለን",
+        "translit": "ənnassəballän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "ታስባላችሁ",
+        "translit": "tassəballaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያስባሉ",
+        "translit": "yassəballu",
+        "en": ""
+      }
+    },
+    "gerund": {
+      "1sg": {
+        "fidel": "አስቤ",
+        "translit": "assəbbe",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አስበህ",
+        "translit": "assəbäh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አስበሽ",
+        "translit": "assəbäš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አስቦ",
+        "translit": "assəbo",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አስባ",
+        "translit": "assəba",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አስበን",
+        "translit": "assəbän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አስባችሁ",
+        "translit": "assəbaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አስበው",
+        "translit": "assəbäw",
+        "en": ""
+      }
+    },
+    "compound_gerund": {
+      "1sg": {
+        "fidel": "አስቤያለሁ",
+        "translit": "assəbbeyallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አስበሃል",
+        "translit": "assəbähall",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አስበሻል",
+        "translit": "assəbäšall",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አስቧል",
+        "translit": "assəbwall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አስባለች",
+        "translit": "assəballäčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አስበናል",
+        "translit": "assəbänall",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አስባችኋል",
+        "translit": "assəbaččhwall",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አስበዋል",
+        "translit": "assəbäwall",
+        "en": ""
+      }
+    },
+    "jussive_imperative": {
+      "1sg": {
+        "fidel": "ላሰብ",
+        "translit": "lassəb",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አሰብ",
+        "translit": "assəb",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አሰቢ",
+        "translit": "assəbi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያሰብ",
+        "translit": "yassəb",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታሰብ",
+        "translit": "tassəb",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናሰብ",
+        "translit": "ənnassəb",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አሰቡ",
+        "translit": "assəb",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያሰቡ",
+        "translit": "yassəb",
+        "en": ""
+      }
+    },
+    "negative_perfect": {
+      "1sg": {
+        "fidel": "አላሰብኩም",
+        "translit": "alassäbkumm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አላሰብክም",
+        "translit": "alassäbkəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አላሰብሽም",
+        "translit": "alassäbšəmm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አላሰበም",
+        "translit": "alassäbämm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አላሰበችም",
+        "translit": "alassäbäččəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አላሰብንም",
+        "translit": "alassäbnəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አላሰባችሁም",
+        "translit": "alassäbaččəhumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አላሰቡም",
+        "translit": "alassäbumm",
+        "en": ""
+      }
+    },
+    "negative_imperfective": {
+      "1sg": {
+        "fidel": "አላስብም",
+        "translit": "alassəbəmm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታስብም",
+        "translit": "atassəbəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታስቢም",
+        "translit": "atassəbimm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያስብም",
+        "translit": "ayassəbəmm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታስብም",
+        "translit": "atassəbəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናስብም",
+        "translit": "anassəbəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታስቡም",
+        "translit": "atassəbumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያስቡም",
+        "translit": "ayassəbumm",
+        "en": ""
+      }
+    },
+    "negative_jussive_imperative": {
+      "1sg": {
+        "fidel": "አላሰብ",
+        "translit": "alassəb",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታሰብ",
+        "translit": "attassəb",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታሰቢ",
+        "translit": "attassəbi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያሰብ",
+        "translit": "ayassəb",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታሰብ",
+        "translit": "attassəb",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናሰብ",
+        "translit": "annassəb",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታሰቡ",
+        "translit": "attassəbu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያሰቡ",
+        "translit": "ayassəbu",
+        "en": ""
+      }
+    }
+  },
+  "አነፀ / አነጠ": {
+    "english": "construct",
+    "infinitive": {
+      "fidel": "ማነፅ",
+      "translit": "mannäṣ"
+    },
+    "perfect": {
+      "1sg": {
+        "fidel": "አነፅኩ",
+        "translit": "annäṣku",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አነፅክ",
+        "translit": "annäṣk",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አነፅሽ",
+        "translit": "annäṣš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አነፀ",
+        "translit": "annäṣä",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አነፀች",
+        "translit": "annäṣäčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አነፅን",
+        "translit": "annäṣn",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አነፃችሁ",
+        "translit": "annäṣaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አነፁ",
+        "translit": "annäṣu",
+        "en": ""
+      }
+    },
+    "imperfective_compound": {
+      "1sg": {
+        "fidel": "አንፃለሁ",
+        "translit": "annəṣallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "ታንፃለህ",
+        "translit": "tannəṣalläh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "ታንጪያለሽ",
+        "translit": "tannəč̣iyalläš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያንፃል",
+        "translit": "yannəṣall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታንፃለች",
+        "translit": "tannəṣalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናንፃለን",
+        "translit": "ənnannəṣallän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "ታንፃላችሁ",
+        "translit": "tannəṣallaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያንፃሉ",
+        "translit": "yannəṣallu",
+        "en": ""
+      }
+    },
+    "gerund": {
+      "1sg": {
+        "fidel": "አንጬ",
+        "translit": "annəč̣č̣e",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አንፀህ",
+        "translit": "annəṣäh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አንፀሽ",
+        "translit": "annəṣäš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አንፆ",
+        "translit": "annəṣo",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አንፃ",
+        "translit": "annəṣa",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አንፀን",
+        "translit": "annəṣän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አንፃችሁ",
+        "translit": "annəṣaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አንፀው",
+        "translit": "annəṣäw",
+        "en": ""
+      }
+    },
+    "compound_gerund": {
+      "1sg": {
+        "fidel": "አንጬያለሁ",
+        "translit": "annəč̣č̣eyallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አንፀሃል",
+        "translit": "annəṣähall",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አንፀሻል",
+        "translit": "annəṣäšall",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አንጿል",
+        "translit": "annəṣwall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አንፃለች",
+        "translit": "annəṣalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አንፀናል",
+        "translit": "annəṣänall",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አንፃችኋል",
+        "translit": "annəṣaččhwall",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አንፀዋል",
+        "translit": "annəṣäwall",
+        "en": ""
+      }
+    },
+    "jussive_imperative": {
+      "1sg": {
+        "fidel": "ላነፅ",
+        "translit": "lannəṣ",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አነፅ",
+        "translit": "annəṣ",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አነጭ",
+        "translit": "annəč̣i",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያነፅ",
+        "translit": "yannəṣ",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታነፅ",
+        "translit": "tannəṣ",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናነፅ",
+        "translit": "ənnannəṣ",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አነፁ",
+        "translit": "annəṣ",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያነፁ",
+        "translit": "yannəṣ",
+        "en": ""
+      }
+    },
+    "negative_perfect": {
+      "1sg": {
+        "fidel": "አላነፅኩም",
+        "translit": "alannäṣkumm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አላነፅክም",
+        "translit": "alannäṣkəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አላነፅሽም",
+        "translit": "alannäṣšəmm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አላነፀም",
+        "translit": "alannäṣämm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አላነፀችም",
+        "translit": "alannäṣäččəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አላነፅንም",
+        "translit": "alannäṣnəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አላነፃችሁም",
+        "translit": "alannäṣaččəhumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አላነፁም",
+        "translit": "alannäṣumm",
+        "en": ""
+      }
+    },
+    "negative_imperfective": {
+      "1sg": {
+        "fidel": "አላንፅም",
+        "translit": "alannəṣəmm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታንፅም",
+        "translit": "atannəṣəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታንጪም",
+        "translit": "atannəč̣imm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያንፅም",
+        "translit": "ayannəṣəmm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታንፅም",
+        "translit": "atannəṣəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናንፅም",
+        "translit": "anannəṣəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታንፁም",
+        "translit": "atannəṣumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያንፁም",
+        "translit": "ayannəṣumm",
+        "en": ""
+      }
+    },
+    "negative_jussive_imperative": {
+      "1sg": {
+        "fidel": "አላነፅ",
+        "translit": "alannəṣ",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታነፅ",
+        "translit": "attannəṣ",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታነጭ",
+        "translit": "attannəč̣i",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያነፅ",
+        "translit": "ayannəṣ",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታነፅ",
+        "translit": "attannəṣ",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናነፅ",
+        "translit": "annannəṣ",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታነፁ",
+        "translit": "attannəṣu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያነፁ",
+        "translit": "ayannəṣu",
+        "en": ""
+      }
+    }
+  },
+  "አለመ": {
+    "english": "dream",
+    "infinitive": {
+      "fidel": "ማለም",
+      "translit": "malläm"
+    },
+    "perfect": {
+      "1sg": {
+        "fidel": "አለምኩ",
+        "translit": "allämku",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አለምክ",
+        "translit": "allämk",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አለምሽ",
+        "translit": "allämš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አለመ",
+        "translit": "allämä",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አለመች",
+        "translit": "allämäčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አለምን",
+        "translit": "allämn",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አለማችሁ",
+        "translit": "allämaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አለሙ",
+        "translit": "allämu",
+        "en": ""
+      }
+    },
+    "imperfective_compound": {
+      "1sg": {
+        "fidel": "አልማለሁ",
+        "translit": "alləmallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "ታልማለህ",
+        "translit": "talləmalläh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "ታልሚያለሽ",
+        "translit": "talləmiyalläš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያልማል",
+        "translit": "yalləmall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታልማለች",
+        "translit": "talləmalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናልማለን",
+        "translit": "ənnalləmallän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "ታልማላችሁ",
+        "translit": "talləmallaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያልማሉ",
+        "translit": "yalləmallu",
+        "en": ""
+      }
+    },
+    "gerund": {
+      "1sg": {
+        "fidel": "አልሜ",
+        "translit": "alləmme",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አልመህ",
+        "translit": "alləmäh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አልመሽ",
+        "translit": "alləmäš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አልሞ",
+        "translit": "alləmo",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አልማ",
+        "translit": "alləma",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አልመን",
+        "translit": "alləmän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አልማችሁ",
+        "translit": "alləmaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አልመው",
+        "translit": "alləmäw",
+        "en": ""
+      }
+    },
+    "compound_gerund": {
+      "1sg": {
+        "fidel": "አልሜያለሁ",
+        "translit": "alləmmeyallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አልመሃል",
+        "translit": "alləmähall",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አልመሻል",
+        "translit": "alləmäšall",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አልሟል",
+        "translit": "alləmwall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አልማለች",
+        "translit": "alləmalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አልመናል",
+        "translit": "alləmänall",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አልማችኋል",
+        "translit": "alləmaččhwall",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አልመዋል",
+        "translit": "alləmäwall",
+        "en": ""
+      }
+    },
+    "jussive_imperative": {
+      "1sg": {
+        "fidel": "ላለም",
+        "translit": "lalləm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አለም",
+        "translit": "alləm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አለሚ",
+        "translit": "alləmi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያለም",
+        "translit": "yalləm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታለም",
+        "translit": "talləm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናለም",
+        "translit": "ənnalləm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አለሙ",
+        "translit": "alləm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያለሙ",
+        "translit": "yalləm",
+        "en": ""
+      }
+    },
+    "negative_perfect": {
+      "1sg": {
+        "fidel": "አላለምኩም",
+        "translit": "alallämkumm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አላለምክም",
+        "translit": "alallämkəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አላለምሽም",
+        "translit": "alallämšəmm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አላለመም",
+        "translit": "alallämämm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አላለመችም",
+        "translit": "alallämäččəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አላለምንም",
+        "translit": "alallämnəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አላለማችሁም",
+        "translit": "alallämaččəhumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አላለሙም",
+        "translit": "alallämumm",
+        "en": ""
+      }
+    },
+    "negative_imperfective": {
+      "1sg": {
+        "fidel": "አላልምም",
+        "translit": "alalləməmm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታልምም",
+        "translit": "atalləməmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታልሚም",
+        "translit": "atalləmimm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያልምም",
+        "translit": "ayalləməmm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታልምም",
+        "translit": "atalləməmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናልምም",
+        "translit": "analləməmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታልሙም",
+        "translit": "atalləmumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያልሙም",
+        "translit": "ayalləmumm",
+        "en": ""
+      }
+    },
+    "negative_jussive_imperative": {
+      "1sg": {
+        "fidel": "አላለም",
+        "translit": "alalləm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታለም",
+        "translit": "attalləm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታለሚ",
+        "translit": "attalləmi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያለም",
+        "translit": "ayalləm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታለም",
+        "translit": "attalləm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናለም",
+        "translit": "annalləm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታለሙ",
+        "translit": "attalləmu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያለሙ",
+        "translit": "ayalləmu",
+        "en": ""
+      }
+    }
+  },
+  "አመፀ": {
+    "english": "rebel",
+    "infinitive": {
+      "fidel": "ማመፅ",
+      "translit": "mammäṣ"
+    },
+    "perfect": {
+      "1sg": {
+        "fidel": "አመፅኩ",
+        "translit": "ammäṣku",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አመፅክ",
+        "translit": "ammäṣk",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አመፅሽ",
+        "translit": "ammäṣš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አመፀ",
+        "translit": "ammäṣä",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አመፀች",
+        "translit": "ammäṣäčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አመፅን",
+        "translit": "ammäṣn",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አመፃችሁ",
+        "translit": "ammäṣaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አመፁ",
+        "translit": "ammäṣu",
+        "en": ""
+      }
+    },
+    "imperfective_compound": {
+      "1sg": {
+        "fidel": "አምፃለሁ",
+        "translit": "amməṣallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "ታምፃለህ",
+        "translit": "tamməṣalläh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "ታምጪያለሽ",
+        "translit": "tamməč̣iyalläš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያምፃል",
+        "translit": "yamməṣall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታምፃለች",
+        "translit": "tamməṣalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናምፃለን",
+        "translit": "ənnamməṣallän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "ታምፃላችሁ",
+        "translit": "tamməṣallaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያምፃሉ",
+        "translit": "yamməṣallu",
+        "en": ""
+      }
+    },
+    "gerund": {
+      "1sg": {
+        "fidel": "አምጬ",
+        "translit": "amməč̣č̣e",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አምፀህ",
+        "translit": "amməṣäh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አምፀሽ",
+        "translit": "amməṣäš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አምፆ",
+        "translit": "amməṣo",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አምፃ",
+        "translit": "amməṣa",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አምፀን",
+        "translit": "amməṣän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አምፃችሁ",
+        "translit": "amməṣaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አምፀው",
+        "translit": "amməṣäw",
+        "en": ""
+      }
+    },
+    "compound_gerund": {
+      "1sg": {
+        "fidel": "አምጬያለሁ",
+        "translit": "amməč̣č̣eyallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አምፀሃል",
+        "translit": "amməṣähall",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አምፀሻል",
+        "translit": "amməṣäšall",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አምጿል",
+        "translit": "amməṣwall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አምፃለች",
+        "translit": "amməṣalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አምፀናል",
+        "translit": "amməṣänall",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አምፃችኋል",
+        "translit": "amməṣaččhwall",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አምፀዋል",
+        "translit": "amməṣäwall",
+        "en": ""
+      }
+    },
+    "jussive_imperative": {
+      "1sg": {
+        "fidel": "ላመፅ",
+        "translit": "lamməṣ",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አመፅ",
+        "translit": "amməṣ",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አመጭ",
+        "translit": "amməč̣i",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያመፅ",
+        "translit": "yamməṣ",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታመፅ",
+        "translit": "tamməṣ",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናመፅ",
+        "translit": "ənnamməṣ",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አመፁ",
+        "translit": "amməṣ",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያመፁ",
+        "translit": "yamməṣ",
+        "en": ""
+      }
+    },
+    "negative_perfect": {
+      "1sg": {
+        "fidel": "አላመፅኩም",
+        "translit": "alammäṣkumm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አላመፅክም",
+        "translit": "alammäṣkəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አላመፅሽም",
+        "translit": "alammäṣšəmm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አላመፀም",
+        "translit": "alammäṣämm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አላመፀችም",
+        "translit": "alammäṣäččəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አላመፅንም",
+        "translit": "alammäṣnəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አላመፃችሁም",
+        "translit": "alammäṣaččəhumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አላመፁም",
+        "translit": "alammäṣumm",
+        "en": ""
+      }
+    },
+    "negative_imperfective": {
+      "1sg": {
+        "fidel": "አላምፅም",
+        "translit": "alamməṣəmm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታምፅም",
+        "translit": "atamməṣəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታምጪም",
+        "translit": "atamməč̣imm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያምፅም",
+        "translit": "ayamməṣəmm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታምፅም",
+        "translit": "atamməṣəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናምፅም",
+        "translit": "anamməṣəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታምፁም",
+        "translit": "atamməṣumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያምፁም",
+        "translit": "ayamməṣumm",
+        "en": ""
+      }
+    },
+    "negative_jussive_imperative": {
+      "1sg": {
+        "fidel": "አላመፅ",
+        "translit": "alamməṣ",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታመፅ",
+        "translit": "attamməṣ",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታመጭ",
+        "translit": "attamməč̣i",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያመፅ",
+        "translit": "ayamməṣ",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታመፅ",
+        "translit": "attamməṣ",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናመፅ",
+        "translit": "annamməṣ",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታመፁ",
+        "translit": "attamməṣu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያመፁ",
+        "translit": "ayamməṣu",
+        "en": ""
+      }
+    }
+  },
+  "አሸገ": {
+    "english": "seal, glue",
+    "infinitive": {
+      "fidel": "ማሸግ",
+      "translit": "maššäg"
+    },
+    "perfect": {
+      "1sg": {
+        "fidel": "አሸግኩ",
+        "translit": "aššägku",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አሸግክ",
+        "translit": "aššägk",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አሸግሽ",
+        "translit": "aššägš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አሸገ",
+        "translit": "aššägä",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አሸገች",
+        "translit": "aššägäčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አሸግን",
+        "translit": "aššägn",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አሸጋችሁ",
+        "translit": "aššägaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አሸጉ",
+        "translit": "aššägu",
+        "en": ""
+      }
+    },
+    "imperfective_compound": {
+      "1sg": {
+        "fidel": "አሽጋለሁ",
+        "translit": "aššəgallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "ታሽጋለህ",
+        "translit": "taššəgalläh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "ታሽጊያለሽ",
+        "translit": "taššəgiyalläš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያሽጋል",
+        "translit": "yaššəgall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታሽጋለች",
+        "translit": "taššəgalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናሽጋለን",
+        "translit": "ənnaššəgallän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "ታሽጋላችሁ",
+        "translit": "taššəgallaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያሽጋሉ",
+        "translit": "yaššəgallu",
+        "en": ""
+      }
+    },
+    "gerund": {
+      "1sg": {
+        "fidel": "አሽጌ",
+        "translit": "aššəgge",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አሽገህ",
+        "translit": "aššəgäh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አሽገሽ",
+        "translit": "aššəgäš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አሽጎ",
+        "translit": "aššəgo",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አሽጋ",
+        "translit": "aššəga",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አሽገን",
+        "translit": "aššəgän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አሽጋችሁ",
+        "translit": "aššəgaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አሽገው",
+        "translit": "aššəgäw",
+        "en": ""
+      }
+    },
+    "compound_gerund": {
+      "1sg": {
+        "fidel": "አሽጌያለሁ",
+        "translit": "aššəggeyallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አሽገሃል",
+        "translit": "aššəgähall",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አሽገሻል",
+        "translit": "aššəgäšall",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አሽጓል",
+        "translit": "aššəgwall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አሽጋለች",
+        "translit": "aššəgalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አሽገናል",
+        "translit": "aššəgänall",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አሽጋችኋል",
+        "translit": "aššəgaččhwall",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አሽገዋል",
+        "translit": "aššəgäwall",
+        "en": ""
+      }
+    },
+    "jussive_imperative": {
+      "1sg": {
+        "fidel": "ላሸግ",
+        "translit": "laššəg",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አሸግ",
+        "translit": "aššəg",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አሸጊ",
+        "translit": "aššəgi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያሸግ",
+        "translit": "yaššəg",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታሸግ",
+        "translit": "taššəg",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናሸግ",
+        "translit": "ənnaššəg",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አሸጉ",
+        "translit": "aššəg",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያሸጉ",
+        "translit": "yaššəg",
+        "en": ""
+      }
+    },
+    "negative_perfect": {
+      "1sg": {
+        "fidel": "አላሸግኩም",
+        "translit": "alaššägkumm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አላሸግክም",
+        "translit": "alaššägkəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አላሸግሽም",
+        "translit": "alaššägšəmm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አላሸገም",
+        "translit": "alaššägämm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አላሸገችም",
+        "translit": "alaššägäččəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አላሸግንም",
+        "translit": "alaššägnəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አላሸጋችሁም",
+        "translit": "alaššägaččəhumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አላሸጉም",
+        "translit": "alaššägumm",
+        "en": ""
+      }
+    },
+    "negative_imperfective": {
+      "1sg": {
+        "fidel": "አላሽግም",
+        "translit": "alaššəgəmm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታሽግም",
+        "translit": "ataššəgəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታሽጊም",
+        "translit": "ataššəgimm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያሽግም",
+        "translit": "ayaššəgəmm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታሽግም",
+        "translit": "ataššəgəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናሽግም",
+        "translit": "anaššəgəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታሽጉም",
+        "translit": "ataššəgumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያሽጉም",
+        "translit": "ayaššəgumm",
+        "en": ""
+      }
+    },
+    "negative_jussive_imperative": {
+      "1sg": {
+        "fidel": "አላሸግ",
+        "translit": "alaššəg",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታሸግ",
+        "translit": "attaššəg",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታሸጊ",
+        "translit": "attaššəgi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያሸግ",
+        "translit": "ayaššəg",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታሸግ",
+        "translit": "attaššəg",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናሸግ",
+        "translit": "annaššəg",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታሸጉ",
+        "translit": "attaššəgu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያሸጉ",
+        "translit": "ayaššəgu",
+        "en": ""
+      }
+    }
+  },
+  "አቀደ": {
+    "english": "plan, design",
+    "infinitive": {
+      "fidel": "ማቀድ",
+      "translit": "maqqäd"
+    },
+    "perfect": {
+      "1sg": {
+        "fidel": "አቀድኩ",
+        "translit": "aqqädku",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አቀድክ",
+        "translit": "aqqädk",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አቀድሽ",
+        "translit": "aqqädš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አቀደ",
+        "translit": "aqqädä",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አቀደች",
+        "translit": "aqqädäčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አቀድን",
+        "translit": "aqqädn",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አቀዳችሁ",
+        "translit": "aqqädaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አቀዱ",
+        "translit": "aqqädu",
+        "en": ""
+      }
+    },
+    "imperfective_compound": {
+      "1sg": {
+        "fidel": "አቅዳለሁ",
+        "translit": "aqqədallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "ታቅዳለህ",
+        "translit": "taqqədalläh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "ታቅጂያለሽ",
+        "translit": "taqqədiyalläš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያቅዳል",
+        "translit": "yaqqədall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታቅዳለች",
+        "translit": "taqqədalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናቅዳለን",
+        "translit": "ənnaqqədallän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "ታቅዳላችሁ",
+        "translit": "taqqədallaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያቅዳሉ",
+        "translit": "yaqqədallu",
+        "en": ""
+      }
+    },
+    "gerund": {
+      "1sg": {
+        "fidel": "አቅጄ",
+        "translit": "aqqədde",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አቅደህ",
+        "translit": "aqqədäh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አቅደሽ",
+        "translit": "aqqədäš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አቅዶ",
+        "translit": "aqqədo",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አቅዳ",
+        "translit": "aqqəda",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አቅደን",
+        "translit": "aqqədän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አቅዳችሁ",
+        "translit": "aqqədaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አቅደው",
+        "translit": "aqqədäw",
+        "en": ""
+      }
+    },
+    "compound_gerund": {
+      "1sg": {
+        "fidel": "አቅጄያለሁ",
+        "translit": "aqqəddeyallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አቅደሃል",
+        "translit": "aqqədähall",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አቅደሻል",
+        "translit": "aqqədäšall",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አቅዷል",
+        "translit": "aqqədwall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አቅዳለች",
+        "translit": "aqqədalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አቅደናል",
+        "translit": "aqqədänall",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አቅዳችኋል",
+        "translit": "aqqədaččhwall",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አቅደዋል",
+        "translit": "aqqədäwall",
+        "en": ""
+      }
+    },
+    "jussive_imperative": {
+      "1sg": {
+        "fidel": "ላቀድ",
+        "translit": "laqqəd",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አቀድ",
+        "translit": "aqqəd",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አቀጅ",
+        "translit": "aqqədi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያቀድ",
+        "translit": "yaqqəd",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታቀድ",
+        "translit": "taqqəd",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናቀድ",
+        "translit": "ənnaqqəd",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አቀዱ",
+        "translit": "aqqəd",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያቀዱ",
+        "translit": "yaqqəd",
+        "en": ""
+      }
+    },
+    "negative_perfect": {
+      "1sg": {
+        "fidel": "አላቀድኩም",
+        "translit": "alaqqädkumm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አላቀድክም",
+        "translit": "alaqqädkəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አላቀድሽም",
+        "translit": "alaqqädšəmm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አላቀደም",
+        "translit": "alaqqädämm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አላቀደችም",
+        "translit": "alaqqädäččəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አላቀድንም",
+        "translit": "alaqqädnəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አላቀዳችሁም",
+        "translit": "alaqqädaččəhumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አላቀዱም",
+        "translit": "alaqqädumm",
+        "en": ""
+      }
+    },
+    "negative_imperfective": {
+      "1sg": {
+        "fidel": "አላቅድም",
+        "translit": "alaqqədəmm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታቅድም",
+        "translit": "ataqqədəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታቅጂም",
+        "translit": "ataqqədimm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያቅድም",
+        "translit": "ayaqqədəmm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታቅድም",
+        "translit": "ataqqədəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናቅድም",
+        "translit": "anaqqədəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታቅዱም",
+        "translit": "ataqqədumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያቅዱም",
+        "translit": "ayaqqədumm",
+        "en": ""
+      }
+    },
+    "negative_jussive_imperative": {
+      "1sg": {
+        "fidel": "አላቀድ",
+        "translit": "alaqqəd",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታቀድ",
+        "translit": "attaqqəd",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታቀጅ",
+        "translit": "attaqqədi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያቀድ",
+        "translit": "ayaqqəd",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታቀድ",
+        "translit": "attaqqəd",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናቀድ",
+        "translit": "annaqqəd",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታቀዱ",
+        "translit": "attaqqədu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያቀዱ",
+        "translit": "ayaqqədu",
+        "en": ""
+      }
+    }
+  },
+  "አበረ": {
+    "english": "unite",
+    "infinitive": {
+      "fidel": "ማበር",
+      "translit": "mabbär"
+    },
+    "perfect": {
+      "1sg": {
+        "fidel": "አበርኩ",
+        "translit": "abbärku",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አበርክ",
+        "translit": "abbärk",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አበርሽ",
+        "translit": "abbärš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አበረ",
+        "translit": "abbärä",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አበረች",
+        "translit": "abbäräčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አበርን",
+        "translit": "abbärn",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አበራችሁ",
+        "translit": "abbäraččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አበሩ",
+        "translit": "abbäru",
+        "en": ""
+      }
+    },
+    "imperfective_compound": {
+      "1sg": {
+        "fidel": "አብራለሁ",
+        "translit": "abbərallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "ታብራለህ",
+        "translit": "tabbəralläh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "ታብሪያለሽ",
+        "translit": "tabbəriyalläš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያብራል",
+        "translit": "yabbərall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታብራለች",
+        "translit": "tabbəralläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናብራለን",
+        "translit": "ənnabbərallän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "ታብራላችሁ",
+        "translit": "tabbərallaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያብራሉ",
+        "translit": "yabbərallu",
+        "en": ""
+      }
+    },
+    "gerund": {
+      "1sg": {
+        "fidel": "አብሬ",
+        "translit": "abbərre",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አብረህ",
+        "translit": "abbəräh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አብረሽ",
+        "translit": "abbəräš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አብሮ",
+        "translit": "abbəro",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አብራ",
+        "translit": "abbəra",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አብረን",
+        "translit": "abbərän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አብራችሁ",
+        "translit": "abbəraččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አብረው",
+        "translit": "abbəräw",
+        "en": ""
+      }
+    },
+    "compound_gerund": {
+      "1sg": {
+        "fidel": "አብሬያለሁ",
+        "translit": "abbərreyallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አብረሃል",
+        "translit": "abbərähall",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አብረሻል",
+        "translit": "abbəräšall",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አብሯል",
+        "translit": "abbərwall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አብራለች",
+        "translit": "abbəralläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አብረናል",
+        "translit": "abbəränall",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አብራችኋል",
+        "translit": "abbəraččhwall",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አብረዋል",
+        "translit": "abbəräwall",
+        "en": ""
+      }
+    },
+    "jussive_imperative": {
+      "1sg": {
+        "fidel": "ላበር",
+        "translit": "labbər",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አበር",
+        "translit": "abbər",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አበሪ",
+        "translit": "abbəri",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያበር",
+        "translit": "yabbər",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታበር",
+        "translit": "tabbər",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናበር",
+        "translit": "ənnabbər",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አበሩ",
+        "translit": "abbər",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያበሩ",
+        "translit": "yabbər",
+        "en": ""
+      }
+    },
+    "negative_perfect": {
+      "1sg": {
+        "fidel": "አላበርኩም",
+        "translit": "alabbärkumm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አላበርክም",
+        "translit": "alabbärkəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አላበርሽም",
+        "translit": "alabbäršəmm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አላበረም",
+        "translit": "alabbärämm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አላበረችም",
+        "translit": "alabbäräččəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አላበርንም",
+        "translit": "alabbärnəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አላበራችሁም",
+        "translit": "alabbäraččəhumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አላበሩም",
+        "translit": "alabbärumm",
+        "en": ""
+      }
+    },
+    "negative_imperfective": {
+      "1sg": {
+        "fidel": "አላብርም",
+        "translit": "alabbərəmm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታብርም",
+        "translit": "atabbərəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታብሪም",
+        "translit": "atabbərimm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያብርም",
+        "translit": "ayabbərəmm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታብርም",
+        "translit": "atabbərəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናብርም",
+        "translit": "anabbərəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታብሩም",
+        "translit": "atabbərumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያብሩም",
+        "translit": "ayabbərumm",
+        "en": ""
+      }
+    },
+    "negative_jussive_imperative": {
+      "1sg": {
+        "fidel": "አላበር",
+        "translit": "alabbər",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታበር",
+        "translit": "attabbər",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታበሪ",
+        "translit": "attabbəri",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያበር",
+        "translit": "ayabbər",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታበር",
+        "translit": "attabbər",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናበር",
+        "translit": "annabbər",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታበሩ",
+        "translit": "attabbəru",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያበሩ",
+        "translit": "ayabbəru",
+        "en": ""
+      }
+    }
+  },
+  "አተመ": {
+    "english": "print",
+    "infinitive": {
+      "fidel": "ማተም",
+      "translit": "mattäm"
+    },
+    "perfect": {
+      "1sg": {
+        "fidel": "አተምኩ",
+        "translit": "attämku",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አተምክ",
+        "translit": "attämk",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አተምሽ",
+        "translit": "attämš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አተመ",
+        "translit": "attämä",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አተመች",
+        "translit": "attämäčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አተምን",
+        "translit": "attämn",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አተማችሁ",
+        "translit": "attämaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አተሙ",
+        "translit": "attämu",
+        "en": ""
+      }
+    },
+    "imperfective_compound": {
+      "1sg": {
+        "fidel": "አትማለሁ",
+        "translit": "attəmallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "ታትማለህ",
+        "translit": "tattəmalläh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "ታትሚያለሽ",
+        "translit": "tattəmiyalläš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያትማል",
+        "translit": "yattəmall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታትማለች",
+        "translit": "tattəmalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናትማለን",
+        "translit": "ənnattəmallän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "ታትማላችሁ",
+        "translit": "tattəmallaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያትማሉ",
+        "translit": "yattəmallu",
+        "en": ""
+      }
+    },
+    "gerund": {
+      "1sg": {
+        "fidel": "አትሜ",
+        "translit": "attəmme",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አትመህ",
+        "translit": "attəmäh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አትመሽ",
+        "translit": "attəmäš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አትሞ",
+        "translit": "attəmo",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አትማ",
+        "translit": "attəma",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አትመን",
+        "translit": "attəmän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አትማችሁ",
+        "translit": "attəmaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አትመው",
+        "translit": "attəmäw",
+        "en": ""
+      }
+    },
+    "compound_gerund": {
+      "1sg": {
+        "fidel": "አትሜያለሁ",
+        "translit": "attəmmeyallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አትመሃል",
+        "translit": "attəmähall",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አትመሻል",
+        "translit": "attəmäšall",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አትሟል",
+        "translit": "attəmwall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አትማለች",
+        "translit": "attəmalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አትመናል",
+        "translit": "attəmänall",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አትማችኋል",
+        "translit": "attəmaččhwall",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አትመዋል",
+        "translit": "attəmäwall",
+        "en": ""
+      }
+    },
+    "jussive_imperative": {
+      "1sg": {
+        "fidel": "ላተም",
+        "translit": "lattəm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አተም",
+        "translit": "attəm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አተሚ",
+        "translit": "attəmi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያተም",
+        "translit": "yattəm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታተም",
+        "translit": "tattəm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናተም",
+        "translit": "ənnattəm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አተሙ",
+        "translit": "attəm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያተሙ",
+        "translit": "yattəm",
+        "en": ""
+      }
+    },
+    "negative_perfect": {
+      "1sg": {
+        "fidel": "አላተምኩም",
+        "translit": "alattämkumm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አላተምክም",
+        "translit": "alattämkəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አላተምሽም",
+        "translit": "alattämšəmm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አላተመም",
+        "translit": "alattämämm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አላተመችም",
+        "translit": "alattämäččəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አላተምንም",
+        "translit": "alattämnəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አላተማችሁም",
+        "translit": "alattämaččəhumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አላተሙም",
+        "translit": "alattämumm",
+        "en": ""
+      }
+    },
+    "negative_imperfective": {
+      "1sg": {
+        "fidel": "አላትምም",
+        "translit": "alattəməmm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታትምም",
+        "translit": "atattəməmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታትሚም",
+        "translit": "atattəmimm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያትምም",
+        "translit": "ayattəməmm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታትምም",
+        "translit": "atattəməmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናትምም",
+        "translit": "anattəməmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታትሙም",
+        "translit": "atattəmumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያትሙም",
+        "translit": "ayattəmumm",
+        "en": ""
+      }
+    },
+    "negative_jussive_imperative": {
+      "1sg": {
+        "fidel": "አላተም",
+        "translit": "alattəm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታተም",
+        "translit": "attattəm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታተሚ",
+        "translit": "attattəmi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያተም",
+        "translit": "ayattəm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታተም",
+        "translit": "attattəm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናተም",
+        "translit": "annattəm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታተሙ",
+        "translit": "attattəmu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያተሙ",
+        "translit": "ayattəmu",
+        "en": ""
+      }
+    }
+  },
+  "አኘከ": {
+    "english": "chew",
+    "infinitive": {
+      "fidel": "ማኘክ",
+      "translit": "maññäk"
+    },
+    "perfect": {
+      "1sg": {
+        "fidel": "አኘክሁ",
+        "translit": "aññäkhu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አኘክህ",
+        "translit": "aññäkh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አኘክሽ",
+        "translit": "aññäkš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አኘከ",
+        "translit": "aññäkä",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አኘከች",
+        "translit": "aññäkäčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አኘክን",
+        "translit": "aññäkn",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አኘካችሁ",
+        "translit": "aññäkaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አኘኩ",
+        "translit": "aññäku",
+        "en": ""
+      }
+    },
+    "imperfective_compound": {
+      "1sg": {
+        "fidel": "አኝካለሁ",
+        "translit": "aññəkallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "ታኝካለህ",
+        "translit": "taññəkalläh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "ታኝኪያለሽ",
+        "translit": "taññəkiyalläš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያኝካል",
+        "translit": "yaññəkall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታኝካለች",
+        "translit": "taññəkalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናኝካለን",
+        "translit": "ənnaññəkallän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "ታኝካላችሁ",
+        "translit": "taññəkallaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያኝካሉ",
+        "translit": "yaññəkallu",
+        "en": ""
+      }
+    },
+    "gerund": {
+      "1sg": {
+        "fidel": "አኝኬ",
+        "translit": "aññəkke",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አኝከህ",
+        "translit": "aññəkäh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አኝከሽ",
+        "translit": "aññəkäš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አኝኮ",
+        "translit": "aññəko",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አኝካ",
+        "translit": "aññəka",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አኝከን",
+        "translit": "aññəkän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አኝካችሁ",
+        "translit": "aññəkaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አኝከው",
+        "translit": "aññəkäw",
+        "en": ""
+      }
+    },
+    "compound_gerund": {
+      "1sg": {
+        "fidel": "አኝኬያለሁ",
+        "translit": "aññəkkeyallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አኝከሃል",
+        "translit": "aññəkähall",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አኝከሻል",
+        "translit": "aññəkäšall",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አኝኳል",
+        "translit": "aññəkwall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አኝካለች",
+        "translit": "aññəkalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አኝከናል",
+        "translit": "aññəkänall",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አኝካችኋል",
+        "translit": "aññəkaččhwall",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አኝከዋል",
+        "translit": "aññəkäwall",
+        "en": ""
+      }
+    },
+    "jussive_imperative": {
+      "1sg": {
+        "fidel": "ላኘክ",
+        "translit": "laññək",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አኘክ",
+        "translit": "aññək",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አኘኪ",
+        "translit": "aññəki",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያኘክ",
+        "translit": "yaññək",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታኘክ",
+        "translit": "taññək",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናኘክ",
+        "translit": "ənnaññək",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አኘኩ",
+        "translit": "aññək",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያኘኩ",
+        "translit": "yaññək",
+        "en": ""
+      }
+    },
+    "negative_perfect": {
+      "1sg": {
+        "fidel": "አላኘክሁም",
+        "translit": "alaññäkhumm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አላኘክህም",
+        "translit": "alaññäkhəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አላኘክሽም",
+        "translit": "alaññäkšəmm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አላኘከም",
+        "translit": "alaññäkämm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አላኘከችም",
+        "translit": "alaññäkäččəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አላኘክንም",
+        "translit": "alaññäknəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አላኘካችሁም",
+        "translit": "alaññäkaččəhumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አላኘኩም",
+        "translit": "alaññäkumm",
+        "en": ""
+      }
+    },
+    "negative_imperfective": {
+      "1sg": {
+        "fidel": "አላኝክም",
+        "translit": "alaññəkəmm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታኝክም",
+        "translit": "ataññəkəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታኝኪም",
+        "translit": "ataññəkimm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያኝክም",
+        "translit": "ayaññəkəmm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታኝክም",
+        "translit": "ataññəkəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናኝክም",
+        "translit": "anaññəkəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታኝኩም",
+        "translit": "ataññəkumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያኝኩም",
+        "translit": "ayaññəkumm",
+        "en": ""
+      }
+    },
+    "negative_jussive_imperative": {
+      "1sg": {
+        "fidel": "አላኘክ",
+        "translit": "alaññək",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታኘክ",
+        "translit": "attaññək",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታኘኪ",
+        "translit": "attaññəki",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያኘክ",
+        "translit": "ayaññək",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታኘክ",
+        "translit": "attaññək",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናኘክ",
+        "translit": "annaññək",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታኘኩ",
+        "translit": "attaññəku",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያኘኩ",
+        "translit": "ayaññəku",
+        "en": ""
+      }
+    }
+  },
+  "አከመ": {
+    "english": "treat (med.)",
+    "infinitive": {
+      "fidel": "ማከም",
+      "translit": "makkäm"
+    },
+    "perfect": {
+      "1sg": {
+        "fidel": "አከምኩ",
+        "translit": "akkämku",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አከምክ",
+        "translit": "akkämk",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አከምሽ",
+        "translit": "akkämš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አከመ",
+        "translit": "akkämä",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አከመች",
+        "translit": "akkämäčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አከምን",
+        "translit": "akkämn",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አከማችሁ",
+        "translit": "akkämaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አከሙ",
+        "translit": "akkämu",
+        "en": ""
+      }
+    },
+    "imperfective_compound": {
+      "1sg": {
+        "fidel": "አክማለሁ",
+        "translit": "akkəmallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "ታክማለህ",
+        "translit": "takkəmalläh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "ታክሚያለሽ",
+        "translit": "takkəmiyalläš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያክማል",
+        "translit": "yakkəmall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታክማለች",
+        "translit": "takkəmalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናክማለን",
+        "translit": "ənnakkəmallän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "ታክማላችሁ",
+        "translit": "takkəmallaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያክማሉ",
+        "translit": "yakkəmallu",
+        "en": ""
+      }
+    },
+    "gerund": {
+      "1sg": {
+        "fidel": "አክሜ",
+        "translit": "akkəmme",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አክመህ",
+        "translit": "akkəmäh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አክመሽ",
+        "translit": "akkəmäš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አክሞ",
+        "translit": "akkəmo",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አክማ",
+        "translit": "akkəma",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አክመን",
+        "translit": "akkəmän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አክማችሁ",
+        "translit": "akkəmaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አክመው",
+        "translit": "akkəmäw",
+        "en": ""
+      }
+    },
+    "compound_gerund": {
+      "1sg": {
+        "fidel": "አክሜያለሁ",
+        "translit": "akkəmmeyallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አክመሃል",
+        "translit": "akkəmähall",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አክመሻል",
+        "translit": "akkəmäšall",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አክሟል",
+        "translit": "akkəmwall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አክማለች",
+        "translit": "akkəmalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አክመናል",
+        "translit": "akkəmänall",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አክማችኋል",
+        "translit": "akkəmaččhwall",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አክመዋል",
+        "translit": "akkəmäwall",
+        "en": ""
+      }
+    },
+    "jussive_imperative": {
+      "1sg": {
+        "fidel": "ላከም",
+        "translit": "lakkəm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አከም",
+        "translit": "akkəm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አከሚ",
+        "translit": "akkəmi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያከም",
+        "translit": "yakkəm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታከም",
+        "translit": "takkəm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናከም",
+        "translit": "ənnakkəm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አከሙ",
+        "translit": "akkəm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያከሙ",
+        "translit": "yakkəm",
+        "en": ""
+      }
+    },
+    "negative_perfect": {
+      "1sg": {
+        "fidel": "አላከምኩም",
+        "translit": "alakkämkumm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አላከምክም",
+        "translit": "alakkämkəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አላከምሽም",
+        "translit": "alakkämšəmm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አላከመም",
+        "translit": "alakkämämm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አላከመችም",
+        "translit": "alakkämäččəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አላከምንም",
+        "translit": "alakkämnəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አላከማችሁም",
+        "translit": "alakkämaččəhumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አላከሙም",
+        "translit": "alakkämumm",
+        "en": ""
+      }
+    },
+    "negative_imperfective": {
+      "1sg": {
+        "fidel": "አላክምም",
+        "translit": "alakkəməmm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታክምም",
+        "translit": "atakkəməmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታክሚም",
+        "translit": "atakkəmimm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያክምም",
+        "translit": "ayakkəməmm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታክምም",
+        "translit": "atakkəməmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናክምም",
+        "translit": "anakkəməmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታክሙም",
+        "translit": "atakkəmumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያክሙም",
+        "translit": "ayakkəmumm",
+        "en": ""
+      }
+    },
+    "negative_jussive_imperative": {
+      "1sg": {
+        "fidel": "አላከም",
+        "translit": "alakkəm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታከም",
+        "translit": "attakkəm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታከሚ",
+        "translit": "attakkəmi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያከም",
+        "translit": "ayakkəm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታከም",
+        "translit": "attakkəm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናከም",
+        "translit": "annakkəm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታከሙ",
+        "translit": "attakkəmu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያከሙ",
+        "translit": "ayakkəmu",
+        "en": ""
+      }
+    }
+  },
+  "አወጀ": {
+    "english": "proclaim",
+    "infinitive": {
+      "fidel": "ማወጅ",
+      "translit": "mawwäǧ"
+    },
+    "perfect": {
+      "1sg": {
+        "fidel": "አወጅኩ",
+        "translit": "awwäǧku",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አወጅክ",
+        "translit": "awwäǧk",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አወጅሽ",
+        "translit": "awwäǧš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አወጀ",
+        "translit": "awwäǧä",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አወጀች",
+        "translit": "awwäǧäčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አወጅን",
+        "translit": "awwäǧn",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አወጃችሁ",
+        "translit": "awwäǧaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አወጁ",
+        "translit": "awwäǧu",
+        "en": ""
+      }
+    },
+    "imperfective_compound": {
+      "1sg": {
+        "fidel": "አውጃለሁ",
+        "translit": "awwəǧallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "ታውጃለህ",
+        "translit": "tawwəǧalläh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "ታውጂያለሽ",
+        "translit": "tawwəǧiyalläš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያውጃል",
+        "translit": "yawwəǧall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታውጃለች",
+        "translit": "tawwəǧalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናውጃለን",
+        "translit": "ənnawwəǧallän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "ታውጃላችሁ",
+        "translit": "tawwəǧallaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያውጃሉ",
+        "translit": "yawwəǧallu",
+        "en": ""
+      }
+    },
+    "gerund": {
+      "1sg": {
+        "fidel": "አውጄ",
+        "translit": "awwəǧǧe",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አውጀህ",
+        "translit": "awwəǧäh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አውጀሽ",
+        "translit": "awwəǧäš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አውጆ",
+        "translit": "awwəǧo",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አውጃ",
+        "translit": "awwəǧa",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አውጀን",
+        "translit": "awwəǧän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አውጃችሁ",
+        "translit": "awwəǧaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አውጀው",
+        "translit": "awwəǧäw",
+        "en": ""
+      }
+    },
+    "compound_gerund": {
+      "1sg": {
+        "fidel": "አውጄያለሁ",
+        "translit": "awwəǧǧeyallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አውጀሃል",
+        "translit": "awwəǧähall",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አውጀሻል",
+        "translit": "awwəǧäšall",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አውጇል",
+        "translit": "awwəǧwall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አውጃለች",
+        "translit": "awwəǧalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አውጀናል",
+        "translit": "awwəǧänall",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አውጃችኋል",
+        "translit": "awwəǧaččhwall",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አውጀዋል",
+        "translit": "awwəǧäwall",
+        "en": ""
+      }
+    },
+    "jussive_imperative": {
+      "1sg": {
+        "fidel": "ላወጅ",
+        "translit": "lawwəǧ",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አወጅ",
+        "translit": "awwəǧ",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አወጂ",
+        "translit": "awwəǧi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያወጅ",
+        "translit": "yawwəǧ",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታወጅ",
+        "translit": "tawwəǧ",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናወጅ",
+        "translit": "ənnawwəǧ",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አወጁ",
+        "translit": "awwəǧ",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያወጁ",
+        "translit": "yawwəǧ",
+        "en": ""
+      }
+    },
+    "negative_perfect": {
+      "1sg": {
+        "fidel": "አላወጅኩም",
+        "translit": "alawwäǧkumm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አላወጅክም",
+        "translit": "alawwäǧkəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አላወጅሽም",
+        "translit": "alawwäǧšəmm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አላወጀም",
+        "translit": "alawwäǧämm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አላወጀችም",
+        "translit": "alawwäǧäččəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አላወጅንም",
+        "translit": "alawwäǧnəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አላወጃችሁም",
+        "translit": "alawwäǧaččəhumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አላወጁም",
+        "translit": "alawwäǧumm",
+        "en": ""
+      }
+    },
+    "negative_imperfective": {
+      "1sg": {
+        "fidel": "አላውጅም",
+        "translit": "alawwəǧəmm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታውጅም",
+        "translit": "atawwəǧəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታውጂም",
+        "translit": "atawwəǧimm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያውጅም",
+        "translit": "ayawwəǧəmm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታውጅም",
+        "translit": "atawwəǧəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናውጅም",
+        "translit": "anawwəǧəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታውጁም",
+        "translit": "atawwəǧumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያውጁም",
+        "translit": "ayawwəǧumm",
+        "en": ""
+      }
+    },
+    "negative_jussive_imperative": {
+      "1sg": {
+        "fidel": "አላወጅ",
+        "translit": "alawwəǧ",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታወጅ",
+        "translit": "attawwəǧ",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታወጂ",
+        "translit": "attawwəǧi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያወጅ",
+        "translit": "ayawwəǧ",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታወጅ",
+        "translit": "attawwəǧ",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናወጅ",
+        "translit": "annawwəǧ",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታወጁ",
+        "translit": "attawwəǧu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያወጁ",
+        "translit": "ayawwəǧu",
+        "en": ""
+      }
+    }
+  },
+  "አደለ": {
+    "english": "distribute",
+    "infinitive": {
+      "fidel": "ማደል",
+      "translit": "maddäl"
+    },
+    "perfect": {
+      "1sg": {
+        "fidel": "አደልኩ",
+        "translit": "addälku",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አደልክ",
+        "translit": "addälk",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አደልሽ",
+        "translit": "addälš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አደለ",
+        "translit": "addälä",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አደለች",
+        "translit": "addäläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አደልን",
+        "translit": "addäln",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አደላችሁ",
+        "translit": "addälaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አደሉ",
+        "translit": "addälu",
+        "en": ""
+      }
+    },
+    "imperfective_compound": {
+      "1sg": {
+        "fidel": "አድላለሁ",
+        "translit": "addəlallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "ታድላለህ",
+        "translit": "taddəlalläh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "ታድያለሽ",
+        "translit": "taddəyalläš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያድላል",
+        "translit": "yaddəlall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታድላለች",
+        "translit": "taddəlalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናድላለን",
+        "translit": "ənnaddəlallän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "ታድላላችሁ",
+        "translit": "taddəlallaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያድላሉ",
+        "translit": "yaddəlallu",
+        "en": ""
+      }
+    },
+    "gerund": {
+      "1sg": {
+        "fidel": "አድዬ",
+        "translit": "addəyye",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አድለህ",
+        "translit": "addəläh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አድለሽ",
+        "translit": "addəläš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አድሎ",
+        "translit": "addəlo",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አድላ",
+        "translit": "addəla",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አድለን",
+        "translit": "addəlän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አድላችሁ",
+        "translit": "addəlaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አድለው",
+        "translit": "addəläw",
+        "en": ""
+      }
+    },
+    "compound_gerund": {
+      "1sg": {
+        "fidel": "አድዬያለሁ",
+        "translit": "addəyyeyallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አድለሃል",
+        "translit": "addəlähall",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አድለሻል",
+        "translit": "addəläšall",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አድሏል",
+        "translit": "addəlwall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አድላለች",
+        "translit": "addəlalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አድለናል",
+        "translit": "addəlänall",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አድላችኋል",
+        "translit": "addəlaččhwall",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አድለዋል",
+        "translit": "addəläwall",
+        "en": ""
+      }
+    },
+    "jussive_imperative": {
+      "1sg": {
+        "fidel": "ላደል",
+        "translit": "laddəl",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አደል",
+        "translit": "addəl",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አደይ",
+        "translit": "addəyi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያደል",
+        "translit": "yaddəl",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታደል",
+        "translit": "taddəl",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናደል",
+        "translit": "ənnaddəl",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አደሉ",
+        "translit": "addəl",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያደሉ",
+        "translit": "yaddəl",
+        "en": ""
+      }
+    },
+    "negative_perfect": {
+      "1sg": {
+        "fidel": "አላደልኩም",
+        "translit": "aladdälkumm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አላደልክም",
+        "translit": "aladdälkəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አላደልሽም",
+        "translit": "aladdälšəmm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አላደለም",
+        "translit": "aladdälämm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አላደለችም",
+        "translit": "aladdäläččəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አላደልንም",
+        "translit": "aladdälnəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አላደላችሁም",
+        "translit": "aladdälaččəhumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አላደሉም",
+        "translit": "aladdälumm",
+        "en": ""
+      }
+    },
+    "negative_imperfective": {
+      "1sg": {
+        "fidel": "አላድልም",
+        "translit": "aladdələmm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታድልም",
+        "translit": "ataddələmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታድዪም",
+        "translit": "ataddəyimm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያድልም",
+        "translit": "ayaddələmm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታድልም",
+        "translit": "ataddələmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናድልም",
+        "translit": "anaddələmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታድሉም",
+        "translit": "ataddəlumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያድሉም",
+        "translit": "ayaddəlumm",
+        "en": ""
+      }
+    },
+    "negative_jussive_imperative": {
+      "1sg": {
+        "fidel": "አላደል",
+        "translit": "aladdəl",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታደል",
+        "translit": "attaddəl",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታደይ",
+        "translit": "attaddəyi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያደል",
+        "translit": "ayaddəl",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታደል",
+        "translit": "attaddəl",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናደል",
+        "translit": "annaddəl",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታደሉ",
+        "translit": "attaddəlu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያደሉ",
+        "translit": "ayaddəlu",
+        "en": ""
+      }
+    }
+  },
+  "አየደ": {
+    "english": "define, determine",
+    "infinitive": {
+      "fidel": "ማየድ",
+      "translit": "mayyäd"
+    },
+    "perfect": {
+      "1sg": {
+        "fidel": "አየድኩ",
+        "translit": "ayyädku",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አየድክ",
+        "translit": "ayyädk",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አየድሽ",
+        "translit": "ayyädš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አየደ",
+        "translit": "ayyädä",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አየደች",
+        "translit": "ayyädäčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አየድን",
+        "translit": "ayyädn",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አየዳችሁ",
+        "translit": "ayyädaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አየዱ",
+        "translit": "ayyädu",
+        "en": ""
+      }
+    },
+    "imperfective_compound": {
+      "1sg": {
+        "fidel": "አይዳለሁ",
+        "translit": "ayyədallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "ታይዳለህ",
+        "translit": "tayyədalläh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "ታይጂያለሽ",
+        "translit": "tayyəǧiyalläš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያይዳል",
+        "translit": "yayyədall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታይዳለች",
+        "translit": "tayyədalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናይዳለን",
+        "translit": "ənnayyədallän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "ታይዳላችሁ",
+        "translit": "tayyədallaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያይዳሉ",
+        "translit": "yayyədallu",
+        "en": ""
+      }
+    },
+    "gerund": {
+      "1sg": {
+        "fidel": "አይጄ",
+        "translit": "ayyəǧǧe",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አይደህ",
+        "translit": "ayyədäh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አይደሽ",
+        "translit": "ayyədäš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አይዶ",
+        "translit": "ayyədo",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አይዳ",
+        "translit": "ayyəda",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አይደን",
+        "translit": "ayyədän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አይዳችሁ",
+        "translit": "ayyədaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አይደው",
+        "translit": "ayyədäw",
+        "en": ""
+      }
+    },
+    "compound_gerund": {
+      "1sg": {
+        "fidel": "አይጄያለሁ",
+        "translit": "ayyəǧǧeyallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አይደሃል",
+        "translit": "ayyədähall",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አይደሻል",
+        "translit": "ayyədäšall",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አይዷል",
+        "translit": "ayyədwall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አይዳለች",
+        "translit": "ayyədalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አይደናል",
+        "translit": "ayyədänall",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አይዳችኋል",
+        "translit": "ayyədaččhwall",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አይደዋል",
+        "translit": "ayyədäwall",
+        "en": ""
+      }
+    },
+    "jussive_imperative": {
+      "1sg": {
+        "fidel": "ላየድ",
+        "translit": "layyəd",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አየድ",
+        "translit": "ayyəd",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አየጅ",
+        "translit": "ayyəǧi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያየድ",
+        "translit": "yayyəd",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታየድ",
+        "translit": "tayyəd",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናየድ",
+        "translit": "ənnayyəd",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አየዱ",
+        "translit": "ayyəd",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያየዱ",
+        "translit": "yayyəd",
+        "en": ""
+      }
+    },
+    "negative_perfect": {
+      "1sg": {
+        "fidel": "አላየድኩም",
+        "translit": "alayyädkumm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አላየድክም",
+        "translit": "alayyädkəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አላየድሽም",
+        "translit": "alayyädšəmm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አላየደም",
+        "translit": "alayyädämm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አላየደችም",
+        "translit": "alayyädäččəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አላየድንም",
+        "translit": "alayyädnəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አላየዳችሁም",
+        "translit": "alayyädaččəhumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አላየዱም",
+        "translit": "alayyädumm",
+        "en": ""
+      }
+    },
+    "negative_imperfective": {
+      "1sg": {
+        "fidel": "አላይድም",
+        "translit": "alayyədəmm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታይድም",
+        "translit": "atayyədəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታይጂም",
+        "translit": "atayyəǧimm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያይድም",
+        "translit": "ayayyədəmm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታይድም",
+        "translit": "atayyədəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናይድም",
+        "translit": "anayyədəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታይዱም",
+        "translit": "atayyədumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያይዱም",
+        "translit": "ayayyədumm",
+        "en": ""
+      }
+    },
+    "negative_jussive_imperative": {
+      "1sg": {
+        "fidel": "አላየድ",
+        "translit": "alayyəd",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታየድ",
+        "translit": "attayyəd",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታየጅ",
+        "translit": "attayyəǧi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያየድ",
+        "translit": "ayayyəd",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታየድ",
+        "translit": "attayyəd",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናየድ",
+        "translit": "annayyəd",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታየዱ",
+        "translit": "attayyədu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያየዱ",
+        "translit": "ayayyədu",
+        "en": ""
+      }
+    }
+  },
+  "አደሰ": {
+    "english": "renew",
+    "infinitive": {
+      "fidel": "ማደስ",
+      "translit": "maddäs"
+    },
+    "perfect": {
+      "1sg": {
+        "fidel": "አደስኩ",
+        "translit": "addäsku",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አደስክ",
+        "translit": "addäsk",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አደስሽ",
+        "translit": "addäsš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አደሰ",
+        "translit": "addäsä",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አደሰች",
+        "translit": "addäsäčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አደስን",
+        "translit": "addäsn",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አደሳችሁ",
+        "translit": "addäsaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አደሱ",
+        "translit": "addäsu",
+        "en": ""
+      }
+    },
+    "imperfective_compound": {
+      "1sg": {
+        "fidel": "አድሳለሁ",
+        "translit": "addəsallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "ታድሳለህ",
+        "translit": "taddəsalläh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "ታድሺያለሽ",
+        "translit": "taddəšiyalläš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያድሳል",
+        "translit": "yaddəsall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታድሳለች",
+        "translit": "taddəsalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናድሳለን",
+        "translit": "ənnaddəsallän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "ታድሳላችሁ",
+        "translit": "taddəsallaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያድሳሉ",
+        "translit": "yaddəsallu",
+        "en": ""
+      }
+    },
+    "gerund": {
+      "1sg": {
+        "fidel": "አድሼ",
+        "translit": "addəšše",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አድሰህ",
+        "translit": "addəsäh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አድሰሽ",
+        "translit": "addəsäš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አድሶ",
+        "translit": "addəso",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አድሳ",
+        "translit": "addəsa",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አድሰን",
+        "translit": "addəsän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አድሳችሁ",
+        "translit": "addəsaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አድሰው",
+        "translit": "addəsäw",
+        "en": ""
+      }
+    },
+    "compound_gerund": {
+      "1sg": {
+        "fidel": "አድሼያለሁ",
+        "translit": "addəššeyallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አድሰሃል",
+        "translit": "addəsähall",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አድሰሻል",
+        "translit": "addəsäšall",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አድሷል",
+        "translit": "addəswall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አድሳለች",
+        "translit": "addəsalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አድሰናል",
+        "translit": "addəsänall",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አድሳችኋል",
+        "translit": "addəsaččhwall",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አድሰዋል",
+        "translit": "addəsäwall",
+        "en": ""
+      }
+    },
+    "jussive_imperative": {
+      "1sg": {
+        "fidel": "ላደስ",
+        "translit": "laddəs",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አደስ",
+        "translit": "addəs",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አደሽ",
+        "translit": "addəši",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያደስ",
+        "translit": "yaddəs",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታደስ",
+        "translit": "taddəs",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናደስ",
+        "translit": "ənnaddəs",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አደሱ",
+        "translit": "addəs",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያደሱ",
+        "translit": "yaddəs",
+        "en": ""
+      }
+    },
+    "negative_perfect": {
+      "1sg": {
+        "fidel": "አላደስኩም",
+        "translit": "aladdäskumm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አላደስክም",
+        "translit": "aladdäskəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አላደስሽም",
+        "translit": "aladdäsšəmm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አላደሰም",
+        "translit": "aladdäsämm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አላደሰችም",
+        "translit": "aladdäsäččəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አላደስንም",
+        "translit": "aladdäsnəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አላደሳችሁም",
+        "translit": "aladdäsaččəhumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አላደሱም",
+        "translit": "aladdäsumm",
+        "en": ""
+      }
+    },
+    "negative_imperfective": {
+      "1sg": {
+        "fidel": "አላድስም",
+        "translit": "aladdəsəmm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታድስም",
+        "translit": "ataddəsəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታድሺም",
+        "translit": "ataddəšimm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያድስም",
+        "translit": "ayaddəsəmm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታድስም",
+        "translit": "ataddəsəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናድስም",
+        "translit": "anaddəsəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታድሱም",
+        "translit": "ataddəsumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያድሱም",
+        "translit": "ayaddəsumm",
+        "en": ""
+      }
+    },
+    "negative_jussive_imperative": {
+      "1sg": {
+        "fidel": "አላደስ",
+        "translit": "aladdəs",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታደስ",
+        "translit": "attaddəs",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታደሽ",
+        "translit": "attaddəši",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያደስ",
+        "translit": "ayaddəs",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታደስ",
+        "translit": "attaddəs",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናደስ",
+        "translit": "annaddəs",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታደሱ",
+        "translit": "attaddəsu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያደሱ",
+        "translit": "ayaddəsu",
+        "en": ""
+      }
+    }
+  },
+  "አደመ": {
+    "english": "plot, conspire",
+    "infinitive": {
+      "fidel": "ማደም",
+      "translit": "maddäm"
+    },
+    "perfect": {
+      "1sg": {
+        "fidel": "አደምኩ",
+        "translit": "addämku",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አደምክ",
+        "translit": "addämk",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አደምሽ",
+        "translit": "addämš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አደመ",
+        "translit": "addämä",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አደመች",
+        "translit": "addämäčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አደምን",
+        "translit": "addämn",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አደማችሁ",
+        "translit": "addämaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አደሙ",
+        "translit": "addämu",
+        "en": ""
+      }
+    },
+    "imperfective_compound": {
+      "1sg": {
+        "fidel": "አድማለሁ",
+        "translit": "addəmallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "ታድማለህ",
+        "translit": "taddəmalläh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "ታድሚያለሽ",
+        "translit": "taddəmiyalläš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያድማል",
+        "translit": "yaddəmall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታድማለች",
+        "translit": "taddəmalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናድማለን",
+        "translit": "ənnaddəmallän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "ታድማላችሁ",
+        "translit": "taddəmallaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያድማሉ",
+        "translit": "yaddəmallu",
+        "en": ""
+      }
+    },
+    "gerund": {
+      "1sg": {
+        "fidel": "አድሜ",
+        "translit": "addəmme",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አድመህ",
+        "translit": "addəmäh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አድመሽ",
+        "translit": "addəmäš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አድሞ",
+        "translit": "addəmo",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አድማ",
+        "translit": "addəma",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አድመን",
+        "translit": "addəmän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አድማችሁ",
+        "translit": "addəmaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አድመው",
+        "translit": "addəmäw",
+        "en": ""
+      }
+    },
+    "compound_gerund": {
+      "1sg": {
+        "fidel": "አድሜያለሁ",
+        "translit": "addəmmeyallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አድመሃል",
+        "translit": "addəmähall",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አድመሻል",
+        "translit": "addəmäšall",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አድሟል",
+        "translit": "addəmwall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አድማለች",
+        "translit": "addəmalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አድመናል",
+        "translit": "addəmänall",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አድማችኋል",
+        "translit": "addəmaččhwall",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አድመዋል",
+        "translit": "addəmäwall",
+        "en": ""
+      }
+    },
+    "jussive_imperative": {
+      "1sg": {
+        "fidel": "ላደም",
+        "translit": "laddəm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አደም",
+        "translit": "addəm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አደሚ",
+        "translit": "addəmi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያደም",
+        "translit": "yaddəm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታደም",
+        "translit": "taddəm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናደም",
+        "translit": "ənnaddəm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አደሙ",
+        "translit": "addəm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያደሙ",
+        "translit": "yaddəm",
+        "en": ""
+      }
+    },
+    "negative_perfect": {
+      "1sg": {
+        "fidel": "አላደምኩም",
+        "translit": "aladdämkumm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አላደምክም",
+        "translit": "aladdämkəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አላደምሽም",
+        "translit": "aladdämšəmm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አላደመም",
+        "translit": "aladdämämm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አላደመችም",
+        "translit": "aladdämäččəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አላደምንም",
+        "translit": "aladdämnəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አላደማችሁም",
+        "translit": "aladdämaččəhumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አላደሙም",
+        "translit": "aladdämumm",
+        "en": ""
+      }
+    },
+    "negative_imperfective": {
+      "1sg": {
+        "fidel": "አላድምም",
+        "translit": "aladdəməmm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታድምም",
+        "translit": "ataddəməmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታድሚም",
+        "translit": "ataddəmimm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያድምም",
+        "translit": "ayaddəməmm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታድምም",
+        "translit": "ataddəməmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናድምም",
+        "translit": "anaddəməmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታድሙም",
+        "translit": "ataddəmumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያድሙም",
+        "translit": "ayaddəmumm",
+        "en": ""
+      }
+    },
+    "negative_jussive_imperative": {
+      "1sg": {
+        "fidel": "አላደም",
+        "translit": "aladdəm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታደም",
+        "translit": "attaddəm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታደሚ",
+        "translit": "attaddəmi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያደም",
+        "translit": "ayaddəm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታደም",
+        "translit": "attaddəm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናደም",
+        "translit": "annaddəm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታደሙ",
+        "translit": "attaddəmu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያደሙ",
+        "translit": "ayaddəmu",
+        "en": ""
+      }
+    }
+  },
+  "አገደ": {
+    "english": "ban",
+    "infinitive": {
+      "fidel": "ማገድ",
+      "translit": "maggäd"
+    },
+    "perfect": {
+      "1sg": {
+        "fidel": "አገድኩ",
+        "translit": "aggädku",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አገድክ",
+        "translit": "aggädk",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አገድሽ",
+        "translit": "aggädš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አገደ",
+        "translit": "aggädä",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አገደች",
+        "translit": "aggädäčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አገድን",
+        "translit": "aggädn",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አገዳችሁ",
+        "translit": "aggädaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አገዱ",
+        "translit": "aggädu",
+        "en": ""
+      }
+    },
+    "imperfective_compound": {
+      "1sg": {
+        "fidel": "አግዳለሁ",
+        "translit": "aggədallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "ታግዳለህ",
+        "translit": "taggədalläh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "ታግጂያለሽ",
+        "translit": "taggədiyalläš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያግዳል",
+        "translit": "yaggədall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታግዳለች",
+        "translit": "taggədalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናግዳለን",
+        "translit": "ənnaggədallän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "ታግዳላችሁ",
+        "translit": "taggədallaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያግዳሉ",
+        "translit": "yaggədallu",
+        "en": ""
+      }
+    },
+    "gerund": {
+      "1sg": {
+        "fidel": "አግጄ",
+        "translit": "aggədde",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አግደህ",
+        "translit": "aggədäh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አግደሽ",
+        "translit": "aggədäš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አግዶ",
+        "translit": "aggədo",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አግዳ",
+        "translit": "aggəda",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አግደን",
+        "translit": "aggədän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አግዳችሁ",
+        "translit": "aggədaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አግደው",
+        "translit": "aggədäw",
+        "en": ""
+      }
+    },
+    "compound_gerund": {
+      "1sg": {
+        "fidel": "አግጄያለሁ",
+        "translit": "aggəddeyallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አግደሃል",
+        "translit": "aggədähall",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አግደሻል",
+        "translit": "aggədäšall",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አግዷል",
+        "translit": "aggədwall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አግዳለች",
+        "translit": "aggədalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አግደናል",
+        "translit": "aggədänall",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አግዳችኋል",
+        "translit": "aggədaččhwall",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አግደዋል",
+        "translit": "aggədäwall",
+        "en": ""
+      }
+    },
+    "jussive_imperative": {
+      "1sg": {
+        "fidel": "ላገድ",
+        "translit": "laggəd",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አገድ",
+        "translit": "aggəd",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አገጅ",
+        "translit": "aggədi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያገድ",
+        "translit": "yaggəd",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታገድ",
+        "translit": "taggəd",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናገድ",
+        "translit": "ənnaggəd",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አገዱ",
+        "translit": "aggəd",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያገዱ",
+        "translit": "yaggəd",
+        "en": ""
+      }
+    },
+    "negative_perfect": {
+      "1sg": {
+        "fidel": "አላገድኩም",
+        "translit": "alaggädkumm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አላገድክም",
+        "translit": "alaggädkəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አላገድሽም",
+        "translit": "alaggädšəmm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አላገደም",
+        "translit": "alaggädämm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አላገደችም",
+        "translit": "alaggädäččəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አላገድንም",
+        "translit": "alaggädnəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አላገዳችሁም",
+        "translit": "alaggädaččəhumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አላገዱም",
+        "translit": "alaggädumm",
+        "en": ""
+      }
+    },
+    "negative_imperfective": {
+      "1sg": {
+        "fidel": "አላግድም",
+        "translit": "alaggədəmm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታግድም",
+        "translit": "ataggədəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታግጂም",
+        "translit": "ataggədimm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያግድም",
+        "translit": "ayaggədəmm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታግድም",
+        "translit": "ataggədəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናግድም",
+        "translit": "anaggədəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታግዱም",
+        "translit": "ataggədumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያግዱም",
+        "translit": "ayaggədumm",
+        "en": ""
+      }
+    },
+    "negative_jussive_imperative": {
+      "1sg": {
+        "fidel": "አላገድ",
+        "translit": "alaggəd",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታገድ",
+        "translit": "attaggəd",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታገጅ",
+        "translit": "attaggədi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያገድ",
+        "translit": "ayaggəd",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታገድ",
+        "translit": "attaggəd",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናገድ",
+        "translit": "annaggəd",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታገዱ",
+        "translit": "attaggədu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያገዱ",
+        "translit": "ayaggədu",
+        "en": ""
+      }
+    }
+  },
+  "አደነ": {
+    "english": "hunt",
+    "infinitive": {
+      "fidel": "ማደን",
+      "translit": "maddän"
+    },
+    "perfect": {
+      "1sg": {
+        "fidel": "አደንኩ",
+        "translit": "addänku",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አደንክ",
+        "translit": "addänk",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አደንሽ",
+        "translit": "addänš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አደነ",
+        "translit": "addänä",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አደነች",
+        "translit": "addänäčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አደንን",
+        "translit": "addänn",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አደናችሁ",
+        "translit": "addänaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አደኑ",
+        "translit": "addänu",
+        "en": ""
+      }
+    },
+    "imperfective_compound": {
+      "1sg": {
+        "fidel": "አድናለሁ",
+        "translit": "addənallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "ታድናለህ",
+        "translit": "taddənalläh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "ታድኚያለሽ",
+        "translit": "taddəñiyalläš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያድናል",
+        "translit": "yaddənall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታድናለች",
+        "translit": "taddənalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናድናለን",
+        "translit": "ənnaddənallän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "ታድናላችሁ",
+        "translit": "taddənallaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያድናሉ",
+        "translit": "yaddənallu",
+        "en": ""
+      }
+    },
+    "gerund": {
+      "1sg": {
+        "fidel": "አድኜ",
+        "translit": "addəññe",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አድነህ",
+        "translit": "addənäh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አድነሽ",
+        "translit": "addənäš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አድኖ",
+        "translit": "addəno",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አድና",
+        "translit": "addəna",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አድነን",
+        "translit": "addənän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አድናችሁ",
+        "translit": "addənaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አድነው",
+        "translit": "addənäw",
+        "en": ""
+      }
+    },
+    "compound_gerund": {
+      "1sg": {
+        "fidel": "አድኜያለሁ",
+        "translit": "addəññeyallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አድነሃል",
+        "translit": "addənähall",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አድነሻል",
+        "translit": "addənäšall",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አድኗል",
+        "translit": "addənwall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አድናለች",
+        "translit": "addənalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አድነናል",
+        "translit": "addənänall",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አድናችኋል",
+        "translit": "addənaččhwall",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አድነዋል",
+        "translit": "addənäwall",
+        "en": ""
+      }
+    },
+    "jussive_imperative": {
+      "1sg": {
+        "fidel": "ላደን",
+        "translit": "laddən",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አደን",
+        "translit": "addən",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አደኝ",
+        "translit": "addəñi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያደን",
+        "translit": "yaddən",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታደን",
+        "translit": "taddən",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናደን",
+        "translit": "ənnaddən",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አደኑ",
+        "translit": "addən",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያደኑ",
+        "translit": "yaddən",
+        "en": ""
+      }
+    },
+    "negative_perfect": {
+      "1sg": {
+        "fidel": "አላደንኩም",
+        "translit": "aladdänkumm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አላደንክም",
+        "translit": "aladdänkəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አላደንሽም",
+        "translit": "aladdänšəmm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አላደነም",
+        "translit": "aladdänämm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አላደነችም",
+        "translit": "aladdänäččəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አላደንንም",
+        "translit": "aladdännəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አላደናችሁም",
+        "translit": "aladdänaččəhumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አላደኑም",
+        "translit": "aladdänumm",
+        "en": ""
+      }
+    },
+    "negative_imperfective": {
+      "1sg": {
+        "fidel": "አላድንም",
+        "translit": "aladdənəmm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታድንም",
+        "translit": "ataddənəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታድኚም",
+        "translit": "ataddəñimm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያድንም",
+        "translit": "ayaddənəmm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታድንም",
+        "translit": "ataddənəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናድንም",
+        "translit": "anaddənəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታድኑም",
+        "translit": "ataddənumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያድኑም",
+        "translit": "ayaddənumm",
+        "en": ""
+      }
+    },
+    "negative_jussive_imperative": {
+      "1sg": {
+        "fidel": "አላደን",
+        "translit": "aladdən",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታደን",
+        "translit": "attaddən",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታደኝ",
+        "translit": "attaddəñi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያደን",
+        "translit": "ayaddən",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታደን",
+        "translit": "attaddən",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናደን",
+        "translit": "annaddən",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታደኑ",
+        "translit": "attaddənu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያደኑ",
+        "translit": "ayaddənu",
+        "en": ""
+      }
+    }
+  },
+  "አገዘ": {
+    "english": "support, help",
+    "infinitive": {
+      "fidel": "ማገዝ",
+      "translit": "maggäz"
+    },
+    "perfect": {
+      "1sg": {
+        "fidel": "አገዝኩ",
+        "translit": "aggäzku",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አገዝክ",
+        "translit": "aggäzk",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አገዝሽ",
+        "translit": "aggäzš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አገዘ",
+        "translit": "aggäzä",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አገዘች",
+        "translit": "aggäzäčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አገዝን",
+        "translit": "aggäzn",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አገዛችሁ",
+        "translit": "aggäzaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አገዙ",
+        "translit": "aggäzu",
+        "en": ""
+      }
+    },
+    "imperfective_compound": {
+      "1sg": {
+        "fidel": "አግዛለሁ",
+        "translit": "aggəzallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "ታግዛለህ",
+        "translit": "taggəzalläh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "ታግዢያለሽ",
+        "translit": "taggəžiyalläš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያግዛል",
+        "translit": "yaggəzall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታግዛለች",
+        "translit": "taggəzalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናግዛለን",
+        "translit": "ənnaggəzallän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "ታግዛላችሁ",
+        "translit": "taggəzallaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያግዛሉ",
+        "translit": "yaggəzallu",
+        "en": ""
+      }
+    },
+    "gerund": {
+      "1sg": {
+        "fidel": "አግዤ",
+        "translit": "aggəžže",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አግዘህ",
+        "translit": "aggəzäh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አግዘሽ",
+        "translit": "aggəzäš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አግዞ",
+        "translit": "aggəzo",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አግዛ",
+        "translit": "aggəza",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አግዘን",
+        "translit": "aggəzän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አግዛችሁ",
+        "translit": "aggəzaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አግዘው",
+        "translit": "aggəzäw",
+        "en": ""
+      }
+    },
+    "compound_gerund": {
+      "1sg": {
+        "fidel": "አግዤያለሁ",
+        "translit": "aggəžžeyallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አግዘሃል",
+        "translit": "aggəzähall",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አግዘሻል",
+        "translit": "aggəzäšall",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አግ።ል",
+        "translit": "aggəzwall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አግዛለች",
+        "translit": "aggəzalläčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አግዘናል",
+        "translit": "aggəzänall",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አግዛችኋል",
+        "translit": "aggəzaččhwall",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አግዘዋል",
+        "translit": "aggəzäwall",
+        "en": ""
+      }
+    },
+    "jussive_imperative": {
+      "1sg": {
+        "fidel": "ላገዝ",
+        "translit": "laggəz",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አገዝ",
+        "translit": "aggəz",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አገዥ",
+        "translit": "aggəži",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያገዝ",
+        "translit": "yaggəz",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታገዝ",
+        "translit": "taggəz",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናገዝ",
+        "translit": "ənnaggəz",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አገዙ",
+        "translit": "aggəz",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያገዙ",
+        "translit": "yaggəz",
+        "en": ""
+      }
+    },
+    "negative_perfect": {
+      "1sg": {
+        "fidel": "አላገዝኩም",
+        "translit": "alaggäzkumm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አላገዝክም",
+        "translit": "alaggäzkəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አላገዝሽም",
+        "translit": "alaggäzšəmm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አላገዘም",
+        "translit": "alaggäzämm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አላገዘችም",
+        "translit": "alaggäzäččəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አላገዝንም",
+        "translit": "alaggäznəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አላገዛችሁም",
+        "translit": "alaggäzaččəhumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አላገዙም",
+        "translit": "alaggäzumm",
+        "en": ""
+      }
+    },
+    "negative_imperfective": {
+      "1sg": {
+        "fidel": "አላግዝም",
+        "translit": "alaggəzəmm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታግዝም",
+        "translit": "ataggəzəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታግዢም",
+        "translit": "ataggəžimm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያግዝም",
+        "translit": "ayaggəzəmm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታግዝም",
+        "translit": "ataggəzəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናግዝም",
+        "translit": "anaggəzəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታግዙም",
+        "translit": "ataggəzumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያግዙም",
+        "translit": "ayaggəzumm",
+        "en": ""
+      }
+    },
+    "negative_jussive_imperative": {
+      "1sg": {
+        "fidel": "አላገዝ",
+        "translit": "alaggəz",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታገዝ",
+        "translit": "attaggəz",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታገዥ",
+        "translit": "attaggəži",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያገዝ",
+        "translit": "ayaggəz",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታገዝ",
+        "translit": "attaggəz",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናገዝ",
+        "translit": "annaggəz",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታገዙ",
+        "translit": "attaggəzu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያገዙ",
+        "translit": "ayaggəzu",
+        "en": ""
+      }
+    }
+  },
+  "አጀበ": {
+    "english": "accompany, escort",
+    "infinitive": {
+      "fidel": "ማጀብ",
+      "translit": "maǧǧäb"
+    },
+    "perfect": {
+      "1sg": {
+        "fidel": "አጀብኩ",
+        "translit": "aǧǧäbku",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አጀብክ",
+        "translit": "aǧǧäbk",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አጀብሽ",
+        "translit": "aǧǧäbš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አጀበ",
+        "translit": "aǧǧäbä",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አጀበች",
+        "translit": "aǧǧäbäčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አጀብን",
+        "translit": "aǧǧäbn",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አጀባችሁ",
+        "translit": "aǧǧäbaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አጀቡ",
+        "translit": "aǧǧäbu",
+        "en": ""
+      }
+    },
+    "imperfective_compound": {
+      "1sg": {
+        "fidel": "አጅባለሁ",
+        "translit": "aǧǧəballähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "ታጅባለህ",
+        "translit": "taǧǧəballäh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "ታጅቢያለሽ",
+        "translit": "taǧǧəbiyalläš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያጅባል",
+        "translit": "yaǧǧəball",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታጅባለች",
+        "translit": "taǧǧəballäčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናጅባለን",
+        "translit": "ənnaǧǧəballän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "ታጅባላችሁ",
+        "translit": "taǧǧəballaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያጅባሉ",
+        "translit": "yaǧǧəballu",
+        "en": ""
+      }
+    },
+    "gerund": {
+      "1sg": {
+        "fidel": "አጅቤ",
+        "translit": "aǧǧəbbe",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አጅበህ",
+        "translit": "aǧǧəbäh",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አጅበሽ",
+        "translit": "aǧǧəbäš",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አጅቦ",
+        "translit": "aǧǧəbo",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አጅባ",
+        "translit": "aǧǧəba",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አጅበን",
+        "translit": "aǧǧəbän",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አጅባችሁ",
+        "translit": "aǧǧəbaččəhu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አጅበው",
+        "translit": "aǧǧəbäw",
+        "en": ""
+      }
+    },
+    "compound_gerund": {
+      "1sg": {
+        "fidel": "አጅቤያለሁ",
+        "translit": "aǧǧəbbeyallähu",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አጅበሃል",
+        "translit": "aǧǧəbähall",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አጅበሻል",
+        "translit": "aǧǧəbäšall",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አጅቧል",
+        "translit": "aǧǧəbwall",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አጅባለች",
+        "translit": "aǧǧəballäčč",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አጅበናል",
+        "translit": "aǧǧəbänall",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አጅባችኋል",
+        "translit": "aǧǧəbaččhwall",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አጅበዋል",
+        "translit": "aǧǧəbäwall",
+        "en": ""
+      }
+    },
+    "jussive_imperative": {
+      "1sg": {
+        "fidel": "ላጀብ",
+        "translit": "laǧǧəb",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አጀብ",
+        "translit": "aǧǧəb",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አጀቢ",
+        "translit": "aǧǧəbi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "ያጀብ",
+        "translit": "yaǧǧəb",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "ታጀብ",
+        "translit": "taǧǧəb",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "እናጀብ",
+        "translit": "ənnaǧǧəb",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አጀቡ",
+        "translit": "aǧǧəb",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "ያጀቡ",
+        "translit": "yaǧǧəb",
+        "en": ""
+      }
+    },
+    "negative_perfect": {
+      "1sg": {
+        "fidel": "አላጀብኩም",
+        "translit": "alaǧǧäbkumm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አላጀብክም",
+        "translit": "alaǧǧäbkəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አላጀብሽም",
+        "translit": "alaǧǧäbšəmm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አላጀበም",
+        "translit": "alaǧǧäbämm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አላጀበችም",
+        "translit": "alaǧǧäbäččəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አላጀብንም",
+        "translit": "alaǧǧäbnəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አላጀባችሁም",
+        "translit": "alaǧǧäbaččəhumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አላጀቡም",
+        "translit": "alaǧǧäbumm",
+        "en": ""
+      }
+    },
+    "negative_imperfective": {
+      "1sg": {
+        "fidel": "አላጅብም",
+        "translit": "alaǧǧəbəmm",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታጅብም",
+        "translit": "ataǧǧəbəmm",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታጅቢም",
+        "translit": "ataǧǧəbimm",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያጅብም",
+        "translit": "ayaǧǧəbəmm",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታጅብም",
+        "translit": "ataǧǧəbəmm",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናጅብም",
+        "translit": "anaǧǧəbəmm",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታጅቡም",
+        "translit": "ataǧǧəbumm",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያጅቡም",
+        "translit": "ayaǧǧəbumm",
+        "en": ""
+      }
+    },
+    "negative_jussive_imperative": {
+      "1sg": {
+        "fidel": "አላጀብ",
+        "translit": "alaǧǧəb",
+        "en": ""
+      },
+      "2sgm": {
+        "fidel": "አታጀብ",
+        "translit": "attaǧǧəb",
+        "en": ""
+      },
+      "2sgf": {
+        "fidel": "አታጀቢ",
+        "translit": "attaǧǧəbi",
+        "en": ""
+      },
+      "3sgm": {
+        "fidel": "አያጀብ",
+        "translit": "ayaǧǧəb",
+        "en": ""
+      },
+      "3sgf": {
+        "fidel": "አታጀብ",
+        "translit": "attaǧǧəb",
+        "en": ""
+      },
+      "1pl": {
+        "fidel": "አናጀብ",
+        "translit": "annaǧǧəb",
+        "en": ""
+      },
+      "2pl": {
+        "fidel": "አታጀቡ",
+        "translit": "attaǧǧəbu",
+        "en": ""
+      },
+      "3pl": {
+        "fidel": "አያጀቡ",
+        "translit": "ayaǧǧəbu",
+        "en": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="am">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amharic Verbs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#" class="logo" onclick="goToHome(); return false;">Amharic Verbs</a>
+      <div class="header-right">
+        <ul class="nav-links">
+          <li><a href="#" onclick="goToHome(); return false;">Home</a></li>
+        </ul>
+        <div class="dark-mode-toggle">
+          <label class="switch">
+            <input type="checkbox" id="darkModeToggle" onchange="toggleDarkMode()">
+            <span class="slider"></span>
+          </label>
+          <span class="toggle-label">Dark Mode</span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="search-section">
+      <h1>Amharic verb conjugation</h1>
+    <p>Enter a verb in English or Amharic</p>
+    
+      <div class="language-selector-wrapper">
+        <span class="type-in-label">type in</span>
+        <div class="language-selector">
+          <div class="language-box active" id="englishBox" onclick="selectLanguage('english')">
+            English (abcd)
+          </div>
+          <div class="language-box" id="amharicBox" onclick="selectLanguage('amharic')">
+            Amharic (ሀለሐመ)
+          </div>
+        </div>
+        <a href="https://help.keyman.com/keyboard/gff_amharic/2.1/AmharicTyping-English.pdf" target="_blank" class="typing-guide-link">amharic typing guide</a>
+      </div>
+      
+      <div class="search-box">
+    <input type="text" id="verbInput" placeholder="" autofocus>
+    <button onclick="conjugate()">Show Conjugations</button>
+      </div>
+      <div id="suggestions" class="suggestions"></div>
+    </div>
+    
+    <div id="common-verbs-section" class="common-verbs-section">
+      <h2>Common Amharic Verbs</h2>
+      <div id="common-verbs-list" class="common-verbs-list"></div>
+    </div>
+    
+    <div id="output"></div>
+  </div>
+  
+  <script src="transliteration.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
