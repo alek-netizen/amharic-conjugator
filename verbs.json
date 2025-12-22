@@ -15874,42 +15874,42 @@
       },
       "jussive_imperative": {
         "1sg": {
-          "fidel": "ልተማር",
+          "fidel": "ልማር",
           "translit": "ləmmar",
           "en": "let me learn"
         },
         "2sgm": {
-          "fidel": "ተማር",
+          "fidel": "ማር",
           "translit": "mmar",
           "en": "[you(m.)] learn!"
         },
         "2sgf": {
-          "fidel": "ተማሪ",
+          "fidel": "ማሪ",
           "translit": "mmari",
           "en": "[you (f.)] learn!"
         },
         "3sgm": {
-          "fidel": "ይተማር",
+          "fidel": "ይማር",
           "translit": "yəmmar",
           "en": "let him learn"
         },
         "3sgf": {
-          "fidel": "ትተማር",
+          "fidel": "ትማር",
           "translit": "təmmar",
           "en": "let her learn"
         },
         "1pl": {
-          "fidel": "እንተማር",
+          "fidel": "እንማር",
           "translit": "ənmmar",
           "en": "let us learn"
         },
         "2pl": {
-          "fidel": "ተማሩ",
+          "fidel": "ማሩ",
           "translit": "mmaru",
           "en": "(you) learn!"
         },
         "3pl": {
-          "fidel": "ይተማሩ",
+          "fidel": "ይማሩ",
           "translit": "yəmmaru",
           "en": "let them learn"
         }
@@ -16000,42 +16000,42 @@
       },
       "negative_jussive_imperative": {
         "1sg": {
-          "fidel": "አልተማር",
+          "fidel": "አልማር",
           "translit": "aləmmar",
           "en": "let me not learn"
         },
         "2sgm": {
-          "fidel": "አትተማር",
+          "fidel": "አትማር",
           "translit": "attəmmar",
           "en": "[you(m.)] don't learn"
         },
         "2sgf": {
-          "fidel": "አትተማሪ",
+          "fidel": "አትማሪ",
           "translit": "attəmmari",
           "en": "[you (f.)] don't learn"
         },
         "3sgm": {
-          "fidel": "አይተማር",
+          "fidel": "አይማር",
           "translit": "ayəmmar",
           "en": "let him not learn"
         },
         "3sgf": {
-          "fidel": "አትተማር",
+          "fidel": "አትማር",
           "translit": "attəmmar",
           "en": "let her not learn"
         },
         "1pl": {
-          "fidel": "አንተማር",
+          "fidel": "አንማር",
           "translit": "annəmmar",
           "en": "let us not learn"
         },
         "2pl": {
-          "fidel": "አትተማሩ",
+          "fidel": "አትማሩ",
           "translit": "attəmmaru",
           "en": "(you) don't learn"
         },
         "3pl": {
-          "fidel": "አይተማሩ",
+          "fidel": "አይማሩ",
           "translit": "ayəmmaru",
           "en": "let them not learn"
         }
@@ -38466,8 +38466,8 @@
           "en": "we are not"
         },
         "2pl": {
-          "fidel": "አይደሉም",
-          "translit": "aydällumm",
+          "fidel": "አይደላችሁም",
+          "translit": "aydällaččəhumm",
           "en": "you are not"
         },
         "3pl": {
@@ -38728,42 +38728,42 @@
         "1sg": {
           "fidel": "አመሰግናለሁ",
           "translit": "amäsäggənallähu",
-          "en": "I will thank"
+          "en": "I thank / I will thank"
         },
         "2sgm": {
           "fidel": "ታመሰግናለህ",
           "translit": "tamäsäggənalläh",
-          "en": "you (m.) will thank"
+          "en": "you (m.) thank / you (m.) will thank"
         },
         "2sgf": {
           "fidel": "ታመሰግኚያለሽ",
           "translit": "tamäsäggəñiyalläš",
-          "en": "you (f.) will thank"
+          "en": "you (f.) thank / you (f.) will thank"
         },
         "3sgm": {
           "fidel": "ያመሰግናል",
           "translit": "yamäsäggənall",
-          "en": "he will thank"
+          "en": "he thanks / he will thank"
         },
         "3sgf": {
           "fidel": "ታመሰግናለች",
           "translit": "tamäsäggənalläčč",
-          "en": "she will thank"
+          "en": "she thanks / she will thank"
         },
         "1pl": {
           "fidel": "እናመሰግናለን",
           "translit": "ənamäsäggənallän",
-          "en": "we will thank"
+          "en": "we thank / we will thank"
         },
         "2pl": {
           "fidel": "ታመሰግናላችሁ",
           "translit": "tamäsäggənallaččəhu",
-          "en": "you will thank"
+          "en": "you thank / you will thank"
         },
         "3pl": {
           "fidel": "ያመሰግናሉ",
           "translit": "yamäsäggənallu",
-          "en": "they will thank"
+          "en": "they thank / they will thank"
         }
       },
       "gerund": {
@@ -39071,42 +39071,42 @@
         "1sg": {
           "fidel": "አመለክታለሁ",
           "translit": "amäläkkətallähu",
-          "en": "I will show"
+          "en": "I show / I will show"
         },
         "2sgm": {
           "fidel": "ታመለክታለህ",
           "translit": "tamäläkkətalläh",
-          "en": "you (m.) will show"
+          "en": "you (m.) show / you (m.) will show"
         },
         "2sgf": {
           "fidel": "ታመለክቺያለሽ",
           "translit": "tamäläkkəčiyalläš",
-          "en": "you (f.) will show"
+          "en": "you (f.) show / you (f.) will show"
         },
         "3sgm": {
           "fidel": "ያመለክታል",
           "translit": "yamäläkkətall",
-          "en": "he will show"
+          "en": "he shows / he will show"
         },
         "3sgf": {
           "fidel": "ታመለክታለች",
           "translit": "tamäläkkətalläčč",
-          "en": "she will show"
+          "en": "she shows / she will show"
         },
         "1pl": {
           "fidel": "እናመለክታለን",
           "translit": "ənamäläkkətallän",
-          "en": "we will show"
+          "en": "we show / we will show"
         },
         "2pl": {
           "fidel": "ታመለክታላችሁ",
           "translit": "tamäläkkətallaččəhu",
-          "en": "you will show"
+          "en": "you show / you will show"
         },
         "3pl": {
           "fidel": "ያመለክታሉ",
           "translit": "yamäläkkətallu",
-          "en": "they will show"
+          "en": "they show / they will show"
         }
       },
       "gerund": {
@@ -39414,42 +39414,42 @@
         "1sg": {
           "fidel": "አነፈንፋለሁ",
           "translit": "anäfännəfallähu",
-          "en": "I will sniff"
+          "en": "I sniff / I will sniff"
         },
         "2sgm": {
           "fidel": "ታነፈንፋለህ",
           "translit": "tanäfännəfalläh",
-          "en": "you (m.) will sniff"
+          "en": "you (m.) sniff / you (m.) will sniff"
         },
         "2sgf": {
           "fidel": "ታነፈንፊያለሽ",
           "translit": "tanäfännəfiyalläš",
-          "en": "you (f.) will sniff"
+          "en": "you (f.) sniff / you (f.) will sniff"
         },
         "3sgm": {
           "fidel": "ያነፈንፋል",
           "translit": "yanäfännəfall",
-          "en": "he will sniff"
+          "en": "he sniffs / he will sniff"
         },
         "3sgf": {
           "fidel": "ታነፈንፋለች",
           "translit": "tanäfännəfalläčč",
-          "en": "she will sniff"
+          "en": "she sniffs / she will sniff"
         },
         "1pl": {
           "fidel": "እናነፈንፋለን",
           "translit": "ənanäfännəfallän",
-          "en": "we will sniff"
+          "en": "we sniff / we will sniff"
         },
         "2pl": {
           "fidel": "ታነፈንፋላችሁ",
           "translit": "tanäfännəfallaččəhu",
-          "en": "you will sniff"
+          "en": "you sniff / you will sniff"
         },
         "3pl": {
           "fidel": "ያነፈንፋሉ",
           "translit": "yanäfännəfallu",
-          "en": "they will sniff"
+          "en": "they sniff / they will sniff"
         }
       },
       "gerund": {
@@ -39757,42 +39757,42 @@
         "1sg": {
           "fidel": "አገለግላለሁ",
           "translit": "agäläggəlallähu",
-          "en": "I will serve"
+          "en": "I serve / I will serve"
         },
         "2sgm": {
           "fidel": "ታገለግላለህ",
           "translit": "tagäläggəlalläh",
-          "en": "you (m.) will serve"
+          "en": "you (m.) serve / you (m.) will serve"
         },
         "2sgf": {
           "fidel": "ታገለግያለሽ",
           "translit": "tagäläggəyalläš",
-          "en": "you (f.) will serve"
+          "en": "you (f.) serve / you (f.) will serve"
         },
         "3sgm": {
           "fidel": "ያገለግላል",
           "translit": "yagäläggəlall",
-          "en": "he will serve"
+          "en": "he serves / he will serve"
         },
         "3sgf": {
           "fidel": "ታገለግላለች",
           "translit": "tagäläggəlalläčč",
-          "en": "she will serve"
+          "en": "she serves / she will serve"
         },
         "1pl": {
           "fidel": "እናገለግላለን",
           "translit": "ənagäläggəlallän",
-          "en": "we will serve"
+          "en": "we serve / we will serve"
         },
         "2pl": {
           "fidel": "ታገለግላላችሁ",
           "translit": "tagäläggəlallaččəhu",
-          "en": "you will serve"
+          "en": "you serve / you will serve"
         },
         "3pl": {
           "fidel": "ያገለግላሉ",
           "translit": "yagäläggəlallu",
-          "en": "they will serve"
+          "en": "they serve / they will serve"
         }
       },
       "gerund": {
@@ -40100,42 +40100,42 @@
         "1sg": {
           "fidel": "አጨበጭባለሁ",
           "translit": "ač̣äbäč̣č̣əballähu",
-          "en": "I will clap"
+          "en": "I clap / I will clap"
         },
         "2sgm": {
           "fidel": "ታጨበጭባለህ",
           "translit": "tač̣äbäč̣č̣əballäh",
-          "en": "you (m.) will clap"
+          "en": "you (m.) clap / you (m.) will clap"
         },
         "2sgf": {
           "fidel": "ታጨበጭቢያለሽ",
           "translit": "tač̣äbäč̣č̣əbiyalläš",
-          "en": "you (f.) will clap"
+          "en": "you (f.) clap / you (f.) will clap"
         },
         "3sgm": {
           "fidel": "ያጨበጭባል",
           "translit": "yač̣äbäč̣č̣əball",
-          "en": "he will clap"
+          "en": "he claps / he will clap"
         },
         "3sgf": {
           "fidel": "ታጨበጭባለች",
           "translit": "tač̣äbäč̣č̣əballäčč",
-          "en": "she will clap"
+          "en": "she claps / she will clap"
         },
         "1pl": {
           "fidel": "እናጨበጭባለን",
           "translit": "ənač̣äbäč̣č̣əballän",
-          "en": "we will clap"
+          "en": "we clap / we will clap"
         },
         "2pl": {
           "fidel": "ታጨበጭባላችሁ",
           "translit": "tač̣äbäč̣č̣əballaččəhu",
-          "en": "you will clap"
+          "en": "you clap / you will clap"
         },
         "3pl": {
           "fidel": "ያጨበጭባሉ",
           "translit": "yač̣äbäč̣č̣əballu",
-          "en": "they will clap"
+          "en": "they clap / they will clap"
         }
       },
       "gerund": {
@@ -40443,42 +40443,42 @@
         "1sg": {
           "fidel": "አፈገፍጋለሁ",
           "translit": "afägäffəgallähu",
-          "en": "I will flee"
+          "en": "I flee / I will flee"
         },
         "2sgm": {
           "fidel": "ታፈገፍጋለህ",
           "translit": "tafägäffəgalläh",
-          "en": "you (m.) will flee"
+          "en": "you (m.) flee / you (m.) will flee"
         },
         "2sgf": {
           "fidel": "ታፈገፍጊያለሽ",
           "translit": "tafägäffəgiyalläš",
-          "en": "you (f.) will flee"
+          "en": "you (f.) flee / you (f.) will flee"
         },
         "3sgm": {
           "fidel": "ያፈገፍጋል",
           "translit": "yafägäffəgall",
-          "en": "he will flee"
+          "en": "he flees / he will flee"
         },
         "3sgf": {
           "fidel": "ታፈገፍጋለች",
           "translit": "tafägäffəgalläčč",
-          "en": "she will flee"
+          "en": "she flees / she will flee"
         },
         "1pl": {
           "fidel": "እናፈገፍጋለን",
           "translit": "ənafägäffəgallän",
-          "en": "we will flee"
+          "en": "we flee / we will flee"
         },
         "2pl": {
           "fidel": "ታፈገፍጋላችሁ",
           "translit": "tafägäffəgallaččəhu",
-          "en": "you will flee"
+          "en": "you flee / you will flee"
         },
         "3pl": {
           "fidel": "ያፈገፍጋሉ",
           "translit": "yafägäffəgallu",
-          "en": "they will flee"
+          "en": "they flee / they will flee"
         }
       },
       "gerund": {
@@ -40786,42 +40786,42 @@
         "1sg": {
           "fidel": "አነበንባለሁ",
           "translit": "anäbännəballähu",
-          "en": "I will mumble"
+          "en": "I mumble / I will mumble"
         },
         "2sgm": {
           "fidel": "ታነበንባለህ",
           "translit": "tanäbännəballäh",
-          "en": "you (m.) will mumble"
+          "en": "you (m.) mumble / you (m.) will mumble"
         },
         "2sgf": {
           "fidel": "ታነበንቢያለሽ",
           "translit": "tanäbännəbiyalläš",
-          "en": "you (f.) will mumble"
+          "en": "you (f.) mumble / you (f.) will mumble"
         },
         "3sgm": {
           "fidel": "ያነበንባል",
           "translit": "yanäbännəball",
-          "en": "he will mumble"
+          "en": "he mumbles / he will mumble"
         },
         "3sgf": {
           "fidel": "ታነበንባለች",
           "translit": "tanäbännəballäčč",
-          "en": "she will mumble"
+          "en": "she mumbles / she will mumble"
         },
         "1pl": {
           "fidel": "እናነበንባለን",
           "translit": "ənanäbännəballän",
-          "en": "we will mumble"
+          "en": "we mumble / we will mumble"
         },
         "2pl": {
           "fidel": "ታነበንባላችሁ",
           "translit": "tanäbännəballaččəhu",
-          "en": "you will mumble"
+          "en": "you mumble / you will mumble"
         },
         "3pl": {
           "fidel": "ያነበንባሉ",
           "translit": "yanäbännəballu",
-          "en": "they will mumble"
+          "en": "they mumble / they will mumble"
         }
       },
       "gerund": {
