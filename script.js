@@ -586,7 +586,8 @@ function displayCommonVerbs() {
     { key: "ረሳ", en: "forget" },
     { key: "ሠራ / ሰራ", en: "work" },
     { key: "ኖረ", en: "live, stay" },
-    { key: "አደረገ", en: "do, make" }
+    { key: "አደረገ", en: "do, make" },
+    { key: "ፈለገ", en: "want" }
   ];
   
   commonVerbsList.forEach(verbInfo => {
@@ -632,7 +633,7 @@ function displayOtherVerbs() {
     "ነው", "አለ", "ሄደ", "መጣ", "ወጣ", "በላ", "ጠጣ", "ቻለ", 
     "ተማረ", "ጻፈ", "ገዛ", "ዘጋ", "ከፈተ", "ጀመረ", 
     "ነገረ", "ሰማ", "አወቀ", "ተኛ", "ወሰደ", "ላከ", "ረሳ",
-    "ሠራ / ሰራ", "ኖረ", "አደረገ"
+    "ሠራ / ሰራ", "ኖረ", "አደረገ", "ፈለገ"
   ]);
   
   // Get all other verbs (exclude list keys and common verbs)
