@@ -1,4 +1,5 @@
 const verbs = {};
+let originalData = null; // Store original data structure
 
 // #region agent log
 const fetchStartTime = performance.now();
@@ -12,14 +13,15 @@ fetch('verbs.json')
     // #endregion
     return res.json();
   })
-  .then(data => { 
+  .then(data => {
+    originalData = data; // Store original data 
     // #region agent log
     const parseStartTime = performance.now();
     fetch('http://127.0.0.1:7243/ingest/c2e10cd5-8fde-4906-b4f4-c0ba1d717189',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'script.js:7',message:'JSON parse started',data:{dataKeys:Object.keys(data).length},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'A'})}).catch(()=>{});
     // #endregion
     // Handle new structure where verbs are organized in lists
     // Define all list keys
-    const listKeys = ["1", "2 (4A 02)", "3", "4", "7", "8y", "irregular", "1. a- (4a A1)", "1A (4B 01)", "2A (4B 02)", "9", "8W (1k 01)"];
+    const listKeys = ["1", "2 (4A 02)", "3", "4", "7", "8y", "irregular", "1. a- (4a A1)", "1A (4B 01)", "2A (4B 02)", "9", "8W (1k 01)", "Common Amharic Verbs"];
     
     // Merge verbs from all lists
     for (const listKey of listKeys) {
@@ -42,6 +44,7 @@ fetch('verbs.json')
     console.log("All tenses loaded – type በለ and press the button!");
     setupSuggestions();
     displayCommonVerbs();
+    displayOtherVerbs();
   });
 
 function conjugate() {
@@ -63,12 +66,24 @@ function conjugate() {
     if (commonVerbsSection) {
       commonVerbsSection.style.display = 'block';
     }
+    
+    // Show other verbs section if no match found
+    const otherVerbsSection = document.getElementById('other-verbs-section');
+    if (otherVerbsSection) {
+      otherVerbsSection.style.display = 'block';
+    }
     return;
   }
   
   // Hide common verbs section when a verb is found
   if (commonVerbsSection) {
     commonVerbsSection.style.display = 'none';
+  }
+  
+  // Hide other verbs section when a verb is found
+  const otherVerbsSection = document.getElementById('other-verbs-section');
+  if (otherVerbsSection) {
+    otherVerbsSection.style.display = 'none';
   }
 
   let html = `<h2>${matchKey} – ${cleanSpaces(verb.english || "")}</h2>`;
@@ -541,67 +556,121 @@ function searchMatches(q, limit = 8) {
 }
 
 function displayCommonVerbs() {
-  // List of common verbs to display (verb key, English translation)
-  const commonVerbs = [
-    { key: "ነው", en: "be" },
-    { key: "አለ", en: "have" },
-    { key: "ሄደ", en: "go" },
-    { key: "ተማረ", en: "learn" },
-    { key: "ቻለ", en: "can, be able" },
-    { key: "አመሰገነ", en: "thank" },
-    { key: "ጻፈ", en: "write" },
-    { key: "ተኛ", en: "sleep" },
-    { key: "ጀመረ", en: "begin, start" },
-    { key: "መጣ", en: "come" },
-    { key: "በላ", en: "eat" },
-    { key: "ጠጣ", en: "drink" },
-    { key: "ሠራ / ሰራ", en: "work" },
-    { key: "አወቀ", en: "know" },
-    { key: "ገዛ", en: "buy, rule" },
-    { key: "ዘጋ", en: "close, shut" },
-    { key: "ከፈተ", en: "open" },
-    { key: "ወሰደ", en: "take" },
-    { key: "ገባ", en: "enter, come in, arrive" },
-    { key: "ላከ", en: "send" },
-    { key: "ወጣ", en: "go out" },
-    { key: "ሰጠ", en: "give" },
-    { key: "ሸጠ", en: "sell" },
-    { key: "ከፈለ", en: "pay" },
-    { key: "አደረገ", en: "do, make" },
-    { key: "ቀየረ", en: "change" },
-    { key: "ደረሰ", en: "arrive" },
-    { key: "ነገረ", en: "tell" },
-    { key: "ገደለ", en: "kill" },
-    { key: "ሰማ", en: "hear" },
-    { key: "ረሳ", en: "forget" },
-    { key: "አሰበ", en: "think, intend" },
-    { key: "አለፈ", en: "pass" },
-    { key: "አመነ", en: "believe" },
-    { key: "ዋለ", en: "spend day" }
-  ];
-  
   const container = document.getElementById('common-verbs-list');
   if (!container) return;
   
   container.innerHTML = '';
   
+  // Get verbs from "Common Amharic Verbs" list in the original data
+  if (!originalData) {
+    console.warn("Original data not loaded yet");
+    return;
+  }
+  
+  const commonVerbsList = originalData["Common Amharic Verbs"];
+  if (!commonVerbsList) {
+    console.warn("Common Amharic Verbs list not found in data");
+    return;
+  }
+  
+  // Convert to array and sort by verb key
+  const commonVerbs = Object.keys(commonVerbsList)
+    .map(key => ({
+      key: key,
+      verb: commonVerbsList[key]
+    }))
+    .sort((a, b) => a.key.localeCompare(b.key));
+  
   commonVerbs.forEach(verbInfo => {
-    // Check if verb exists in the verbs object
-    if (!verbs[verbInfo.key]) {
-      // Try to find the verb by English translation if key doesn't match
-      let found = false;
-      for (const [key, verb] of Object.entries(verbs)) {
-        if (verb.english && verb.english.toLowerCase().includes(verbInfo.en.toLowerCase())) {
-          verbInfo.key = key;
-          found = true;
-          break;
+    const verb = verbInfo.verb;
+    const english = verb ? (verb.english || "") : "";
+    
+    const box = document.createElement('div');
+    box.className = 'verb-box';
+    box.innerHTML = `
+      <div class="verb-fidel">${verbInfo.key}</div>
+      <div class="verb-english">${english.split(',')[0].trim()}</div>
+    `;
+    
+    box.onclick = () => {
+      document.getElementById('verbInput').value = verbInfo.key;
+      conjugate();
+      // Scroll to output
+      document.getElementById('output').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+    
+    container.appendChild(box);
+  });
+}
+
+function displayOtherVerbs() {
+  const container = document.getElementById('other-verbs-list');
+  if (!container) return;
+  
+  container.innerHTML = '';
+  
+  if (!originalData) {
+    console.warn("Original data not loaded yet");
+    return;
+  }
+  
+  // Get all verbs from the merged verbs object
+  // Exclude verbs that are in "Common Amharic Verbs" list
+  const commonVerbsList = originalData["Common Amharic Verbs"] || {};
+  const commonVerbKeys = new Set(Object.keys(commonVerbsList));
+  
+  // Get all other verbs (exclude list keys and common verbs)
+  const listKeys = ["1", "2 (4A 02)", "3", "4", "7", "8y", "irregular", "1. a- (4a A1)", "1A (4B 01)", "2A (4B 02)", "9", "8W (1k 01)", "Common Amharic Verbs"];
+  const allOtherVerbs = [];
+  
+  // Collect verbs from all lists except "Common Amharic Verbs"
+  for (const listKey of listKeys) {
+    if (listKey === "Common Amharic Verbs") continue;
+    if (originalData[listKey] && typeof originalData[listKey] === "object") {
+      for (const [verbKey, verbData] of Object.entries(originalData[listKey])) {
+        if (!commonVerbKeys.has(verbKey)) {
+          allOtherVerbs.push({
+            key: verbKey,
+            verb: verbData
+          });
         }
       }
-      if (!found) return; // Skip if verb not found
     }
-    
-    const verb = verbs[verbInfo.key];
-    const english = verb ? (verb.english || verbInfo.en) : verbInfo.en;
+  }
+  
+  // Also check for verbs at top level (for backwards compatibility)
+  for (const [key, value] of Object.entries(originalData)) {
+    if (!listKeys.includes(key) && typeof value === "object" && value !== null) {
+      // Check if it's a verb object (has 'english' property) or a list
+      if (value.english) {
+        // It's a verb at top level
+        if (!commonVerbKeys.has(key)) {
+          allOtherVerbs.push({
+            key: key,
+            verb: value
+          });
+        }
+      } else {
+        // It might be a list, check its contents
+        for (const [verbKey, verbData] of Object.entries(value)) {
+          if (verbData && typeof verbData === "object" && verbData.english && !commonVerbKeys.has(verbKey)) {
+            allOtherVerbs.push({
+              key: verbKey,
+              verb: verbData
+            });
+          }
+        }
+      }
+    }
+  }
+  
+  // Sort alphabetically by verb key
+  allOtherVerbs.sort((a, b) => a.key.localeCompare(b.key));
+  
+  // Display all other verbs
+  allOtherVerbs.forEach(verbInfo => {
+    const verb = verbInfo.verb;
+    const english = verb ? (verb.english || "") : "";
     
     const box = document.createElement('div');
     box.className = 'verb-box';
@@ -638,6 +707,12 @@ function goToHome() {
   const commonVerbsSection = document.getElementById('common-verbs-section');
   if (commonVerbsSection) {
     commonVerbsSection.style.display = 'block';
+  }
+  
+  // Show the other verbs section
+  const otherVerbsSection = document.getElementById('other-verbs-section');
+  if (otherVerbsSection) {
+    otherVerbsSection.style.display = 'block';
   }
   
   // Focus on the input field
