@@ -41089,6 +41089,349 @@
         "fidel": "መደገን",
         "translit": "mädäggän"
       }
+    },
+    "ጨረሰ": {
+      "english": "finish, end",
+      "perfect": {
+        "1sg": {
+          "fidel": "ጨረስኩ",
+          "translit": "č̣ärräsku",
+          "en": "I finished"
+        },
+        "2sgm": {
+          "fidel": "ጨረስክ",
+          "translit": "č̣ärräsk",
+          "en": "you (m.) finished"
+        },
+        "2sgf": {
+          "fidel": "ጨረስሽ",
+          "translit": "č̣ärräsš",
+          "en": "you (f.) finished"
+        },
+        "3sgm": {
+          "fidel": "ጨረሰ",
+          "translit": "č̣ärräsä",
+          "en": "he finished"
+        },
+        "3sgf": {
+          "fidel": "ጨረሰች",
+          "translit": "č̣ärräsäčč",
+          "en": "she finished"
+        },
+        "1pl": {
+          "fidel": "ጨረስን",
+          "translit": "č̣ärräsn",
+          "en": "we finished"
+        },
+        "2pl": {
+          "fidel": "ጨረሳችሁ",
+          "translit": "č̣ärräsaččəhu",
+          "en": "you finished"
+        },
+        "3pl": {
+          "fidel": "ጨረሱ",
+          "translit": "č̣ärräsu",
+          "en": "they finished"
+        }
+      },
+      "imperfective_compound": {
+        "1sg": {
+          "fidel": "እጨርሳለሁ",
+          "translit": "əč̣ärrəsallähu",
+          "en": "I finish / I will finish"
+        },
+        "2sgm": {
+          "fidel": "ትጨርሳለህ",
+          "translit": "təč̣ärrəsalläh",
+          "en": "you (m.) finish / you (m.) will finish"
+        },
+        "2sgf": {
+          "fidel": "ትጨርሺያለሽ",
+          "translit": "təč̣ärrəšiyalläš",
+          "en": "you (f.) finish / you (f.) will finish"
+        },
+        "3sgm": {
+          "fidel": "ይጨርሳል",
+          "translit": "yəč̣ärrəsall",
+          "en": "he finish / he will finish"
+        },
+        "3sgf": {
+          "fidel": "ትጨርሳለች",
+          "translit": "təč̣ärrəsalläčč",
+          "en": "she finish / she will finish"
+        },
+        "1pl": {
+          "fidel": "እንጨርሳለን",
+          "translit": "ənč̣ärrəsallän",
+          "en": "we finish / we will finish"
+        },
+        "2pl": {
+          "fidel": "ትጨርሳላችሁ",
+          "translit": "təč̣ärrəsallaččəhu",
+          "en": "you finish / you will finish"
+        },
+        "3pl": {
+          "fidel": "ይጨርሳሉ",
+          "translit": "yəč̣ärrəsallu",
+          "en": "they finish / they will finish"
+        }
+      },
+      "gerund": {
+        "1sg": {
+          "fidel": "ጨርሼ",
+          "translit": "č̣ärrəšše",
+          "en": "(I) having finished"
+        },
+        "2sgm": {
+          "fidel": "ጨርሰህ",
+          "translit": "č̣ärrəsäh",
+          "en": "[you (m.)] having finished"
+        },
+        "2sgf": {
+          "fidel": "ጨርሰሽ",
+          "translit": "č̣ärrəsäš",
+          "en": "[you (f.)] having finished"
+        },
+        "3sgm": {
+          "fidel": "ጨርሶ",
+          "translit": "č̣ärrəso",
+          "en": "(he) having finished"
+        },
+        "3sgf": {
+          "fidel": "ጨርሳ",
+          "translit": "č̣ärrəsa",
+          "en": "(she) having finished"
+        },
+        "1pl": {
+          "fidel": "ጨርሰን",
+          "translit": "č̣ärrəsän",
+          "en": "(we) having finished"
+        },
+        "2pl": {
+          "fidel": "ጨርሳችሁ",
+          "translit": "č̣ärrəsaččəhu",
+          "en": "(you) having finished"
+        },
+        "3pl": {
+          "fidel": "ጨርሰው",
+          "translit": "č̣ärrəsäw",
+          "en": "(they) having finished"
+        }
+      },
+      "compound_gerund": {
+        "1sg": {
+          "fidel": "ጨርሼያለሁ",
+          "translit": "č̣ärrəššeyallähu",
+          "en": "I have finished"
+        },
+        "2sgm": {
+          "fidel": "ጨርሰሃል",
+          "translit": "č̣ärrəsähall",
+          "en": "you (m.) have finished"
+        },
+        "2sgf": {
+          "fidel": "ጨርሰሻል",
+          "translit": "č̣ärrəsäšall",
+          "en": "you (f.) have finished"
+        },
+        "3sgm": {
+          "fidel": "ጨርሷል",
+          "translit": "č̣ärrəswall",
+          "en": "he have finished"
+        },
+        "3sgf": {
+          "fidel": "ጨርሳለች",
+          "translit": "č̣ärrəsalläčč",
+          "en": "she have finished"
+        },
+        "1pl": {
+          "fidel": "ጨርሰናል",
+          "translit": "č̣ärrəsänall",
+          "en": "we have finished"
+        },
+        "2pl": {
+          "fidel": "ጨርሳችኋል",
+          "translit": "č̣ärrəsaččhwall",
+          "en": "you have finished"
+        },
+        "3pl": {
+          "fidel": "ጨርሰዋል",
+          "translit": "č̣ärrəsäwall",
+          "en": "they have finished"
+        }
+      },
+      "jussive_imperative": {
+        "1sg": {
+          "fidel": "ልጨርስ",
+          "translit": "ləč̣ärrəs",
+          "en": "let me finish"
+        },
+        "2sgm": {
+          "fidel": "ጨርስ",
+          "translit": "č̣ärrəs",
+          "en": "[you(m.)] finish!"
+        },
+        "2sgf": {
+          "fidel": "ጨርሽ",
+          "translit": "č̣ärrəši",
+          "en": "[you (f.)] finish!"
+        },
+        "3sgm": {
+          "fidel": "ይጨርስ",
+          "translit": "yəč̣ärrəs",
+          "en": "let him finish"
+        },
+        "3sgf": {
+          "fidel": "ትጨርስ",
+          "translit": "təč̣ärrəs",
+          "en": "let her finish"
+        },
+        "1pl": {
+          "fidel": "እንጨርስ",
+          "translit": "ənč̣ärrəs",
+          "en": "let we finish"
+        },
+        "2pl": {
+          "fidel": "ጨርሱ",
+          "translit": "č̣ärrəsu",
+          "en": "(you) finish!"
+        },
+        "3pl": {
+          "fidel": "ይጨርሱ",
+          "translit": "yəč̣ärrəsu",
+          "en": "let them finish"
+        }
+      },
+      "negative_perfect": {
+        "1sg": {
+          "fidel": "አልጨረስኩም",
+          "translit": "alč̣ärräskumm",
+          "en": "I didn't finish"
+        },
+        "2sgm": {
+          "fidel": "አልጨረስክም",
+          "translit": "alč̣ärräskəmm",
+          "en": "you (m.) didn't finish"
+        },
+        "2sgf": {
+          "fidel": "አልጨረስሽም",
+          "translit": "alč̣ärräsšəmm",
+          "en": "you (f.) didn't finish"
+        },
+        "3sgm": {
+          "fidel": "አልጨረሰም",
+          "translit": "alč̣ärräsämm",
+          "en": "he didn't finish"
+        },
+        "3sgf": {
+          "fidel": "አልጨረሰችም",
+          "translit": "alč̣ärräsäččəmm",
+          "en": "she didn't finish"
+        },
+        "1pl": {
+          "fidel": "አልጨረስንም",
+          "translit": "alč̣ärräsnəmm",
+          "en": "we didn't finish"
+        },
+        "2pl": {
+          "fidel": "አልጨረሳችሁም",
+          "translit": "alč̣ärräsaččəhumm",
+          "en": "you didn't finish"
+        },
+        "3pl": {
+          "fidel": "አልጨረሱም",
+          "translit": "alč̣ärräsumm",
+          "en": "they didn't finish"
+        }
+      },
+      "negative_imperfective": {
+        "1sg": {
+          "fidel": "አልጨርስም",
+          "translit": "alč̣ärrəsəmm",
+          "en": "I don't finish"
+        },
+        "2sgm": {
+          "fidel": "አትጨርስም",
+          "translit": "atč̣ärrəsəmm",
+          "en": "you (m.) don't finish"
+        },
+        "2sgf": {
+          "fidel": "አትትጨርሺም",
+          "translit": "atč̣ärrəšimm",
+          "en": "you (f.) don't finish"
+        },
+        "3sgm": {
+          "fidel": "አይጨርስም",
+          "translit": "ayč̣ärrəsəmm",
+          "en": "he don't finish"
+        },
+        "3sgf": {
+          "fidel": "አትጨርስም",
+          "translit": "atč̣ärrəsəmm",
+          "en": "she don't finish"
+        },
+        "1pl": {
+          "fidel": "አንጨርስም",
+          "translit": "anč̣ärrəsəmm",
+          "en": "we don't finish"
+        },
+        "2pl": {
+          "fidel": "አትጨርሱም",
+          "translit": "atč̣ärrəsumm",
+          "en": "you don't finish"
+        },
+        "3pl": {
+          "fidel": "አይጨርሱም",
+          "translit": "ayč̣ärrəsumm",
+          "en": "they don't finish"
+        }
+      },
+      "negative_jussive_imperative": {
+        "1sg": {
+          "fidel": "አልጨርስ",
+          "translit": "alč̣ärrəs",
+          "en": "let me not finish"
+        },
+        "2sgm": {
+          "fidel": "አትጨርስ",
+          "translit": "attəč̣ärrəs",
+          "en": "[you(m.)] don't finish"
+        },
+        "2sgf": {
+          "fidel": "አትጨርሽ",
+          "translit": "attəč̣ärrəši",
+          "en": "[you (f.)] don't finish"
+        },
+        "3sgm": {
+          "fidel": "አይጨርስ",
+          "translit": "ayč̣ärrəs",
+          "en": "let him not finish"
+        },
+        "3sgf": {
+          "fidel": "አትጨርስ",
+          "translit": "attəč̣ärrəs",
+          "en": "let her not finish"
+        },
+        "1pl": {
+          "fidel": "አንጨርስ",
+          "translit": "annəč̣ärrəs",
+          "en": "let we not finish"
+        },
+        "2pl": {
+          "fidel": "አትጨርሱ",
+          "translit": "attəč̣ärrəsu",
+          "en": "(you) don't finish"
+        },
+        "3pl": {
+          "fidel": "አይጨርሱ",
+          "translit": "ayč̣ärrəsu",
+          "en": "let them not finish"
+        }
+      },
+      "infinitive": {
+        "fidel": "መጨረስ",
+        "translit": "mäč̣ärräs"
+      }
     }
   },
   "irregular": {
