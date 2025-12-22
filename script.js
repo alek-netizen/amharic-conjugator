@@ -21,7 +21,7 @@ fetch('verbs.json')
     // #endregion
     // Handle new structure where verbs are organized in lists
     // Define all list keys
-    const listKeys = ["1", "2 (4A 02)", "3", "4", "7", "8y", "irregular", "1. a- (4a A1)", "1A (4B 01)", "2A (4B 02)", "9", "8W (1k 01)", "Common Amharic Verbs"];
+    const listKeys = ["1", "2 (4A 02)", "3", "4", "7", "8y", "irregular", "1. a- (4a A1)", "1A (4B 01)", "2A (4B 02)", "9", "8W (1k 01)"];
     
     // Merge verbs from all lists
     for (const listKey of listKeys) {
@@ -561,29 +561,41 @@ function displayCommonVerbs() {
   
   container.innerHTML = '';
   
-  // Get verbs from "Common Amharic Verbs" list in the original data
-  if (!originalData) {
-    console.warn("Original data not loaded yet");
-    return;
-  }
+  // List of common verbs to display (verb key, English translation)
+  const commonVerbsList = [
+    { key: "ነው", en: "be" },
+    { key: "አለ", en: "have" },
+    { key: "ሄደ", en: "go" },
+    { key: "መጣ", en: "come" },
+    { key: "ወጣ", en: "go out" },
+    { key: "በላ", en: "eat" },
+    { key: "ጠጣ", en: "drink" },
+    { key: "ቻለ", en: "can, be able" },
+    { key: "ተማረ", en: "learn" },
+    { key: "ጻፈ", en: "write" },
+    { key: "ገዛ", en: "buy, rule" },
+    { key: "ዘጋ", en: "close, shut" },
+    { key: "ከፈተ", en: "open" },
+    { key: "ጀመረ", en: "begin, start" },
+    { key: "ነገረ", en: "tell" },
+    { key: "ሰማ", en: "hear" },
+    { key: "አወቀ", en: "know" },
+    { key: "ተኛ", en: "sleep" },
+    { key: "ወሰደ", en: "take" },
+    { key: "ላከ", en: "send" },
+    { key: "ረሳ", en: "forget" },
+    { key: "ሠራ / ሰራ", en: "work" },
+    { key: "ኖረ", en: "live, stay" },
+    { key: "አደረገ", en: "do, make" }
+  ];
   
-  const commonVerbsList = originalData["Common Amharic Verbs"];
-  if (!commonVerbsList) {
-    console.warn("Common Amharic Verbs list not found in data");
-    return;
-  }
-  
-  // Convert to array and sort by verb key
-  const commonVerbs = Object.keys(commonVerbsList)
-    .map(key => ({
-      key: key,
-      verb: commonVerbsList[key]
-    }))
-    .sort((a, b) => a.key.localeCompare(b.key));
-  
-  commonVerbs.forEach(verbInfo => {
-    const verb = verbInfo.verb;
-    const english = verb ? (verb.english || "") : "";
+  commonVerbsList.forEach(verbInfo => {
+    // Handle keys with "/" (like "ሠራ / ሰራ") - try first part for lookup
+    const searchKey = verbInfo.key.includes(" / ") ? verbInfo.key.split(" / ")[0].trim() : verbInfo.key;
+    
+    // Get the verb from the verbs object if it exists (for English translation)
+    const verb = verbs[searchKey];
+    const english = verb ? (verb.english || verbInfo.en) : verbInfo.en;
     
     const box = document.createElement('div');
     box.className = 'verb-box';
@@ -593,7 +605,8 @@ function displayCommonVerbs() {
     `;
     
     box.onclick = () => {
-      document.getElementById('verbInput').value = verbInfo.key;
+      // Use the search key (first part if there's a "/") for searching
+      document.getElementById('verbInput').value = searchKey;
       conjugate();
       // Scroll to output
       document.getElementById('output').scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -614,18 +627,20 @@ function displayOtherVerbs() {
     return;
   }
   
-  // Get all verbs from the merged verbs object
-  // Exclude verbs that are in "Common Amharic Verbs" list
-  const commonVerbsList = originalData["Common Amharic Verbs"] || {};
-  const commonVerbKeys = new Set(Object.keys(commonVerbsList));
+  // List of common verb keys to exclude from "Other Verbs"
+  const commonVerbKeys = new Set([
+    "ነው", "አለ", "ሄደ", "መጣ", "ወጣ", "በላ", "ጠጣ", "ቻለ", 
+    "ተማረ", "ጻፈ", "ገዛ", "ዘጋ", "ከፈተ", "ጀመረ", 
+    "ነገረ", "ሰማ", "አወቀ", "ተኛ", "ወሰደ", "ላከ", "ረሳ",
+    "ሠራ / ሰራ", "ኖረ", "አደረገ"
+  ]);
   
   // Get all other verbs (exclude list keys and common verbs)
-  const listKeys = ["1", "2 (4A 02)", "3", "4", "7", "8y", "irregular", "1. a- (4a A1)", "1A (4B 01)", "2A (4B 02)", "9", "8W (1k 01)", "Common Amharic Verbs"];
+  const listKeys = ["1", "2 (4A 02)", "3", "4", "7", "8y", "irregular", "1. a- (4a A1)", "1A (4B 01)", "2A (4B 02)", "9", "8W (1k 01)"];
   const allOtherVerbs = [];
   
-  // Collect verbs from all lists except "Common Amharic Verbs"
+  // Collect verbs from all lists
   for (const listKey of listKeys) {
-    if (listKey === "Common Amharic Verbs") continue;
     if (originalData[listKey] && typeof originalData[listKey] === "object") {
       for (const [verbKey, verbData] of Object.entries(originalData[listKey])) {
         if (!commonVerbKeys.has(verbKey)) {
