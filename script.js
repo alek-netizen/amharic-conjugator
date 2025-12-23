@@ -47,7 +47,7 @@ fetch('verbs.json')
     displayOtherVerbs();
   });
 
-function conjugate() {
+function conjugate(skipHistory = false) {
   // If suggestions are visible, select the first one before conjugating
   if (typeof window.selectFirstSuggestion === 'function') {
     if (window.selectFirstSuggestion()) {
@@ -71,6 +71,11 @@ function conjugate() {
     const otherVerbsSection = document.getElementById('other-verbs-section');
     if (otherVerbsSection) {
       otherVerbsSection.style.display = 'block';
+    }
+    
+    // Update history for no-match state
+    if (!skipHistory) {
+      updateHistory({ type: 'search', query: rawInput, found: false });
     }
     return;
   }
@@ -193,6 +198,11 @@ function conjugate() {
   }
 
   output.innerHTML = html;
+  
+  // Update browser history
+  if (!skipHistory) {
+    updateHistory({ type: 'verb', verbKey: matchKey, query: rawInput });
+  }
   
   // Add click handlers for match verb links
   const matchLinks = output.querySelectorAll('.match-verb-link');
@@ -706,7 +716,7 @@ function displayOtherVerbs() {
   });
 }
 
-function goToHome() {
+function goToHome(skipHistory = false) {
   // Clear the search input
   const input = document.getElementById('verbInput');
   if (input) {
@@ -743,6 +753,11 @@ function goToHome() {
     if (list) {
       list.style.display = 'none';
     }
+  }
+  
+  // Update browser history
+  if (!skipHistory) {
+    updateHistory({ type: 'home' });
   }
 }
 
@@ -882,8 +897,66 @@ function handleTransliterationInput(input, event) {
   }
 }
 
+// Browser history management
+function updateHistory(state) {
+  const url = state.type === 'home' 
+    ? window.location.pathname 
+    : `${window.location.pathname}?verb=${encodeURIComponent(state.verbKey || state.query || '')}`;
+  
+  window.history.pushState(state, '', url);
+}
+
+function restoreState(state) {
+  if (!state) {
+    goToHome(true);
+    return;
+  }
+  
+  const input = document.getElementById('verbInput');
+  
+  if (state.type === 'home') {
+    goToHome(true);
+  } else if (state.type === 'verb' && state.verbKey) {
+    if (input) {
+      input.value = state.verbKey;
+    }
+    conjugate(true);
+  } else if (state.type === 'search' && state.query) {
+    if (input) {
+      input.value = state.query;
+    }
+    conjugate(true);
+  } else {
+    goToHome(true);
+  }
+}
+
+// Handle browser back/forward buttons
+window.addEventListener('popstate', function(event) {
+  restoreState(event.state);
+});
+
 // Initialize dark mode on page load
 document.addEventListener('DOMContentLoaded', function() {
   initDarkMode();
   initTransliteration();
+  
+  // Initialize history state on page load
+  const urlParams = new URLSearchParams(window.location.search);
+  const verbParam = urlParams.get('verb');
+  
+  if (verbParam) {
+    // Restore verb from URL
+    const input = document.getElementById('verbInput');
+    if (input) {
+      input.value = decodeURIComponent(verbParam);
+    }
+    // Use replaceState for initial load to avoid adding to history
+    const state = { type: 'verb', verbKey: decodeURIComponent(verbParam), query: decodeURIComponent(verbParam) };
+    window.history.replaceState(state, '', window.location.href);
+    conjugate(true);
+  } else {
+    // Set initial home state
+    window.history.replaceState({ type: 'home' }, '', window.location.pathname);
+  }
 });
