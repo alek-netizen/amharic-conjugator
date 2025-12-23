@@ -153,6 +153,9 @@ function conjugate(skipHistory = false) {
     // Check if tenseData is array-based (for irregular verbs) or object-based (for regular verbs)
     const isArrayBased = Array.isArray(tenseData.fidel);
     
+    // Track if any transliteration has "*" ending
+    let hasAsteriskEnding = false;
+    
     if (isArrayBased) {
       // Handle array-based structure (irregular verbs like ነበረ, አለ)
       const count = Math.min(
@@ -162,11 +165,15 @@ function conjugate(skipHistory = false) {
       );
       
       for (let i = 0; i < count; i++) {
+        const translit = tenseData.translit[i] || "";
+        if (translit.endsWith("*")) {
+          hasAsteriskEnding = true;
+        }
         const personLabel = personLabels[i] ? personLabels[i].label : `Person ${i + 1}`;
         html += `<tr>
           <td>${personLabel}</td>
           <td>${tenseData.fidel[i] || ""}</td>
-          <td>${tenseData.translit[i] || ""}</td>
+          <td>${translit}</td>
           <td>${cleanSpaces(tenseData.english[i] || "")}</td>
         </tr>`;
       }
@@ -175,6 +182,11 @@ function conjugate(skipHistory = false) {
       for (const person of personLabels) {
         const form = tenseData[person.key];
         if (!form) continue;
+        
+        const translit = form.translit || "";
+        if (translit.endsWith("*")) {
+          hasAsteriskEnding = true;
+        }
         
         // Format English translation for imperfective_compound
         let enText = form.en || "";
@@ -188,13 +200,20 @@ function conjugate(skipHistory = false) {
         html += `<tr>
           <td>${person.label}</td>
           <td>${form.fidel || ""}</td>
-          <td>${form.translit || ""}</td>
+          <td>${translit}</td>
           <td>${enText}</td>
         </tr>`;
       }
     }
 
-    html += `</table><br>`;
+    html += `</table>`;
+    
+    // Add note if any transliteration has "*" ending
+    if (hasAsteriskEnding) {
+      html += `<p style="color:#666;font-size:14px;font-style:italic;margin-top:10px;">*pronunciation differs from the writing as indicated in transliteration</p>`;
+    }
+    
+    html += `<br>`;
   }
 
   output.innerHTML = html;
