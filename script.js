@@ -955,10 +955,72 @@ window.addEventListener('popstate', function(event) {
   restoreState(event.state);
 });
 
+// Visitor counter functionality
+const API_BASE_URL = 'http://127.0.0.1:5000/api';
+
+async function trackVisitor() {
+  // Check if this is a new visit in this browser session
+  const sessionKey = 'visitor_tracked_' + new Date().toDateString();
+  const alreadyTracked = sessionStorage.getItem(sessionKey);
+  
+  if (!alreadyTracked) {
+    try {
+      // Increment visitor count on server
+      const response = await fetch(`${API_BASE_URL}/visitors/increment`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+      
+      if (response.ok) {
+        const data = await response.json();
+        updateVisitorDisplay(data.count);
+        // Mark as tracked for this session
+        sessionStorage.setItem(sessionKey, 'true');
+      }
+    } catch (error) {
+      console.warn('Could not connect to visitor counter API:', error);
+      // Still try to display count even if increment failed
+      loadVisitorCount();
+    }
+  } else {
+    // Already tracked this session, just load the count
+    loadVisitorCount();
+  }
+}
+
+async function loadVisitorCount() {
+  try {
+    const response = await fetch(`${API_BASE_URL}/visitors`);
+    if (response.ok) {
+      const data = await response.json();
+      updateVisitorDisplay(data.count);
+    }
+  } catch (error) {
+    console.warn('Could not load visitor count:', error);
+    // Show error state
+    const countElement = document.getElementById('visitorCount');
+    if (countElement) {
+      countElement.textContent = '?';
+    }
+  }
+}
+
+function updateVisitorDisplay(count) {
+  const countElement = document.getElementById('visitorCount');
+  if (countElement) {
+    countElement.textContent = count.toLocaleString();
+  }
+}
+
 // Initialize dark mode on page load
 document.addEventListener('DOMContentLoaded', function() {
   initDarkMode();
   initTransliteration();
+  
+  // Track visitor and load count
+  trackVisitor();
   
   // Initialize history state on page load
   const urlParams = new URLSearchParams(window.location.search);
