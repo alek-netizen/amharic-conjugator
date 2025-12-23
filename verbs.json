@@ -3183,37 +3183,37 @@
         },
         "2sgm": {
           "fidel": "መጥተህ",
-          "translit": "mäṭtäh",
+          "translit": "mättäh*",
           "en": "[you(m.)] having come"
         },
         "2sgf": {
           "fidel": "መጥተሽ",
-          "translit": "mäṭtäš",
+          "translit": "mättäš*",
           "en": "[you (f.)] having come"
         },
         "3sgm": {
           "fidel": "መጥቶ",
-          "translit": "mäṭto",
+          "translit": "mätto*",
           "en": "(he) having come"
         },
         "3sgf": {
           "fidel": "መጥታ",
-          "translit": "mäṭta",
+          "translit": "mätta*",
           "en": "(she) having come"
         },
         "1pl": {
           "fidel": "መጥተን",
-          "translit": "mäṭtän",
+          "translit": "mättän*",
           "en": "(we) having come"
         },
         "2pl": {
           "fidel": "መጥታችሁ",
-          "translit": "mäṭtaččəhu",
+          "translit": "mättaččəhu*",
           "en": "(you) having come"
         },
         "3pl": {
           "fidel": "መጥተው",
-          "translit": "mäṭtäw",
+          "translit": "mättäw*",
           "en": "(they) having come"
         }
       },
@@ -3225,37 +3225,37 @@
         },
         "2sgm": {
           "fidel": "መጥተሃል",
-          "translit": "mäṭtähall",
+          "translit": "mättähall*",
           "en": "you (m.) have come"
         },
         "2sgf": {
           "fidel": "መጥተሻል",
-          "translit": "mäṭtäšall",
+          "translit": "mättäšall*",
           "en": "you (f.) have come"
         },
         "3sgm": {
           "fidel": "መጥቷል",
-          "translit": "mäṭtwall",
+          "translit": "mättwall*",
           "en": "he has come"
         },
         "3sgf": {
           "fidel": "መጥታለች",
-          "translit": "mäṭtalläčč",
+          "translit": "mättalläčč*",
           "en": "she has come"
         },
         "1pl": {
           "fidel": "መጥተናል",
-          "translit": "mäṭtänall",
+          "translit": "mättänall*",
           "en": "we have come"
         },
         "2pl": {
           "fidel": "መጥታችኋል",
-          "translit": "mäṭtaččhwall",
+          "translit": "mättaččhwall*",
           "en": "you have come"
         },
         "3pl": {
           "fidel": "መጥተዋል",
-          "translit": "mäṭtäwall",
+          "translit": "mättäwall*",
           "en": "they have come"
         }
       },
@@ -5241,37 +5241,37 @@
         },
         "2sgm": {
           "fidel": "ወጥተህ",
-          "translit": "wäṭtäh",
+          "translit": "wättäh*",
           "en": "[you(m.)] having gone out"
         },
         "2sgf": {
           "fidel": "ወጥተሽ",
-          "translit": "wäṭtäš",
+          "translit": "wättäš*",
           "en": "[you (f.)] having gone out"
         },
         "3sgm": {
           "fidel": "ወጥቶ",
-          "translit": "wäṭto",
+          "translit": "wätto*",
           "en": "(he) having gone out"
         },
         "3sgf": {
           "fidel": "ወጥታ",
-          "translit": "wäṭta",
+          "translit": "wätta*",
           "en": "(she) having gone out"
         },
         "1pl": {
           "fidel": "ወጥተን",
-          "translit": "wäṭtän",
+          "translit": "wättän*",
           "en": "(we) having gone out"
         },
         "2pl": {
           "fidel": "ወጥታችሁ",
-          "translit": "wäṭtaččəhu",
+          "translit": "wättaččəhu*",
           "en": "(you) having gone out"
         },
         "3pl": {
           "fidel": "ወጥተው",
-          "translit": "wäṭtäw",
+          "translit": "wättäw*",
           "en": "(they) having gone out"
         }
       },
@@ -5283,37 +5283,37 @@
         },
         "2sgm": {
           "fidel": "ወጥተሃል",
-          "translit": "wäṭtähall",
+          "translit": "wättähall*",
           "en": "you (m.) have gone out"
         },
         "2sgf": {
           "fidel": "ወጥተሻል",
-          "translit": "wäṭtäšall",
+          "translit": "wättäšall*",
           "en": "you (f.) have gone out"
         },
         "3sgm": {
           "fidel": "ወጥቷል",
-          "translit": "wäṭtwall",
+          "translit": "wättwall*",
           "en": "he has gone out"
         },
         "3sgf": {
           "fidel": "ወጥታለች",
-          "translit": "wäṭtalläčč",
+          "translit": "wättalläčč*",
           "en": "she has gone out"
         },
         "1pl": {
           "fidel": "ወጥተናል",
-          "translit": "wäṭtänall",
+          "translit": "wättänall*",
           "en": "we have gone out"
         },
         "2pl": {
           "fidel": "ወጥታችኋል",
-          "translit": "wäṭtaččhwall",
+          "translit": "wättaččhwall*",
           "en": "you have gone out"
         },
         "3pl": {
           "fidel": "ወጥተዋል",
-          "translit": "wäṭtäwall",
+          "translit": "wättäwall*",
           "en": "they have gone out"
         }
       },
@@ -16051,13 +16051,13 @@
       "english": "do, make",
       "perfect": {
         "1sg": {
-          "fidel": "አደረግሁ",
-          "translit": "adärräghu",
+          "fidel": "አደረግኩ",
+          "translit": "adärräkku*",
           "en": "I did"
         },
         "2sgm": {
           "fidel": "አደረግህ",
-          "translit": "adärrägh",
+          "translit": "adärräkk*",
           "en": "you (m.) did"
         },
         "2sgf": {
@@ -16261,13 +16261,13 @@
       },
       "negative_perfect": {
         "1sg": {
-          "fidel": "አላደረግሁም",
-          "translit": "aladärräghumm",
+          "fidel": "አላደረግኩም",
+          "translit": "aladärräkkumm*",
           "en": "I didn't do"
         },
         "2sgm": {
-          "fidel": "አላደረግህም",
-          "translit": "aladärräghəmm",
+          "fidel": "አላደረግክም",
+          "translit": "aladärräkkəmm*",
           "en": "you (m.) didn't do"
         },
         "2sgf": {
@@ -21542,12 +21542,12 @@
       "perfect": {
         "1sg": {
           "fidel": "አነቅኩ",
-          "translit": "annäqku",
+          "translit": "annäkku*",
           "en": "I choked"
         },
         "2sgm": {
           "fidel": "አነቅክ",
-          "translit": "annäqk",
+          "translit": "annäkk*",
           "en": "you (m.) choked"
         },
         "2sgf": {
@@ -21752,12 +21752,12 @@
       "negative_perfect": {
         "1sg": {
           "fidel": "አላነቅኩም",
-          "translit": "alannäqkumm",
+          "translit": "alannäkkumm*",
           "en": "I didn't choke"
         },
         "2sgm": {
           "fidel": "አላነቅክም",
-          "translit": "alannäqkəmm",
+          "translit": "alannäkkəmm*",
           "en": "you (m.) didn't choke"
         },
         "2sgf": {
@@ -21884,13 +21884,13 @@
       "english": "know",
       "perfect": {
         "1sg": {
-          "fidel": "አወቅሁ",
-          "translit": "awwäqhu",
+          "fidel": "አወቅኩ",
+          "translit": "awwäkku*",
           "en": "I knew"
         },
         "2sgm": {
-          "fidel": "አወቅህ",
-          "translit": "awwäqh",
+          "fidel": "አወቅክ",
+          "translit": "awwäkk*",
           "en": "you (m.) knew"
         },
         "2sgf": {
@@ -22094,13 +22094,13 @@
       },
       "negative_perfect": {
         "1sg": {
-          "fidel": "አላወቅሁም",
-          "translit": "alawwäqhumm",
+          "fidel": "አላወቅኩም",
+          "translit": "alawwäkkumm*",
           "en": "I didn't know"
         },
         "2sgm": {
-          "fidel": "አላወቅህም",
-          "translit": "alawwäqhəmm",
+          "fidel": "አላወቅክም",
+          "translit": "alawwäkkəmm*",
           "en": "you (m.) didn't know"
         },
         "2sgf": {
@@ -23257,12 +23257,12 @@
       "perfect": {
         "1sg": {
           "fidel": "አደግኩ",
-          "translit": "addägku",
+          "translit": "addäkku*",
           "en": "I grew"
         },
         "2sgm": {
           "fidel": "አደግክ",
-          "translit": "addägk",
+          "translit": "addäkk*",
           "en": "you (m.) grew"
         },
         "2sgf": {
@@ -23467,12 +23467,12 @@
       "negative_perfect": {
         "1sg": {
           "fidel": "አላደግኩም",
-          "translit": "aladdägkumm",
+          "translit": "aladdäkkumm*",
           "en": "I didn't grow"
         },
         "2sgm": {
           "fidel": "አላደግክም",
-          "translit": "aladdägkəmm",
+          "translit": "aladdäkkəmm*",
           "en": "you (m.) didn't grow"
         },
         "2sgf": {
@@ -26055,7 +26055,7 @@
         },
         "2sgf": {
           "fidel": "ትጸልያለሽ",
-          "translit": "təṣälləyiyalläš",
+          "translit": "təṣälləyalläš",
           "en": "you (f.) pray / you (f.) will pray"
         },
         "3sgm": {
@@ -27378,13 +27378,13 @@
       },
       "perfect": {
         "1sg": {
-          "fidel": "መረቅሁ",
-          "translit": "märräqhu",
+          "fidel": "መረቅኩ",
+          "translit": "märräkku*",
           "en": "I blessed"
         },
         "2sgm": {
-          "fidel": "መረቅህ",
-          "translit": "märräqh",
+          "fidel": "መረቅክ",
+          "translit": "märräkk*",
           "en": "you (m.) blessed"
         },
         "2sgf": {
@@ -27588,13 +27588,13 @@
       },
       "negative_perfect": {
         "1sg": {
-          "fidel": "አልመረቅሁም",
-          "translit": "almärräqhumm",
+          "fidel": "አልመረቅኩም",
+          "translit": "almärräkkumm*",
           "en": "I didn't bless"
         },
         "2sgm": {
           "fidel": "አልመረቅህም",
-          "translit": "almärräqhəmm",
+          "translit": "almärräkkəmm*",
           "en": "you (m.) didn't bless"
         },
         "2sgf": {
@@ -29093,13 +29093,13 @@
       },
       "perfect": {
         "1sg": {
-          "fidel": "ሰለቅሁ",
-          "translit": "sälläqku",
+          "fidel": "ሰለቅኩ",
+          "translit": "sälläkku*",
           "en": "I ground"
         },
         "2sgm": {
-          "fidel": "ሰለቅ",
-          "translit": "sälläqk",
+          "fidel": "ሰለቅክ",
+          "translit": "sälläkk*",
           "en": "you (m.) ground"
         },
         "2sgf": {
@@ -29304,12 +29304,12 @@
       "negative_perfect": {
         "1sg": {
           "fidel": "አልሰለቅኩም",
-          "translit": "alsälläqkumm",
+          "translit": "alsälläkkumm*",
           "en": "I didn't grind"
         },
         "2sgm": {
           "fidel": "አልሰለቅክም",
-          "translit": "alsälläqkəmm",
+          "translit": "alsälläkkəmm*",
           "en": "you (m.) didn't grind"
         },
         "2sgf": {
@@ -38351,12 +38351,12 @@
       "perfect": {
         "1sg": {
           "fidel": "ፈለግኩ",
-          "translit": "fällägku",
+          "translit": "fälläkku*",
           "en": "I wanted"
         },
         "2sgm": {
           "fidel": "ፈለግክ",
-          "translit": "fällägk",
+          "translit": "fälläkk*",
           "en": "you (m.) wanted"
         },
         "2sgf": {
@@ -38561,12 +38561,12 @@
       "negative_perfect": {
         "1sg": {
           "fidel": "አልፈለግኩም",
-          "translit": "alfällägkumm",
+          "translit": "alfälläkkumm*",
           "en": "I didn't want"
         },
         "2sgm": {
           "fidel": "አልፈለግክም",
-          "translit": "alfällägkəmm",
+          "translit": "alfälläkkəmm*",
           "en": "you (m.) didn't want"
         },
         "2sgf": {
@@ -40065,13 +40065,13 @@
       "english": "hide",
       "perfect": {
         "1sg": {
-          "fidel": "ደበቅሁ",
-          "translit": "däbbäqhu",
+          "fidel": "ደበቅኩ",
+          "translit": "däbbäkku*",
           "en": "I hided"
         },
         "2sgm": {
-          "fidel": "ደበቅክህ",
-          "translit": "däbbäqkh",
+          "fidel": "ደበቅክ",
+          "translit": "däbbäkk*",
           "en": "you (m.) hided"
         },
         "2sgf": {
@@ -40275,13 +40275,13 @@
       },
       "negative_perfect": {
         "1sg": {
-          "fidel": "አልደበቅሁም",
-          "translit": "aldäbbäqhumm",
+          "fidel": "አልደበቅኩም",
+          "translit": "aldäbbäkkumm*",
           "en": "I didn't hide"
         },
         "2sgm": {
-          "fidel": "አልደበቅህም",
-          "translit": "aldäbbäqhəmm",
+          "fidel": "አልደበቅክም",
+          "translit": "aldäbbäkkəmm*",
           "en": "you (m.) didn't hide"
         },
         "2sgf": {
@@ -50003,12 +50003,12 @@
       "perfect": {
         "1sg": {
           "fidel": "አሸግኩ",
-          "translit": "aššägku",
+          "translit": "aššäkku*",
           "en": "I sealed"
         },
         "2sgm": {
           "fidel": "አሸግክ",
-          "translit": "aššägk",
+          "translit": "aššäkk*",
           "en": "you (m.) sealed"
         },
         "2sgf": {
@@ -50213,12 +50213,12 @@
       "negative_perfect": {
         "1sg": {
           "fidel": "አላሸግኩም",
-          "translit": "alaššägkumm",
+          "translit": "alaššäkkumm*",
           "en": "I didn't seal"
         },
         "2sgm": {
           "fidel": "አላሸግክም",
-          "translit": "alaššägkəmm",
+          "translit": "alaššäkkəmm*",
           "en": "you (m.) didn't seal"
         },
         "2sgf": {
