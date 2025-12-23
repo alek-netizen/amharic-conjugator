@@ -21,7 +21,7 @@ fetch('verbs.json')
     // #endregion
     // Handle new structure where verbs are organized in lists
     // Define all list keys
-    const listKeys = ["1", "2 (4A 02)", "3", "4", "7", "8y", "irregular", "1. a- (4a A1)", "1A (4B 01)", "2A (4B 02)", "9", "8W (1k 01)"];
+    const listKeys = ["1", "2 (4A 02)", "3", "4", "5. class (3A 01)", "7", "8y", "irregular", "1. a- (4a A1)", "1A (4B 01)", "2A (4B 02)", "9", "8W (1k 01)"];
     
     // Merge verbs from all lists
     for (const listKey of listKeys) {
@@ -666,7 +666,7 @@ function displayOtherVerbs() {
   ]);
   
   // Get all other verbs (exclude list keys and common verbs)
-  const listKeys = ["1", "2 (4A 02)", "3", "4", "7", "8y", "irregular", "1. a- (4a A1)", "1A (4B 01)", "2A (4B 02)", "9", "8W (1k 01)"];
+  const listKeys = ["1", "2 (4A 02)", "3", "4", "5. class (3A 01)", "7", "8y", "irregular", "1. a- (4a A1)", "1A (4B 01)", "2A (4B 02)", "9", "8W (1k 01)"];
   const allOtherVerbs = [];
   
   // Collect verbs from all lists
