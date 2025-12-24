@@ -57546,5 +57546,350 @@
         ]
       }
     }
+  },
+  "5. class (3B 01)": {
+    "አየ": {
+      "english": "see",
+      "infinitive": {
+        "fidel": "መየት",
+        "translit": "mayät"
+      },
+      "past_simple": {
+        "1sg": {
+          "fidel": "አየሁ",
+          "translit": "ayyähu",
+          "en": "I saw"
+        },
+        "2sgm": {
+          "fidel": "አየህ",
+          "translit": "ayyähu",
+          "en": "you (m.) saw"
+        },
+        "2sgf": {
+          "fidel": "አየሽ",
+          "translit": "ayyäš",
+          "en": "you (f.) saw"
+        },
+        "3sgm": {
+          "fidel": "አየ",
+          "translit": "ayyä",
+          "en": "he saw"
+        },
+        "3sgf": {
+          "fidel": "አየች",
+          "translit": "ayyäčč",
+          "en": "she saw"
+        },
+        "1pl": {
+          "fidel": "አየን",
+          "translit": "ayyän",
+          "en": "we saw"
+        },
+        "2pl": {
+          "fidel": "አያችሁ",
+          "translit": "ayyaččəhu",
+          "en": "you saw"
+        },
+        "3pl": {
+          "fidel": "አዩ",
+          "translit": "ayyu",
+          "en": "they saw"
+        }
+      },
+      "imperfective_compound": {
+        "1sg": {
+          "fidel": "አያለሁ",
+          "translit": "ayallähu",
+          "en": "I see / I will see"
+        },
+        "2sgm": {
+          "fidel": "ታያለህ",
+          "translit": "tayalläh",
+          "en": "you (m.) see / you (m.) will see"
+        },
+        "2sgf": {
+          "fidel": "ታያለሽ",
+          "translit": "tayyalläš",
+          "en": "you (f.) see / you (f.) will see"
+        },
+        "3sgm": {
+          "fidel": "ያያል",
+          "translit": "yayall",
+          "en": "he sees / he will see"
+        },
+        "3sgf": {
+          "fidel": "ታያለች",
+          "translit": "tayalläčč",
+          "en": "she sees / she will see"
+        },
+        "1pl": {
+          "fidel": "እናያለን",
+          "translit": "ənayallän",
+          "en": "we see / we will see"
+        },
+        "2pl": {
+          "fidel": "ታያላችሁ",
+          "translit": "tayallaččəhu",
+          "en": "you see / you will see"
+        },
+        "3pl": {
+          "fidel": "ያያሉ",
+          "translit": "yayallu",
+          "en": "they see / they will see"
+        }
+      },
+      "gerund": {
+        "1sg": {
+          "fidel": "አይቼ",
+          "translit": "ayəčče",
+          "en": "(I) having seen"
+        },
+        "2sgm": {
+          "fidel": "አይተህ",
+          "translit": "aytäh",
+          "en": "[you(m.)] having seen"
+        },
+        "2sgf": {
+          "fidel": "አይተሽ",
+          "translit": "aytäš",
+          "en": "[you (f.)] having seen"
+        },
+        "3sgm": {
+          "fidel": "አይቶ",
+          "translit": "ayto",
+          "en": "(he) having seen"
+        },
+        "3sgf": {
+          "fidel": "አይታ",
+          "translit": "ayta",
+          "en": "(she) having seen"
+        },
+        "1pl": {
+          "fidel": "አይተን",
+          "translit": "aytän",
+          "en": "(we) having seen"
+        },
+        "2pl": {
+          "fidel": "አይታችሁ",
+          "translit": "aytaččəhu",
+          "en": "(you) having seen"
+        },
+        "3pl": {
+          "fidel": "አይተው",
+          "translit": "aytäw",
+          "en": "(they) having seen"
+        }
+      },
+      "compound_gerund": {
+        "1sg": {
+          "fidel": "አይቼያለሁ",
+          "translit": "ayəččeyallähu",
+          "en": "(I) having seen"
+        },
+        "2sgm": {
+          "fidel": "አይተሃል",
+          "translit": "aytähähall",
+          "en": "[you(m.)] having seen"
+        },
+        "2sgf": {
+          "fidel": "አይተሻል",
+          "translit": "aytäšäšall",
+          "en": "[you (f.)] having seen"
+        },
+        "3sgm": {
+          "fidel": "አይቷል",
+          "translit": "aytwall",
+          "en": "(he) having seen"
+        },
+        "3sgf": {
+          "fidel": "አይታለች",
+          "translit": "aytalläčč",
+          "en": "(she) having seen"
+        },
+        "1pl": {
+          "fidel": "አይተናል",
+          "translit": "aytänall",
+          "en": "(we) having seen"
+        },
+        "2pl": {
+          "fidel": "አይታችኋል",
+          "translit": "aytaččhwall",
+          "en": "(you) having seen"
+        },
+        "3pl": {
+          "fidel": "አይተዋል",
+          "translit": "aytäwall",
+          "en": "(they) having seen"
+        }
+      },
+      "jussive_imperative": {
+        "1sg": {
+          "fidel": "ልይ",
+          "translit": "ləy",
+          "en": "let me see"
+        },
+        "2sgm": {
+          "fidel": "እይ",
+          "translit": "əy",
+          "en": "[you(m.)] see!"
+        },
+        "2sgf": {
+          "fidel": "እዪ",
+          "translit": "əyi",
+          "en": "[you (f.)] see!"
+        },
+        "3sgm": {
+          "fidel": "ይይ",
+          "translit": "yəy",
+          "en": "let him see"
+        },
+        "3sgf": {
+          "fidel": "ትይ",
+          "translit": "təy",
+          "en": "let her see"
+        },
+        "1pl": {
+          "fidel": "እንይ",
+          "translit": "ənəy",
+          "en": "let us see"
+        },
+        "2pl": {
+          "fidel": "እዩ",
+          "translit": "əyu",
+          "en": "(you) see!"
+        },
+        "3pl": {
+          "fidel": "ይዩ",
+          "translit": "yəyu",
+          "en": "let them see"
+        }
+      },
+      "negative_past_simple": {
+        "1sg": {
+          "fidel": "አላየሁም",
+          "translit": "alayyähumm",
+          "en": "I didn't see"
+        },
+        "2sgm": {
+          "fidel": "አላየህም",
+          "translit": "alayyähəmm",
+          "en": "you (m.) didn't see"
+        },
+        "2sgf": {
+          "fidel": "አላየሽም",
+          "translit": "alayyäšəmm",
+          "en": "you (f.) didn't see"
+        },
+        "3sgm": {
+          "fidel": "አላየም",
+          "translit": "alayyämm",
+          "en": "he didn't see"
+        },
+        "3sgf": {
+          "fidel": "አላየችም",
+          "translit": "alayyäččəmm",
+          "en": "she didn't see"
+        },
+        "1pl": {
+          "fidel": "አላየንም",
+          "translit": "alayyänəmm",
+          "en": "we didn't see"
+        },
+        "2pl": {
+          "fidel": "አላያችሁም",
+          "translit": "alayyaččəhumm",
+          "en": "you didn't see"
+        },
+        "3pl": {
+          "fidel": "አላዩም",
+          "translit": "alayyumm",
+          "en": "they didn't see"
+        }
+      },
+      "negative_imperfective": {
+        "1sg": {
+          "fidel": "አላይም",
+          "translit": "alayəmm",
+          "en": "I don't see"
+        },
+        "2sgm": {
+          "fidel": "አታይም",
+          "translit": "atayəmm",
+          "en": "you (m.) don't see"
+        },
+        "2sgf": {
+          "fidel": "አታዪም",
+          "translit": "atayimm",
+          "en": "you (f.) don't see"
+        },
+        "3sgm": {
+          "fidel": "አያይም",
+          "translit": "ayayəmm",
+          "en": "he doesn't see"
+        },
+        "3sgf": {
+          "fidel": "አታይም",
+          "translit": "atayəmm",
+          "en": "she doesn't see"
+        },
+        "1pl": {
+          "fidel": "አናይም",
+          "translit": "anayəmm",
+          "en": "we don't see"
+        },
+        "2pl": {
+          "fidel": "አታዩም",
+          "translit": "atayumm",
+          "en": "you don't see"
+        },
+        "3pl": {
+          "fidel": "አያዩም",
+          "translit": "ayayumm",
+          "en": "they don't see"
+        }
+      },
+      "negative_jussive_imperative": {
+        "1sg": {
+          "fidel": "አልይ",
+          "translit": "aləy",
+          "en": "let me not see"
+        },
+        "2sgm": {
+          "fidel": "አትይ",
+          "translit": "attəy",
+          "en": "[you(m.)] don't see!"
+        },
+        "2sgf": {
+          "fidel": "አትዪ",
+          "translit": "attəyi",
+          "en": "[you (f.)] don't see!"
+        },
+        "3sgm": {
+          "fidel": "አይይ",
+          "translit": "ayəy",
+          "en": "let him not see"
+        },
+        "3sgf": {
+          "fidel": "አትይ",
+          "translit": "attəy",
+          "en": "let her not see"
+        },
+        "1pl": {
+          "fidel": "አንይ",
+          "translit": "annəy",
+          "en": "let us not see"
+        },
+        "2pl": {
+          "fidel": "አትዩ",
+          "translit": "attəyu",
+          "en": "(you) don't see!"
+        },
+        "3pl": {
+          "fidel": "አይዩ",
+          "translit": "ayəyu",
+          "en": "let them not see"
+        }
+      }
+    }
   }
 }
