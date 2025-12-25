@@ -279,6 +279,11 @@ function conjugate(skipHistory = false) {
   });
 }
 
+function isEnglishQuery(query) {
+  // Check if query contains Latin letters (likely English)
+  return /[a-zA-Z]/.test(query);
+}
+
 function findVerb(query) {
   // #region agent log
   const findVerbStartTime = performance.now();
@@ -287,9 +292,13 @@ function findVerb(query) {
   const q = normalizeQuery(query);
   if (!q) return { matchKey: null, verb: null, matches: [] };
 
+  const isEnglish = isEnglishQuery(q);
+
   const exactRootMatches = []; // Exact verb root matches (highest priority for roots)
   const exactEnglishMatches = []; // Exact English translation matches (e.g., "be" matches "be")
+  const englishPrefixMatches = []; // English translation prefix matches (e.g., "des" matches "desire")
   const wordBoundaryMatches = []; // Word boundary English matches (e.g., "be" matches "be generous")
+  const englishSubstringMatches = []; // English substring matches
   const prefixRootMatches = []; // Verb root prefix matches (starts with)
   const rootMatches = []; // Verb root substring matches (lower priority)
   const formMatches = []; // Form translation matches (lowest priority)
@@ -305,6 +314,22 @@ function findVerb(query) {
       continue;
     }
     
+    // Check English matches first if query looks like English
+    const englishMatchType = matchesEnglish(verbData.english || "", q);
+    if (englishMatchType === 'exact') {
+      exactEnglishMatches.push(verbKey);
+      continue;
+    } else if (englishMatchType === 'prefix') {
+      englishPrefixMatches.push(verbKey);
+      continue;
+    } else if (englishMatchType === 'word') {
+      wordBoundaryMatches.push(verbKey);
+      continue;
+    } else if (englishMatchType === 'substring') {
+      englishSubstringMatches.push(verbKey);
+      continue;
+    }
+    
     // Prefix match (verb starts with query) - higher priority than substring
     if (verbKeyLower.startsWith(q)) {
       prefixRootMatches.push(verbKey);
@@ -316,15 +341,7 @@ function findVerb(query) {
       rootMatches.push(verbKey);
       continue;
     }
-    // Match by English gloss - check for exact match first, then word boundary
-    const englishMatchType = matchesEnglish(verbData.english || "", q);
-    if (englishMatchType === 'exact') {
-      exactEnglishMatches.push(verbKey);
-      continue;
-    } else if (englishMatchType === 'word') {
-      wordBoundaryMatches.push(verbKey);
-      continue;
-    }
+    
     // Match by infinitive forms (fidel / translit)
     if (verbData.infinitive) {
       const infFidel = (verbData.infinitive.fidel || "").toLowerCase();
@@ -351,8 +368,16 @@ function findVerb(query) {
     }
   }
 
-  // Combine matches in priority order: exact root > exact English > word boundary > prefix root > substring root > forms
-  const allMatches = [...new Set([...exactRootMatches, ...exactEnglishMatches, ...wordBoundaryMatches, ...prefixRootMatches, ...rootMatches, ...formMatches])];
+  // Combine matches in priority order
+  // For English queries: exact root > exact English > English prefix > word boundary > English substring > prefix root > substring root > forms
+  // For non-English queries: exact root > exact English > word boundary > prefix root > substring root > English substring > forms
+  let allMatches;
+  if (isEnglish) {
+    allMatches = [...new Set([...exactRootMatches, ...exactEnglishMatches, ...englishPrefixMatches, ...wordBoundaryMatches, ...englishSubstringMatches, ...prefixRootMatches, ...rootMatches, ...formMatches])];
+  } else {
+    allMatches = [...new Set([...exactRootMatches, ...exactEnglishMatches, ...wordBoundaryMatches, ...prefixRootMatches, ...rootMatches, ...englishSubstringMatches, ...formMatches])];
+  }
+  
   const matchKey = allMatches[0] || null;
   const verb = matchKey ? verbs[matchKey] : null;
   // #region agent log
@@ -412,10 +437,20 @@ function matchesEnglish(englishText, query) {
   const hasExactMatch = parts.some(part => part === lowerQuery);
   if (hasExactMatch) return 'exact';
   
+  // Check for prefix match (e.g., "des" matches "desire", "describe")
+  const hasPrefixMatch = parts.some(part => {
+    const words = part.split(/\s+/);
+    return words.some(word => word.startsWith(lowerQuery));
+  });
+  if (hasPrefixMatch) return 'prefix';
+  
   // Check for word boundary match (e.g., "be" matches "be able" but not "begin")
   const wordBoundaryRegex = new RegExp('\\b' + lowerQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b');
   const hasWordMatch = parts.some(part => wordBoundaryRegex.test(part));
   if (hasWordMatch) return 'word';
+  
+  // Check for substring match anywhere in the translation
+  if (lowerEnglish.includes(lowerQuery)) return 'substring';
   
   return false;
 }
@@ -538,9 +573,13 @@ function searchMatches(q, limit = 8) {
   fetch('http://127.0.0.1:7243/ingest/c2e10cd5-8fde-4906-b4f4-c0ba1d717189',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'script.js:344',message:'searchMatches called',data:{query:q,limit:limit,verbCount:Object.keys(verbs).length},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'B'})}).catch(()=>{});
   // #endregion
   q = normalizeQuery(q);
+  const isEnglish = isEnglishQuery(q);
+  
   const exactRootMatches = []; // Exact verb root matches (highest priority for roots)
   const exactEnglishMatches = []; // Exact English translation matches
+  const englishPrefixMatches = []; // English translation prefix matches
   const wordBoundaryMatches = []; // Word boundary English matches
+  const englishSubstringMatches = []; // English substring matches
   const prefixRootMatches = []; // Verb root prefix matches (starts with)
   const rootMatches = []; // Verb root substring matches (lower priority)
   const formMatches = []; // Form translation matches (lowest priority)
@@ -558,6 +597,22 @@ function searchMatches(q, limit = 8) {
       continue;
     }
     
+    // Check English matches first if query looks like English
+    const englishMatchType = matchesEnglish(verbData.english || '', q);
+    if (englishMatchType === 'exact') {
+      exactEnglishMatches.push(resultItem);
+      continue;
+    } else if (englishMatchType === 'prefix') {
+      englishPrefixMatches.push(resultItem);
+      continue;
+    } else if (englishMatchType === 'word') {
+      wordBoundaryMatches.push(resultItem);
+      continue;
+    } else if (englishMatchType === 'substring') {
+      englishSubstringMatches.push(resultItem);
+      continue;
+    }
+    
     // Prefix match (verb starts with query) - higher priority than substring
     if (verbKeyLower.startsWith(q)) {
       prefixRootMatches.push(resultItem);
@@ -567,16 +622,6 @@ function searchMatches(q, limit = 8) {
     // Substring match (verb contains query) - lower priority
     if (verbKeyLower.includes(q)) {
       rootMatches.push(resultItem);
-      continue;
-    }
-    
-    // Match by English gloss - check for exact match first, then word boundary
-    const englishMatchType = matchesEnglish(verbData.english || '', q);
-    if (englishMatchType === 'exact') {
-      exactEnglishMatches.push(resultItem);
-      continue;
-    } else if (englishMatchType === 'word') {
-      wordBoundaryMatches.push(resultItem);
       continue;
     }
     
@@ -606,8 +651,15 @@ function searchMatches(q, limit = 8) {
     }
   }
   
-  // Combine matches in priority order: exact root > exact English > word boundary > prefix root > substring root > forms
-  const allResults = [...exactRootMatches, ...exactEnglishMatches, ...wordBoundaryMatches, ...prefixRootMatches, ...rootMatches, ...formMatches];
+  // Combine matches in priority order
+  // For English queries: exact root > exact English > English prefix > word boundary > English substring > prefix root > substring root > forms
+  // For non-English queries: exact root > exact English > word boundary > prefix root > substring root > English substring > forms
+  let allResults;
+  if (isEnglish) {
+    allResults = [...exactRootMatches, ...exactEnglishMatches, ...englishPrefixMatches, ...wordBoundaryMatches, ...englishSubstringMatches, ...prefixRootMatches, ...rootMatches, ...formMatches];
+  } else {
+    allResults = [...exactRootMatches, ...exactEnglishMatches, ...wordBoundaryMatches, ...prefixRootMatches, ...rootMatches, ...englishSubstringMatches, ...formMatches];
+  }
   
   // unique by key, preserving order
   const seen = new Set();
