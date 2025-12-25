@@ -122,6 +122,12 @@ function conjugate(skipHistory = false) {
     otherVerbsSection.style.display = 'none';
   }
 
+  // Clear the search input when displaying verb conjugation
+  const verbInput = document.getElementById('verbInput');
+  if (verbInput) {
+    verbInput.value = '';
+  }
+
   let html = `<h2>${matchKey} – ${cleanSpaces(verb.english || "")}</h2>`;
   if (verb.infinitive) {
     html += `<p class="infinitive">Infinitive: <span class="inf-fidel">${verb.infinitive.fidel || ""}</span> <span class="inf-translit">${verb.infinitive.translit || ""}</span></p>`;
@@ -829,11 +835,6 @@ function goToHome(skipHistory = false) {
   const otherVerbsSection = document.getElementById('other-verbs-section');
   if (otherVerbsSection) {
     otherVerbsSection.style.display = 'block';
-  }
-  
-  // Focus on the input field
-  if (input) {
-    input.focus();
   }
   
   // Hide suggestions if visible
