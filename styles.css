@@ -433,11 +433,63 @@ td:last-child {
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
 .common-verbs-section h2 {
   font-size: 28px;
   color: #1976d2;
-  margin-bottom: 20px;
+  margin: 0;
   font-weight: 600;
+}
+
+.sort-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sort-label {
+  font-size: 14px;
+  color: #666;
+  white-space: nowrap;
+}
+
+.sort-options {
+  display: flex;
+  gap: 8px;
+}
+
+.sort-btn {
+  font-size: 14px;
+  padding: 6px 12px;
+  background: #f0f0f0;
+  border: 2px solid #d0d0d0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: normal;
+  color: #666;
+  transition: all 0.3s ease;
+  user-select: none;
+  white-space: nowrap;
+  font-family: 'Noto Sans Ethiopic', sans-serif;
+}
+
+.sort-btn:hover {
+  background: #e8e8e8;
+  border-color: #999;
+}
+
+.sort-btn.active {
+  background: #2196F3;
+  border-color: #2196F3;
+  color: white;
 }
 
 .common-verbs-list {
@@ -602,6 +654,16 @@ td:last-child {
     font-size: 22px;
   }
   
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .sort-controls {
+    width: 100%;
+    justify-content: space-between;
+  }
+  
   .common-verbs-list {
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     gap: 10px;
@@ -725,6 +787,15 @@ td:last-child {
   
   .common-verbs-section h2 {
     font-size: 20px;
+  }
+  
+  .sort-label {
+    font-size: 13px;
+  }
+  
+  .sort-btn {
+    font-size: 13px;
+    padding: 5px 10px;
   }
   
   .common-verbs-list {
@@ -854,6 +925,27 @@ body.dark-mode .typing-guide-link:hover {
 
 body.dark-mode .common-verbs-section h2 {
   color: #64b5f6;
+}
+
+body.dark-mode .sort-label {
+  color: #b0b0b0;
+}
+
+body.dark-mode .sort-btn {
+  background: #2a2a2a;
+  border-color: #444;
+  color: #b0b0b0;
+}
+
+body.dark-mode .sort-btn:hover {
+  background: #3a3a3a;
+  border-color: #666;
+}
+
+body.dark-mode .sort-btn.active {
+  background: #1976D2;
+  border-color: #1976D2;
+  color: white;
 }
 
 body.dark-mode .verb-box {

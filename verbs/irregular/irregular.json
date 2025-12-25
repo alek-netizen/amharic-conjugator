@@ -1,0 +1,330 @@
+{
+  "irregular": {
+    "ነው": {
+      "english": "be",
+      "present": {
+        "1sg": {
+          "fidel": "ነኝ",
+          "translit": "näññ",
+          "en": "I am"
+        },
+        "2sgm": {
+          "fidel": "ነህ",
+          "translit": "näh",
+          "en": "you (m.) are"
+        },
+        "2sgf": {
+          "fidel": "ነሽ",
+          "translit": "näš",
+          "en": "you (f.) are"
+        },
+        "3sgm": {
+          "fidel": "ነው",
+          "translit": "näw",
+          "en": "he is"
+        },
+        "3sgf": {
+          "fidel": "ነች",
+          "translit": "näčč",
+          "en": "she is"
+        },
+        "1pl": {
+          "fidel": "ነን",
+          "translit": "nän",
+          "en": "we are"
+        },
+        "2pl": {
+          "fidel": "ናችሁ",
+          "translit": "naččəhu",
+          "en": "you are"
+        },
+        "3pl": {
+          "fidel": "ናቸው",
+          "translit": "naččäw",
+          "en": "they are"
+        }
+      },
+      "perfect": {
+        "1sg": {
+          "fidel": "ነበርኩ",
+          "translit": "näbbärku",
+          "en": "I was"
+        },
+        "2sgm": {
+          "fidel": "ነበርክ",
+          "translit": "näbbärk",
+          "en": "you (m.) were"
+        },
+        "2sgf": {
+          "fidel": "ነበርሽ",
+          "translit": "näbbärš",
+          "en": "you (f.) were"
+        },
+        "3sgm": {
+          "fidel": "ነበረ",
+          "translit": "näbbärä",
+          "en": "he was"
+        },
+        "3sgf": {
+          "fidel": "ነበረች",
+          "translit": "näbbäräč",
+          "en": "she was"
+        },
+        "1pl": {
+          "fidel": "ነበርን",
+          "translit": "näbbärn",
+          "en": "we were"
+        },
+        "2pl": {
+          "fidel": "ነበራችሁ",
+          "translit": "näbbäraččəhu",
+          "en": "you were"
+        },
+        "3pl": {
+          "fidel": "ነበሩ",
+          "translit": "näbbäru",
+          "en": "they were"
+        }
+      },
+      "negative_present": {
+        "1sg": {
+          "fidel": "አይደለሁም",
+          "translit": "aydällähumm",
+          "en": "I am not"
+        },
+        "2sgm": {
+          "fidel": "አይደለህም",
+          "translit": "aydällähəmm",
+          "en": "you (m.) are not"
+        },
+        "2sgf": {
+          "fidel": "አይደለሽም",
+          "translit": "aydälläšəmm",
+          "en": "you (f.) are not"
+        },
+        "3sgm": {
+          "fidel": "አይደለም",
+          "translit": "aydällämm",
+          "en": "he is not"
+        },
+        "3sgf": {
+          "fidel": "አይደለችም",
+          "translit": "aydälläčəmm",
+          "en": "she is not"
+        },
+        "1pl": {
+          "fidel": "አይደለንም",
+          "translit": "aydällänəmm",
+          "en": "we are not"
+        },
+        "2pl": {
+          "fidel": "አይደላችሁም",
+          "translit": "aydällaččəhumm",
+          "en": "you are not"
+        },
+        "3pl": {
+          "fidel": "አይደሉም",
+          "translit": "aydällumm",
+          "en": "they are not"
+        }
+      },
+      "negative_perfect": {
+        "1sg": {
+          "fidel": "አልነበርኩም",
+          "translit": "alnäbbärkumm",
+          "en": "I wasn't"
+        },
+        "2sgm": {
+          "fidel": "አልነበርክም",
+          "translit": "alnäbbärkmm",
+          "en": "you (m.) weren't"
+        },
+        "2sgf": {
+          "fidel": "አልነበርሽም",
+          "translit": "alnäbbäršmm",
+          "en": "you (f.) weren't"
+        },
+        "3sgm": {
+          "fidel": "አልነበረም",
+          "translit": "alnäbbärämm",
+          "en": "he wasn't"
+        },
+        "3sgf": {
+          "fidel": "አልነበረችም",
+          "translit": "alnäbbäräčmm",
+          "en": "she wasn't"
+        },
+        "1pl": {
+          "fidel": "አልነበርንም",
+          "translit": "alnäbbärnmm",
+          "en": "we weren't"
+        },
+        "2pl": {
+          "fidel": "አልነበራችሁም",
+          "translit": "alnäbbäraččəhumm",
+          "en": "you weren't"
+        },
+        "3pl": {
+          "fidel": "አልነበሩም",
+          "translit": "alnäbbärumm",
+          "en": "they weren't"
+        }
+      }
+    },
+    "አለ": {
+      "english": "have",
+      "present": {
+        "fidel": [
+          "አለኝ",
+          "አለህ",
+          "አለሽ",
+          "አለ",
+          "አላት",
+          "አለን",
+          "አላችሁ",
+          "አላቸው",
+          "አለዎ(ት)",
+          "አላቸው"
+        ],
+        "translit": [
+          "alläññ",
+          "alläh",
+          "alläš",
+          "allä",
+          "allat",
+          "allänə",
+          "allaččəhu",
+          "allaččäw",
+          "alläwo(t)",
+          "allaččäw"
+        ],
+        "english": [
+          "I have",
+          "you (m.) have",
+          "you (f.) have",
+          "he has",
+          "she has",
+          "we have",
+          "you (pl.) have",
+          "they have",
+          "you (resp.) have",
+          "he/she (resp.) have"
+        ]
+      },
+      "past_simple": {
+        "fidel": [
+          "ነበረኝ",
+          "ነበረህ",
+          "ነበረሽ",
+          "ነበረው",
+          "ነበራት",
+          "ነበረን",
+          "ነበራችሁ",
+          "ነበራቸው",
+          "ነበረዎ(ት)",
+          "ነበራቸው"
+        ],
+        "translit": [
+          "näbbäräññ",
+          "näbbäräh",
+          "näbbäräš",
+          "näbbäräw",
+          "näbbärat",
+          "näbbärän",
+          "näbbäraččəhu",
+          "näbbäraččäw",
+          "näbbäräwo(t)",
+          "näbbäraččäw"
+        ],
+        "english": [
+          "I had",
+          "you (m.) had",
+          "you (f.) had",
+          "he had",
+          "she had",
+          "we had",
+          "you (pl.) had",
+          "they had",
+          "you (resp.) had",
+          "he/she (resp.) had"
+        ]
+      },
+      "negative_present": {
+        "fidel": [
+          "የለኝም",
+          "የለህም",
+          "የለሽም",
+          "የለውም",
+          "የላትም",
+          "የለንም",
+          "የላችሁም",
+          "የላቸውም",
+          "የለዎ(ት)ም",
+          "የላችሁም"
+        ],
+        "translit": [
+          "yäläñəmm",
+          "yälähəmm",
+          "yäläšəmm",
+          "yäläwəmm",
+          "yälatəmm",
+          "yälänəmm",
+          "yälaččəhumm",
+          "yälaččäwəmm",
+          "yäläwo(tə)mm",
+          "yälaččəhumm"
+        ],
+        "english": [
+          "I don't have",
+          "you (m.) don't have",
+          "you (f.) don't have",
+          "he doesn't have",
+          "she doesn't have",
+          "we don't have",
+          "you (pl.) don't have",
+          "they don't have",
+          "you (resp.) don't have",
+          "he/she (resp.) don't have"
+        ]
+      },
+      "negative_past_simple": {
+        "fidel": [
+          "አልነበረኝም",
+          "አልነበረህም",
+          "አልነበረሽም",
+          "አልነበረውም",
+          "አልነበራትም",
+          "አልነበረንም",
+          "አልነበራችሁም",
+          "አልነበራቸውም",
+          "አልነበረዎ(ት)ም",
+          "አልነበራችሁም"
+        ],
+        "translit": [
+          "alnäbäräññəmm",
+          "alnäbärähəmm",
+          "alnäbäräšəmm",
+          "alnäbäräwəmm",
+          "alnäbäratəmm",
+          "alnäbäränəmm",
+          "alnäbäraččəhumm",
+          "alnäbäraččäwəmm",
+          "alnäbbäräwo(tə)mm",
+          "alnäbäraččəhumm"
+        ],
+        "english": [
+          "I didn't have",
+          "you (m.) didn't have",
+          "you (f.) didn't have",
+          "he didn't have",
+          "she didn't have",
+          "we didn't have",
+          "you (pl.) didn't have",
+          "they didn't have",
+          "you (resp.) didn't have",
+          "he/she (resp.) didn't have"
+        ]
+      }
+    }
+  }
+}

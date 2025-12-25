@@ -1,0 +1,5835 @@
+{
+  "1A (4B 01)": {
+    "አመነ": {
+      "english": "believe",
+      "perfect": {
+        "1sg": {
+          "fidel": "አመንኩ",
+          "translit": "ammänku",
+          "en": "I believed"
+        },
+        "2sgm": {
+          "fidel": "አመንክ",
+          "translit": "ammänk",
+          "en": "you (m.) believed"
+        },
+        "2sgf": {
+          "fidel": "አመንሽ",
+          "translit": "ammänš",
+          "en": "you (f.) believed"
+        },
+        "3sgm": {
+          "fidel": "አመነ",
+          "translit": "ammänä",
+          "en": "he believed"
+        },
+        "3sgf": {
+          "fidel": "አመነች",
+          "translit": "ammänäčč",
+          "en": "she believed"
+        },
+        "1pl": {
+          "fidel": "አመንን",
+          "translit": "ammänn",
+          "en": "we believed"
+        },
+        "2pl": {
+          "fidel": "አመናችሁ",
+          "translit": "ammänaččəhu",
+          "en": "you believed"
+        },
+        "3pl": {
+          "fidel": "አመኑ",
+          "translit": "ammänu",
+          "en": "they believed"
+        }
+      },
+      "imperfective_compound": {
+        "1sg": {
+          "fidel": "አምናለሁ",
+          "translit": "amnallähu",
+          "en": "I believe / I will believe"
+        },
+        "2sgm": {
+          "fidel": "ታምናለህ",
+          "translit": "tamnalläh",
+          "en": "you (m.) believe / you (m.) will believe"
+        },
+        "2sgf": {
+          "fidel": "ታምኚያለሽ",
+          "translit": "tamñiyalläš",
+          "en": "you (f.) believe / you (f.) will believe"
+        },
+        "3sgm": {
+          "fidel": "ያምናል",
+          "translit": "yamnall",
+          "en": "he believes / he will believe"
+        },
+        "3sgf": {
+          "fidel": "ታምናለች",
+          "translit": "tamnalläčč",
+          "en": "she believes / she will believe"
+        },
+        "1pl": {
+          "fidel": "እናምናለን",
+          "translit": "ənnamnallän",
+          "en": "we believe / we will believe"
+        },
+        "2pl": {
+          "fidel": "ታምናላችሁ",
+          "translit": "tamnallaččəhu",
+          "en": "you believe / you will believe"
+        },
+        "3pl": {
+          "fidel": "ያምናሉ",
+          "translit": "yamnallu",
+          "en": "they believe / they will believe"
+        }
+      },
+      "gerund": {
+        "1sg": {
+          "fidel": "አምኜ",
+          "translit": "aməññe",
+          "en": "(I) having believed"
+        },
+        "2sgm": {
+          "fidel": "አምነህ",
+          "translit": "amnäh",
+          "en": "[you (m.)] having believed"
+        },
+        "2sgf": {
+          "fidel": "አምነሽ",
+          "translit": "amnäš",
+          "en": "[you (f.)] having believed"
+        },
+        "3sgm": {
+          "fidel": "አምኖ",
+          "translit": "amno",
+          "en": "(he) having believed"
+        },
+        "3sgf": {
+          "fidel": "አምና",
+          "translit": "amna",
+          "en": "(she) having believed"
+        },
+        "1pl": {
+          "fidel": "አምነን",
+          "translit": "amnän",
+          "en": "(we) having believed"
+        },
+        "2pl": {
+          "fidel": "አምናችሁ",
+          "translit": "amnaččəhu",
+          "en": "(you) having believed"
+        },
+        "3pl": {
+          "fidel": "አምነው",
+          "translit": "amnäw",
+          "en": "(they) having believed"
+        }
+      },
+      "compound_gerund": {
+        "1sg": {
+          "fidel": "አምኜያለሁ",
+          "translit": "aməññeyallähu",
+          "en": "I have believed"
+        },
+        "2sgm": {
+          "fidel": "አምነሃል",
+          "translit": "amnähall",
+          "en": "you (m.) have believed"
+        },
+        "2sgf": {
+          "fidel": "አምነሻል",
+          "translit": "amnäšall",
+          "en": "you (f.) have believed"
+        },
+        "3sgm": {
+          "fidel": "አምኗል",
+          "translit": "amnwall",
+          "en": "he has believed"
+        },
+        "3sgf": {
+          "fidel": "አምናለች",
+          "translit": "amnalläčč",
+          "en": "she has believed"
+        },
+        "1pl": {
+          "fidel": "አምነናል",
+          "translit": "amnänall",
+          "en": "we have believed"
+        },
+        "2pl": {
+          "fidel": "አምናችኋል",
+          "translit": "amnaččhwall",
+          "en": "you have believed"
+        },
+        "3pl": {
+          "fidel": "አምነዋል",
+          "translit": "amnäwall",
+          "en": "they have believed"
+        }
+      },
+      "jussive_imperative": {
+        "1sg": {
+          "fidel": "ልመን",
+          "translit": "ləmän",
+          "en": "let me believe"
+        },
+        "2sgm": {
+          "fidel": "እመን",
+          "translit": "əmän",
+          "en": "[you(m.)] believe!"
+        },
+        "2sgf": {
+          "fidel": "እመኝ",
+          "translit": "əmäñi",
+          "en": "[you (f.)] believe!"
+        },
+        "3sgm": {
+          "fidel": "ይመን",
+          "translit": "yəmän",
+          "en": "let him believe"
+        },
+        "3sgf": {
+          "fidel": "ትመን",
+          "translit": "təmän",
+          "en": "let her believe"
+        },
+        "1pl": {
+          "fidel": "እንመን",
+          "translit": "ənnəmän",
+          "en": "let us believe"
+        },
+        "2pl": {
+          "fidel": "እመኑ",
+          "translit": "əmänu",
+          "en": "(you) believe!"
+        },
+        "3pl": {
+          "fidel": "ይመኑ",
+          "translit": "yəmänu",
+          "en": "let them believe"
+        }
+      },
+      "negative_perfect": {
+        "1sg": {
+          "fidel": "አላመንኩም",
+          "translit": "alammänkumm",
+          "en": "I didn't believe"
+        },
+        "2sgm": {
+          "fidel": "አላመንክም",
+          "translit": "alammänkəmm",
+          "en": "you (m.) didn't believe"
+        },
+        "2sgf": {
+          "fidel": "አላመንሽም",
+          "translit": "alammänšəmm",
+          "en": "you (f.) didn't believe"
+        },
+        "3sgm": {
+          "fidel": "አላመነም",
+          "translit": "alammänämm",
+          "en": "he didn't believe"
+        },
+        "3sgf": {
+          "fidel": "አላመነችም",
+          "translit": "alammänäččəmm",
+          "en": "she didn't believe"
+        },
+        "1pl": {
+          "fidel": "አላመንንም",
+          "translit": "alammännəmm",
+          "en": "we didn't believe"
+        },
+        "2pl": {
+          "fidel": "አላመናችሁም",
+          "translit": "alammänaččəhumm",
+          "en": "you didn't believe"
+        },
+        "3pl": {
+          "fidel": "አላመኑም",
+          "translit": "alammänumm",
+          "en": "they didn't believe"
+        }
+      },
+      "negative_imperfective": {
+        "1sg": {
+          "fidel": "አላምንም",
+          "translit": "alamnəmm",
+          "en": "I don't believe"
+        },
+        "2sgm": {
+          "fidel": "አታምንም",
+          "translit": "atamnəmm",
+          "en": "you (m.) don't believe"
+        },
+        "2sgf": {
+          "fidel": "አታምኚም",
+          "translit": "atamñimm",
+          "en": "you (f.) don't believe"
+        },
+        "3sgm": {
+          "fidel": "አያምንም",
+          "translit": "ayamnəmm",
+          "en": "he doesn't believe"
+        },
+        "3sgf": {
+          "fidel": "አታምንም",
+          "translit": "atamnəmm",
+          "en": "she doesn't believe"
+        },
+        "1pl": {
+          "fidel": "አናምንም",
+          "translit": "anamnəmm",
+          "en": "we don't believe"
+        },
+        "2pl": {
+          "fidel": "አታምኑም",
+          "translit": "atamnumm",
+          "en": "you don't believe"
+        },
+        "3pl": {
+          "fidel": "አያምኑም",
+          "translit": "ayamnumm",
+          "en": "they don't believe"
+        }
+      },
+      "negative_jussive_imperative": {
+        "1sg": {
+          "fidel": "አልመን",
+          "translit": "aləmän",
+          "en": "let me not believe"
+        },
+        "2sgm": {
+          "fidel": "አትመን",
+          "translit": "attəmän",
+          "en": "[you(m.)] don't believe"
+        },
+        "2sgf": {
+          "fidel": "አትመኝ",
+          "translit": "attəmäni",
+          "en": "[you (f.)] don't believe"
+        },
+        "3sgm": {
+          "fidel": "አይመን",
+          "translit": "ayəmän",
+          "en": "let him not believe"
+        },
+        "3sgf": {
+          "fidel": "አትመን",
+          "translit": "attəmän",
+          "en": "let her not believe"
+        },
+        "1pl": {
+          "fidel": "አንመን",
+          "translit": "annəmän",
+          "en": "let us not believe"
+        },
+        "2pl": {
+          "fidel": "አትመኑ",
+          "translit": "attəmänu",
+          "en": "(you) don't believe"
+        },
+        "3pl": {
+          "fidel": "አይመኑ",
+          "translit": "ayəmänu",
+          "en": "let them not believe"
+        }
+      },
+      "infinitive": {
+        "fidel": "ማመን",
+        "translit": "mamän"
+      }
+    },
+    "አለፈ": {
+      "english": "pass",
+      "perfect": {
+        "1sg": {
+          "fidel": "አለፍኩ",
+          "translit": "alläfku",
+          "en": "I passed"
+        },
+        "2sgm": {
+          "fidel": "አለፍክ",
+          "translit": "alläfk",
+          "en": "you (m.) passed"
+        },
+        "2sgf": {
+          "fidel": "አለፍሽ",
+          "translit": "alläfš",
+          "en": "you (f.) passed"
+        },
+        "3sgm": {
+          "fidel": "አለፈ",
+          "translit": "alläfä",
+          "en": "he passed"
+        },
+        "3sgf": {
+          "fidel": "አለፈች",
+          "translit": "alläfäčč",
+          "en": "she passed"
+        },
+        "1pl": {
+          "fidel": "አለፍን",
+          "translit": "alläfn",
+          "en": "we passed"
+        },
+        "2pl": {
+          "fidel": "አለፋችሁ",
+          "translit": "alläfaččəhu",
+          "en": "you passed"
+        },
+        "3pl": {
+          "fidel": "አለፉ",
+          "translit": "alläfu",
+          "en": "they passed"
+        }
+      },
+      "imperfective_compound": {
+        "1sg": {
+          "fidel": "አልፋለሁ",
+          "translit": "alfallähu",
+          "en": "I pass / I will pass"
+        },
+        "2sgm": {
+          "fidel": "ታልፋለህ",
+          "translit": "talfalläh",
+          "en": "you (m.) pass / you (m.) will pass"
+        },
+        "2sgf": {
+          "fidel": "ታልፊያለሽ",
+          "translit": "talfiyalläš",
+          "en": "you (f.) pass / you (f.) will pass"
+        },
+        "3sgm": {
+          "fidel": "ያልፋል",
+          "translit": "yalfall",
+          "en": "he passes / he will pas"
+        },
+        "3sgf": {
+          "fidel": "ታልፋለች",
+          "translit": "talfalläčč",
+          "en": "she passes / she will pas"
+        },
+        "1pl": {
+          "fidel": "እናልፋለን",
+          "translit": "ənnalfallän",
+          "en": "we pass / we will pass"
+        },
+        "2pl": {
+          "fidel": "ታልፋላችሁ",
+          "translit": "talfallaččəhu",
+          "en": "you pass / you will pass"
+        },
+        "3pl": {
+          "fidel": "ያልፋሉ",
+          "translit": "yalfallu",
+          "en": "they pass / they will pass"
+        }
+      },
+      "gerund": {
+        "1sg": {
+          "fidel": "አልፌ",
+          "translit": "aləffe",
+          "en": "(I) having passed"
+        },
+        "2sgm": {
+          "fidel": "አልፈህ",
+          "translit": "alfäh",
+          "en": "[you (m.)] having passed"
+        },
+        "2sgf": {
+          "fidel": "አልፈሽ",
+          "translit": "alfäš",
+          "en": "[you (f.)] having passed"
+        },
+        "3sgm": {
+          "fidel": "አልፎ",
+          "translit": "alfo",
+          "en": "(he) having passed"
+        },
+        "3sgf": {
+          "fidel": "አልፋ",
+          "translit": "alfa",
+          "en": "(she) having passed"
+        },
+        "1pl": {
+          "fidel": "አልፈን",
+          "translit": "alfän",
+          "en": "(we) having passed"
+        },
+        "2pl": {
+          "fidel": "አልፋችሁ",
+          "translit": "alfaččəhu",
+          "en": "(you) having passed"
+        },
+        "3pl": {
+          "fidel": "አልፈው",
+          "translit": "alfäw",
+          "en": "(they) having passed"
+        }
+      },
+      "compound_gerund": {
+        "1sg": {
+          "fidel": "አልፌያለሁ",
+          "translit": "aləffeyallähu",
+          "en": "I have passed"
+        },
+        "2sgm": {
+          "fidel": "አልፈሃል",
+          "translit": "alfähall",
+          "en": "you (m.) have passed"
+        },
+        "2sgf": {
+          "fidel": "አልፈሻል",
+          "translit": "alfäšall",
+          "en": "you (f.) have passed"
+        },
+        "3sgm": {
+          "fidel": "አልፏል",
+          "translit": "alfwall",
+          "en": "he has passed"
+        },
+        "3sgf": {
+          "fidel": "አልፋለች",
+          "translit": "alfalläčč",
+          "en": "she has passed"
+        },
+        "1pl": {
+          "fidel": "አልፈናል",
+          "translit": "alfänall",
+          "en": "we have passed"
+        },
+        "2pl": {
+          "fidel": "አልፋችኋል",
+          "translit": "alfaččhwall",
+          "en": "you have passed"
+        },
+        "3pl": {
+          "fidel": "አልፈዋል",
+          "translit": "alfäwall",
+          "en": "they have passed"
+        }
+      },
+      "jussive_imperative": {
+        "1sg": {
+          "fidel": "ልለፍ",
+          "translit": "lläf",
+          "en": "let me pass"
+        },
+        "2sgm": {
+          "fidel": "እለፍ",
+          "translit": "əläf",
+          "en": "[you(m.)] pass!"
+        },
+        "2sgf": {
+          "fidel": "እለፊ",
+          "translit": "əläfi",
+          "en": "[you (f.)] pass!"
+        },
+        "3sgm": {
+          "fidel": "ይለፍ",
+          "translit": "yläf",
+          "en": "let him pass"
+        },
+        "3sgf": {
+          "fidel": "ትለፍ",
+          "translit": "tläf",
+          "en": "let her pass"
+        },
+        "1pl": {
+          "fidel": "እንለፍ",
+          "translit": "ənläf",
+          "en": "let us pass"
+        },
+        "2pl": {
+          "fidel": "እለፉ",
+          "translit": "əläfu",
+          "en": "(you) pass!"
+        },
+        "3pl": {
+          "fidel": "ይለፉ",
+          "translit": "yläfu",
+          "en": "let them pass"
+        }
+      },
+      "negative_perfect": {
+        "1sg": {
+          "fidel": "አላለፍኩም",
+          "translit": "alalläfkumm",
+          "en": "I didn't pass"
+        },
+        "2sgm": {
+          "fidel": "አላለፍክም",
+          "translit": "alalläfkəmm",
+          "en": "you (m.) didn't pass"
+        },
+        "2sgf": {
+          "fidel": "አላለፍሽም",
+          "translit": "alalläfšəmm",
+          "en": "you (f.) didn't pass"
+        },
+        "3sgm": {
+          "fidel": "አላለፈም",
+          "translit": "alalläfämm",
+          "en": "he didn't pass"
+        },
+        "3sgf": {
+          "fidel": "አላለፈችም",
+          "translit": "alalläfäččəmm",
+          "en": "she didn't pass"
+        },
+        "1pl": {
+          "fidel": "አላለፍንም",
+          "translit": "alalläfnəmm",
+          "en": "we didn't pass"
+        },
+        "2pl": {
+          "fidel": "አላለፋችሁም",
+          "translit": "alalläfaččəhumm",
+          "en": "you didn't pass"
+        },
+        "3pl": {
+          "fidel": "አላለፉም",
+          "translit": "alalläfumm",
+          "en": "they didn't pass"
+        }
+      },
+      "negative_imperfective": {
+        "1sg": {
+          "fidel": "አላልፍም",
+          "translit": "alalfəmm",
+          "en": "I don't pass"
+        },
+        "2sgm": {
+          "fidel": "አታልፍም",
+          "translit": "atalfəmm",
+          "en": "you (m.) don't pass"
+        },
+        "2sgf": {
+          "fidel": "አታልፊም",
+          "translit": "atalfimm",
+          "en": "you (f.) don't pass"
+        },
+        "3sgm": {
+          "fidel": "አያልፍም",
+          "translit": "ayalfəmm",
+          "en": "he doesn't pass"
+        },
+        "3sgf": {
+          "fidel": "አታልፍም",
+          "translit": "atalfəmm",
+          "en": "she doesn't pass"
+        },
+        "1pl": {
+          "fidel": "አናልፍም",
+          "translit": "analfəmm",
+          "en": "we don't pass"
+        },
+        "2pl": {
+          "fidel": "አታልፉም",
+          "translit": "atalfumm",
+          "en": "you don't pass"
+        },
+        "3pl": {
+          "fidel": "አያልፉም",
+          "translit": "ayalfumm",
+          "en": "they don't pass"
+        }
+      },
+      "negative_jussive_imperative": {
+        "1sg": {
+          "fidel": "አልለፍ",
+          "translit": "aləläf",
+          "en": "let me not pass"
+        },
+        "2sgm": {
+          "fidel": "አትለፍ",
+          "translit": "attəläf",
+          "en": "[you(m.)] don't pass"
+        },
+        "2sgf": {
+          "fidel": "አትለፊ",
+          "translit": "attəläfi",
+          "en": "[you (f.)] don't pass"
+        },
+        "3sgm": {
+          "fidel": "አይለፍ",
+          "translit": "ayəläf",
+          "en": "let him not pass"
+        },
+        "3sgf": {
+          "fidel": "አትለፍ",
+          "translit": "attəläf",
+          "en": "let her not pass"
+        },
+        "1pl": {
+          "fidel": "አንለፍ",
+          "translit": "annəläf",
+          "en": "let us not pass"
+        },
+        "2pl": {
+          "fidel": "አትለፉ",
+          "translit": "attəläfu",
+          "en": "(you) don't pass"
+        },
+        "3pl": {
+          "fidel": "አይለፉ",
+          "translit": "ayəläfu",
+          "en": "let them not pass"
+        }
+      },
+      "infinitive": {
+        "fidel": "ማለፍ",
+        "translit": "maläf"
+      }
+    },
+    "አረሰ": {
+      "english": "plow, till",
+      "perfect": {
+        "1sg": {
+          "fidel": "አረስኩ",
+          "translit": "arräsku",
+          "en": "I plow, tilled"
+        },
+        "2sgm": {
+          "fidel": "አረስክ",
+          "translit": "arräsk",
+          "en": "you (m.) plow, tilled"
+        },
+        "2sgf": {
+          "fidel": "አረስሽ",
+          "translit": "arräsš",
+          "en": "you (f.) plow, tilled"
+        },
+        "3sgm": {
+          "fidel": "አረሰ",
+          "translit": "arräsä",
+          "en": "he plow, tilled"
+        },
+        "3sgf": {
+          "fidel": "አረሰች",
+          "translit": "arräsäčč",
+          "en": "she plow, tilled"
+        },
+        "1pl": {
+          "fidel": "አረስን",
+          "translit": "arräsn",
+          "en": "we plow, tilled"
+        },
+        "2pl": {
+          "fidel": "አረሳችሁ",
+          "translit": "arräsaččəhu",
+          "en": "you plow, tilled"
+        },
+        "3pl": {
+          "fidel": "አረሱ",
+          "translit": "arräsu",
+          "en": "they plow, tilled"
+        }
+      },
+      "imperfective_compound": {
+        "1sg": {
+          "fidel": "አርሳለሁ",
+          "translit": "arsallähu",
+          "en": "I plow, till / I will plow, till"
+        },
+        "2sgm": {
+          "fidel": "ታርሳለህ",
+          "translit": "tarsalläh",
+          "en": "you (m.) plow, till / you (m.) will plow, till"
+        },
+        "2sgf": {
+          "fidel": "ታርሺያለሽ",
+          "translit": "taršiyalläš",
+          "en": "you (f.) plow, till / you (f.) will plow, till"
+        },
+        "3sgm": {
+          "fidel": "ያርሳል",
+          "translit": "yarsall",
+          "en": "he plow, tills / he will plow, till"
+        },
+        "3sgf": {
+          "fidel": "ታርሳለች",
+          "translit": "tarsalläčč",
+          "en": "she plow, tills / she will plow, till"
+        },
+        "1pl": {
+          "fidel": "እናርሳለን",
+          "translit": "ənnarsallän",
+          "en": "we plow, till / we will plow, till"
+        },
+        "2pl": {
+          "fidel": "ታርሳላችሁ",
+          "translit": "tarsallaččəhu",
+          "en": "you plow, till / you will plow, till"
+        },
+        "3pl": {
+          "fidel": "ያርሳሉ",
+          "translit": "yarsallu",
+          "en": "they plow, till / they will plow, till"
+        }
+      },
+      "gerund": {
+        "1sg": {
+          "fidel": "አርሼ",
+          "translit": "arəšše",
+          "en": "(I) having plow, tilled"
+        },
+        "2sgm": {
+          "fidel": "አርሰህ",
+          "translit": "arsäh",
+          "en": "[you (m.)] having plow, tilled"
+        },
+        "2sgf": {
+          "fidel": "አርሰሽ",
+          "translit": "arsäš",
+          "en": "[you (f.)] having plow, tilled"
+        },
+        "3sgm": {
+          "fidel": "አርሶ",
+          "translit": "arso",
+          "en": "(he) having plow, tilled"
+        },
+        "3sgf": {
+          "fidel": "አርሳ",
+          "translit": "arsa",
+          "en": "(she) having plow, tilled"
+        },
+        "1pl": {
+          "fidel": "አርሰን",
+          "translit": "arsän",
+          "en": "(we) having plow, tilled"
+        },
+        "2pl": {
+          "fidel": "አርሳችሁ",
+          "translit": "arsaččəhu",
+          "en": "(you) having plow, tilled"
+        },
+        "3pl": {
+          "fidel": "አርሰው",
+          "translit": "arsäw",
+          "en": "(they) having plow, tilled"
+        }
+      },
+      "compound_gerund": {
+        "1sg": {
+          "fidel": "አርሼያለሁ",
+          "translit": "arəššeyallähu",
+          "en": "I have plow, tilled"
+        },
+        "2sgm": {
+          "fidel": "አርሰሃል",
+          "translit": "arsähall",
+          "en": "you (m.) have plow, tilled"
+        },
+        "2sgf": {
+          "fidel": "አርሰሻል",
+          "translit": "arsäšall",
+          "en": "you (f.) have plow, tilled"
+        },
+        "3sgm": {
+          "fidel": "አርሷል",
+          "translit": "arswall",
+          "en": "he has plow, tilled"
+        },
+        "3sgf": {
+          "fidel": "አርሳለች",
+          "translit": "arsalläčč",
+          "en": "she has plow, tilled"
+        },
+        "1pl": {
+          "fidel": "አርሰናል",
+          "translit": "arsänall",
+          "en": "we have plow, tilled"
+        },
+        "2pl": {
+          "fidel": "አርሳችኋል",
+          "translit": "arsaččhwall",
+          "en": "you have plow, tilled"
+        },
+        "3pl": {
+          "fidel": "አርሰዋል",
+          "translit": "arsäwall",
+          "en": "they have plow, tilled"
+        }
+      },
+      "jussive_imperative": {
+        "1sg": {
+          "fidel": "ልረስ",
+          "translit": "lräs",
+          "en": "let me plow"
+        },
+        "2sgm": {
+          "fidel": "እረስ",
+          "translit": "əräs",
+          "en": "[you(m.)] plow!"
+        },
+        "2sgf": {
+          "fidel": "እረሽ",
+          "translit": "əräši",
+          "en": "[you (f.)] plow!"
+        },
+        "3sgm": {
+          "fidel": "ይረስ",
+          "translit": "yräs",
+          "en": "let him plow"
+        },
+        "3sgf": {
+          "fidel": "ትረስ",
+          "translit": "träs",
+          "en": "let her plow"
+        },
+        "1pl": {
+          "fidel": "እንረስ",
+          "translit": "ənräs",
+          "en": "let us plow"
+        },
+        "2pl": {
+          "fidel": "እረሱ",
+          "translit": "əräsu",
+          "en": "(you) plow!"
+        },
+        "3pl": {
+          "fidel": "ይረሱ",
+          "translit": "yräsu",
+          "en": "let them plow"
+        }
+      },
+      "negative_perfect": {
+        "1sg": {
+          "fidel": "አላረስኩም",
+          "translit": "alarräskumm",
+          "en": "I didn't plow, till"
+        },
+        "2sgm": {
+          "fidel": "አላረስክም",
+          "translit": "alarräskəmm",
+          "en": "you (m.) didn't plow, till"
+        },
+        "2sgf": {
+          "fidel": "አላረስሽም",
+          "translit": "alarräsšəmm",
+          "en": "you (f.) didn't plow, till"
+        },
+        "3sgm": {
+          "fidel": "አላረሰም",
+          "translit": "alarräsämm",
+          "en": "he didn't plow, till"
+        },
+        "3sgf": {
+          "fidel": "አላረሰችም",
+          "translit": "alarräsäččəmm",
+          "en": "she didn't plow, till"
+        },
+        "1pl": {
+          "fidel": "አላረስንም",
+          "translit": "alarräsnəmm",
+          "en": "we didn't plow, till"
+        },
+        "2pl": {
+          "fidel": "አላረሳችሁም",
+          "translit": "alarräsaččəhumm",
+          "en": "you didn't plow, till"
+        },
+        "3pl": {
+          "fidel": "አላረሱም",
+          "translit": "alarräsumm",
+          "en": "they didn't plow, till"
+        }
+      },
+      "negative_imperfective": {
+        "1sg": {
+          "fidel": "አላርስም",
+          "translit": "alarsəmm",
+          "en": "I don't plow, till"
+        },
+        "2sgm": {
+          "fidel": "አታርስም",
+          "translit": "atarsəmm",
+          "en": "you (m.) don't plow, till"
+        },
+        "2sgf": {
+          "fidel": "አታርሺም",
+          "translit": "ataršimm",
+          "en": "you (f.) don't plow, till"
+        },
+        "3sgm": {
+          "fidel": "አያርስም",
+          "translit": "ayarsəmm",
+          "en": "he doesn't plow, till"
+        },
+        "3sgf": {
+          "fidel": "አታርስም",
+          "translit": "atarsəmm",
+          "en": "she doesn't plow, till"
+        },
+        "1pl": {
+          "fidel": "አናርስም",
+          "translit": "anarsəmm",
+          "en": "we don't plow, till"
+        },
+        "2pl": {
+          "fidel": "አታርሱም",
+          "translit": "atarsumm",
+          "en": "you don't plow, till"
+        },
+        "3pl": {
+          "fidel": "አያርሱም",
+          "translit": "ayarsumm",
+          "en": "they don't plow, till"
+        }
+      },
+      "negative_jussive_imperative": {
+        "1sg": {
+          "fidel": "አልረስ",
+          "translit": "aləräs",
+          "en": "let me not plow"
+        },
+        "2sgm": {
+          "fidel": "አትረስ",
+          "translit": "attəräs",
+          "en": "[you(m.)] don't plow"
+        },
+        "2sgf": {
+          "fidel": "አትረሽ",
+          "translit": "attəräsi",
+          "en": "[you (f.)] don't plow"
+        },
+        "3sgm": {
+          "fidel": "አይረስ",
+          "translit": "ayəräs",
+          "en": "let him not plow"
+        },
+        "3sgf": {
+          "fidel": "አትረስ",
+          "translit": "attəräs",
+          "en": "let her not plow"
+        },
+        "1pl": {
+          "fidel": "አንረስ",
+          "translit": "annəräs",
+          "en": "let us not plow"
+        },
+        "2pl": {
+          "fidel": "አትረሱ",
+          "translit": "attəräsu",
+          "en": "(you) don't plow"
+        },
+        "3pl": {
+          "fidel": "አይረሱ",
+          "translit": "ayəräsu",
+          "en": "let them not plow"
+        }
+      },
+      "infinitive": {
+        "fidel": "ማረስ",
+        "translit": "maräs"
+      }
+    },
+    "አረደ": {
+      "english": "slaughter (animal)",
+      "perfect": {
+        "1sg": {
+          "fidel": "አረድኩ",
+          "translit": "arrädku",
+          "en": "I slaughtered"
+        },
+        "2sgm": {
+          "fidel": "አረድክ",
+          "translit": "arrädk",
+          "en": "you (m.) slaughtered"
+        },
+        "2sgf": {
+          "fidel": "አረድሽ",
+          "translit": "arrädš",
+          "en": "you (f.) slaughtered"
+        },
+        "3sgm": {
+          "fidel": "አረደ",
+          "translit": "arrädä",
+          "en": "he slaughtered"
+        },
+        "3sgf": {
+          "fidel": "አረደች",
+          "translit": "arrädäčč",
+          "en": "she slaughtered"
+        },
+        "1pl": {
+          "fidel": "አረድን",
+          "translit": "arrädn",
+          "en": "we slaughtered"
+        },
+        "2pl": {
+          "fidel": "አረዳችሁ",
+          "translit": "arrädaččəhu",
+          "en": "you slaughtered"
+        },
+        "3pl": {
+          "fidel": "አረዱ",
+          "translit": "arrädu",
+          "en": "they slaughtered"
+        }
+      },
+      "imperfective_compound": {
+        "1sg": {
+          "fidel": "አርዳለሁ",
+          "translit": "ardallähu",
+          "en": "I slaughter / I will slaughter"
+        },
+        "2sgm": {
+          "fidel": "ታርዳለህ",
+          "translit": "tardalläh",
+          "en": "you (m.) slaughter / you (m.) will slaughter"
+        },
+        "2sgf": {
+          "fidel": "ታርጂያለሽ",
+          "translit": "tarǧiyalläš",
+          "en": "you (f.) slaughter / you (f.) will slaughter"
+        },
+        "3sgm": {
+          "fidel": "ያርዳል",
+          "translit": "yardall",
+          "en": "he slaughters / he will slaughter"
+        },
+        "3sgf": {
+          "fidel": "ታርዳለች",
+          "translit": "tardalläčč",
+          "en": "she slaughters / she will slaughter"
+        },
+        "1pl": {
+          "fidel": "እናርዳለን",
+          "translit": "ənnardallän",
+          "en": "we slaughter / we will slaughter"
+        },
+        "2pl": {
+          "fidel": "ታርዳላችሁ",
+          "translit": "tardallaččəhu",
+          "en": "you slaughter / you will slaughter"
+        },
+        "3pl": {
+          "fidel": "ያርዳሉ",
+          "translit": "yardallu",
+          "en": "they slaughter / they will slaughter"
+        }
+      },
+      "gerund": {
+        "1sg": {
+          "fidel": "አርጄ",
+          "translit": "arəǧǧe",
+          "en": "(I) having slaughtered"
+        },
+        "2sgm": {
+          "fidel": "አርደህ",
+          "translit": "ardäh",
+          "en": "[you (m.)] having slaughtered"
+        },
+        "2sgf": {
+          "fidel": "አርደሽ",
+          "translit": "ardäš",
+          "en": "[you (f.)] having slaughtered"
+        },
+        "3sgm": {
+          "fidel": "አርዶ",
+          "translit": "ardo",
+          "en": "(he) having slaughtered"
+        },
+        "3sgf": {
+          "fidel": "አርዳ",
+          "translit": "arda",
+          "en": "(she) having slaughtered"
+        },
+        "1pl": {
+          "fidel": "አርደን",
+          "translit": "ardän",
+          "en": "(we) having slaughtered"
+        },
+        "2pl": {
+          "fidel": "አርዳችሁ",
+          "translit": "ardaččəhu",
+          "en": "(you) having slaughtered"
+        },
+        "3pl": {
+          "fidel": "አርደው",
+          "translit": "ardäw",
+          "en": "(they) having slaughtered"
+        }
+      },
+      "compound_gerund": {
+        "1sg": {
+          "fidel": "አርጄያለሁ",
+          "translit": "arəǧǧeyallähu",
+          "en": "I have slaughtered"
+        },
+        "2sgm": {
+          "fidel": "አርደሃል",
+          "translit": "ardähall",
+          "en": "you (m.) have slaughtered"
+        },
+        "2sgf": {
+          "fidel": "አርደሻል",
+          "translit": "ardäšall",
+          "en": "you (f.) have slaughtered"
+        },
+        "3sgm": {
+          "fidel": "አርዷል",
+          "translit": "ardwall",
+          "en": "he has slaughtered"
+        },
+        "3sgf": {
+          "fidel": "አርዳለች",
+          "translit": "ardalläčč",
+          "en": "she has slaughtered"
+        },
+        "1pl": {
+          "fidel": "አርደናል",
+          "translit": "ardänall",
+          "en": "we have slaughtered"
+        },
+        "2pl": {
+          "fidel": "አርዳችኋል",
+          "translit": "ardaččhwall",
+          "en": "you have slaughtered"
+        },
+        "3pl": {
+          "fidel": "አርደዋል",
+          "translit": "ardäwall",
+          "en": "they have slaughtered"
+        }
+      },
+      "jussive_imperative": {
+        "1sg": {
+          "fidel": "ልረድ",
+          "translit": "lräd",
+          "en": "let me slaughter (animal)"
+        },
+        "2sgm": {
+          "fidel": "እረድ",
+          "translit": "əräd",
+          "en": "[you(m.)] slaughter (animal)!"
+        },
+        "2sgf": {
+          "fidel": "እረጅ",
+          "translit": "əräǧi",
+          "en": "[you (f.)] slaughter (animal)!"
+        },
+        "3sgm": {
+          "fidel": "ይረድ",
+          "translit": "yräd",
+          "en": "let him slaughter (animal)"
+        },
+        "3sgf": {
+          "fidel": "ትረድ",
+          "translit": "träd",
+          "en": "let her slaughter (animal)"
+        },
+        "1pl": {
+          "fidel": "እንረድ",
+          "translit": "ənräd",
+          "en": "let us slaughter (animal)"
+        },
+        "2pl": {
+          "fidel": "እረዱ",
+          "translit": "ərädu",
+          "en": "(you) slaughter (animal)!"
+        },
+        "3pl": {
+          "fidel": "ይረዱ",
+          "translit": "yrädu",
+          "en": "let them slaughter (animal)"
+        }
+      },
+      "negative_perfect": {
+        "1sg": {
+          "fidel": "አላረድኩም",
+          "translit": "alarrädkumm",
+          "en": "I didn't slaughter"
+        },
+        "2sgm": {
+          "fidel": "አላረድክም",
+          "translit": "alarrädkəmm",
+          "en": "you (m.) didn't slaughter"
+        },
+        "2sgf": {
+          "fidel": "አላረድሽም",
+          "translit": "alarrädšəmm",
+          "en": "you (f.) didn't slaughter"
+        },
+        "3sgm": {
+          "fidel": "አላረደም",
+          "translit": "alarrädämm",
+          "en": "he didn't slaughter"
+        },
+        "3sgf": {
+          "fidel": "አላረደችም",
+          "translit": "alarrädäččəmm",
+          "en": "she didn't slaughter"
+        },
+        "1pl": {
+          "fidel": "አላረድንም",
+          "translit": "alarrädnəmm",
+          "en": "we didn't slaughter"
+        },
+        "2pl": {
+          "fidel": "አላረዳችሁም",
+          "translit": "alarrädaččəhumm",
+          "en": "you didn't slaughter"
+        },
+        "3pl": {
+          "fidel": "አላረዱም",
+          "translit": "alarrädumm",
+          "en": "they didn't slaughter"
+        }
+      },
+      "negative_imperfective": {
+        "1sg": {
+          "fidel": "አላርድም",
+          "translit": "alardəmm",
+          "en": "I don't slaughter"
+        },
+        "2sgm": {
+          "fidel": "አታርድም",
+          "translit": "atardəmm",
+          "en": "you (m.) don't slaughter"
+        },
+        "2sgf": {
+          "fidel": "አታርጂም",
+          "translit": "atarǧimm",
+          "en": "you (f.) don't slaughter"
+        },
+        "3sgm": {
+          "fidel": "አያርድም",
+          "translit": "ayardəmm",
+          "en": "he doesn't slaughter"
+        },
+        "3sgf": {
+          "fidel": "አታርድም",
+          "translit": "atardəmm",
+          "en": "she doesn't slaughter"
+        },
+        "1pl": {
+          "fidel": "አናርድም",
+          "translit": "anardəmm",
+          "en": "we don't slaughter"
+        },
+        "2pl": {
+          "fidel": "አታርዱም",
+          "translit": "atardumm",
+          "en": "you don't slaughter"
+        },
+        "3pl": {
+          "fidel": "አያርዱም",
+          "translit": "ayardumm",
+          "en": "they don't slaughter"
+        }
+      },
+      "negative_jussive_imperative": {
+        "1sg": {
+          "fidel": "አልረድ",
+          "translit": "aləräd",
+          "en": "let me not slaughter (animal)"
+        },
+        "2sgm": {
+          "fidel": "አትረድ",
+          "translit": "attəräd",
+          "en": "[you(m.)] don't slaughter (animal)"
+        },
+        "2sgf": {
+          "fidel": "አትረጅ",
+          "translit": "attəräǧi",
+          "en": "[you (f.)] don't slaughter (animal)"
+        },
+        "3sgm": {
+          "fidel": "አይረድ",
+          "translit": "ayəräd",
+          "en": "let him not slaughter (animal)"
+        },
+        "3sgf": {
+          "fidel": "አትረድ",
+          "translit": "attəräd",
+          "en": "let her not slaughter (animal)"
+        },
+        "1pl": {
+          "fidel": "አንረድ",
+          "translit": "annəräd",
+          "en": "let us not slaughter (animal)"
+        },
+        "2pl": {
+          "fidel": "አትረዱ",
+          "translit": "attərädu",
+          "en": "(you) don't slaughter (animal)"
+        },
+        "3pl": {
+          "fidel": "አይረዱ",
+          "translit": "ayərädu",
+          "en": "let them not slaughter (animal)"
+        }
+      },
+      "infinitive": {
+        "fidel": "ማረድ",
+        "translit": "maräd"
+      }
+    },
+    "አረፈ": {
+      "english": "rest",
+      "perfect": {
+        "1sg": {
+          "fidel": "አረፍኩ",
+          "translit": "maräf",
+          "en": "I rested"
+        },
+        "2sgm": {
+          "fidel": "አረፍክ",
+          "translit": "arräfku",
+          "en": "you (m.) rested"
+        },
+        "2sgf": {
+          "fidel": "አረፍሽ",
+          "translit": "arräfk",
+          "en": "you (f.) rested"
+        },
+        "3sgm": {
+          "fidel": "አረፈ",
+          "translit": "arräfš",
+          "en": "he rested"
+        },
+        "3sgf": {
+          "fidel": "አረፈች",
+          "translit": "arräfä",
+          "en": "she rested"
+        },
+        "1pl": {
+          "fidel": "አረፍን",
+          "translit": "arräfäčč",
+          "en": "we rested"
+        },
+        "2pl": {
+          "fidel": "አረፋችሁ",
+          "translit": "arräfn",
+          "en": "you rested"
+        },
+        "3pl": {
+          "fidel": "አረፉ",
+          "translit": "arräfaččəhu",
+          "en": "they rested"
+        }
+      },
+      "imperfective_compound": {
+        "1sg": {
+          "fidel": "አርፋለሁ",
+          "translit": "",
+          "en": "I rest / I will rest"
+        },
+        "2sgm": {
+          "fidel": "ታርፋለህ",
+          "translit": "arfallähu",
+          "en": "you (m.) rest / you (m.) will rest"
+        },
+        "2sgf": {
+          "fidel": "ታርፊያለሽ",
+          "translit": "tarfalläh",
+          "en": "you (f.) rest / you (f.) will rest"
+        },
+        "3sgm": {
+          "fidel": "ያርፋል",
+          "translit": "tarfiyalläš",
+          "en": "he rests / he will rest"
+        },
+        "3sgf": {
+          "fidel": "ታርፋለች",
+          "translit": "yarfall",
+          "en": "she rests / she will rest"
+        },
+        "1pl": {
+          "fidel": "እናርፋለን",
+          "translit": "tarfalläčč",
+          "en": "we rest / we will rest"
+        },
+        "2pl": {
+          "fidel": "ታርፋላችሁ",
+          "translit": "ənnarfallän",
+          "en": "you rest / you will rest"
+        },
+        "3pl": {
+          "fidel": "ያርፋሉ",
+          "translit": "tarfallaččəhu",
+          "en": "they rest / they will rest"
+        }
+      },
+      "gerund": {
+        "1sg": {
+          "fidel": "አርፌ",
+          "translit": "",
+          "en": "(I) having rested"
+        },
+        "2sgm": {
+          "fidel": "አርፈህ",
+          "translit": "arəffe",
+          "en": "[you (m.)] having rested"
+        },
+        "2sgf": {
+          "fidel": "አርፈሽ",
+          "translit": "arfäh",
+          "en": "[you (f.)] having rested"
+        },
+        "3sgm": {
+          "fidel": "አርፎ",
+          "translit": "arfäš",
+          "en": "(he) having rested"
+        },
+        "3sgf": {
+          "fidel": "አርፋ",
+          "translit": "arfo",
+          "en": "(she) having rested"
+        },
+        "1pl": {
+          "fidel": "አርፈን",
+          "translit": "arfa",
+          "en": "(we) having rested"
+        },
+        "2pl": {
+          "fidel": "አርፋችሁ",
+          "translit": "arfän",
+          "en": "(you) having rested"
+        },
+        "3pl": {
+          "fidel": "አርፈው",
+          "translit": "arfaččəhu",
+          "en": "(they) having rested"
+        }
+      },
+      "compound_gerund": {
+        "1sg": {
+          "fidel": "አርፌያለሁ",
+          "translit": "",
+          "en": "I have rested"
+        },
+        "2sgm": {
+          "fidel": "አርፈሃል",
+          "translit": "arəffeyallähu",
+          "en": "you (m.) have rested"
+        },
+        "2sgf": {
+          "fidel": "አርፈሻል",
+          "translit": "arfähall",
+          "en": "you (f.) have rested"
+        },
+        "3sgm": {
+          "fidel": "አርፏል",
+          "translit": "arfäšall",
+          "en": "he has rested"
+        },
+        "3sgf": {
+          "fidel": "አርፋለች",
+          "translit": "arfwall",
+          "en": "she has rested"
+        },
+        "1pl": {
+          "fidel": "አርፈናል",
+          "translit": "arfalläčč",
+          "en": "we have rested"
+        },
+        "2pl": {
+          "fidel": "አርፋችኋል",
+          "translit": "arfänall",
+          "en": "you have rested"
+        },
+        "3pl": {
+          "fidel": "አርፈዋል",
+          "translit": "arfaččhwall",
+          "en": "they have rested"
+        }
+      },
+      "jussive_imperative": {
+        "1sg": {
+          "fidel": "ልረፍ",
+          "translit": "",
+          "en": "let me rest"
+        },
+        "2sgm": {
+          "fidel": "እረፍ",
+          "translit": "lräf",
+          "en": "[you(m.)] rest!"
+        },
+        "2sgf": {
+          "fidel": "እረፊ",
+          "translit": "əräf",
+          "en": "[you (f.)] rest!"
+        },
+        "3sgm": {
+          "fidel": "ይረፍ",
+          "translit": "əräfi",
+          "en": "let him rest"
+        },
+        "3sgf": {
+          "fidel": "ትረፍ",
+          "translit": "yräf",
+          "en": "let her rest"
+        },
+        "1pl": {
+          "fidel": "እንረፍ",
+          "translit": "träf",
+          "en": "let us rest"
+        },
+        "2pl": {
+          "fidel": "እረፉ",
+          "translit": "ənräfu",
+          "en": "(you) rest!"
+        },
+        "3pl": {
+          "fidel": "ይረፉ",
+          "translit": "əräfu",
+          "en": "let them rest"
+        }
+      },
+      "negative_perfect": {
+        "1sg": {
+          "fidel": "አላረፍኩም",
+          "translit": "",
+          "en": "I didn't rest"
+        },
+        "2sgm": {
+          "fidel": "አላረፍክም",
+          "translit": "alarräfkumm",
+          "en": "you (m.) didn't rest"
+        },
+        "2sgf": {
+          "fidel": "አላረፍሽም",
+          "translit": "alarräfkəmm",
+          "en": "you (f.) didn't rest"
+        },
+        "3sgm": {
+          "fidel": "አላረፈም",
+          "translit": "alarräfšəmm",
+          "en": "he didn't rest"
+        },
+        "3sgf": {
+          "fidel": "አላረፈችም",
+          "translit": "alarräfämm",
+          "en": "she didn't rest"
+        },
+        "1pl": {
+          "fidel": "አላረፍንም",
+          "translit": "alarräfäččəmm",
+          "en": "we didn't rest"
+        },
+        "2pl": {
+          "fidel": "አላረፋችሁም",
+          "translit": "alarräfnəmm",
+          "en": "you didn't rest"
+        },
+        "3pl": {
+          "fidel": "አላረፉም",
+          "translit": "alarräfaččəhumm",
+          "en": "they didn't rest"
+        }
+      },
+      "negative_imperfective": {
+        "1sg": {
+          "fidel": "አላርፍም",
+          "translit": "",
+          "en": "I don't rest"
+        },
+        "2sgm": {
+          "fidel": "አታርፍም",
+          "translit": "alarfəmm",
+          "en": "you (m.) don't rest"
+        },
+        "2sgf": {
+          "fidel": "አታርፊም",
+          "translit": "atarfəmm",
+          "en": "you (f.) don't rest"
+        },
+        "3sgm": {
+          "fidel": "አያርፍም",
+          "translit": "atarfimm",
+          "en": "he doesn't rest"
+        },
+        "3sgf": {
+          "fidel": "አታርፍም",
+          "translit": "ayarfəmm",
+          "en": "she doesn't rest"
+        },
+        "1pl": {
+          "fidel": "አናርፍም",
+          "translit": "atarfəmm",
+          "en": "we don't rest"
+        },
+        "2pl": {
+          "fidel": "አታርፉም",
+          "translit": "anarfəmm",
+          "en": "you don't rest"
+        },
+        "3pl": {
+          "fidel": "አያርፉም",
+          "translit": "atarfumm",
+          "en": "they don't rest"
+        }
+      },
+      "negative_jussive_imperative": {
+        "1sg": {
+          "fidel": "አልረፍ",
+          "translit": "",
+          "en": "let me not rest"
+        },
+        "2sgm": {
+          "fidel": "አትረፍ",
+          "translit": "aləräf",
+          "en": "[you(m.)] don't rest"
+        },
+        "2sgf": {
+          "fidel": "አትረፊ",
+          "translit": "attəräf",
+          "en": "[you (f.)] don't rest"
+        },
+        "3sgm": {
+          "fidel": "አይረፍ",
+          "translit": "attəräfi",
+          "en": "let him not rest"
+        },
+        "3sgf": {
+          "fidel": "አትረፍ",
+          "translit": "ayəräf",
+          "en": "let her not rest"
+        },
+        "1pl": {
+          "fidel": "አንረፍ",
+          "translit": "attəräf",
+          "en": "let us not rest"
+        },
+        "2pl": {
+          "fidel": "አትረፉ",
+          "translit": "annəräf",
+          "en": "(you) don't rest"
+        },
+        "3pl": {
+          "fidel": "አይረፉ",
+          "translit": "attəräfu",
+          "en": "let them not rest"
+        }
+      },
+      "infinitive": {
+        "fidel": "ማረፍ",
+        "translit": ""
+      }
+    },
+    "አሰረ": {
+      "english": "tie, imprison",
+      "perfect": {
+        "1sg": {
+          "fidel": "አሰርኩ",
+          "translit": "assärku",
+          "en": "I tie, imprisoned"
+        },
+        "2sgm": {
+          "fidel": "አሰርክ",
+          "translit": "assärk",
+          "en": "you (m.) tie, imprisoned"
+        },
+        "2sgf": {
+          "fidel": "አሰርሽ",
+          "translit": "assärš",
+          "en": "you (f.) tie, imprisoned"
+        },
+        "3sgm": {
+          "fidel": "አሰረ",
+          "translit": "assärä",
+          "en": "he tie, imprisoned"
+        },
+        "3sgf": {
+          "fidel": "አሰረች",
+          "translit": "assäräčč",
+          "en": "she tie, imprisoned"
+        },
+        "1pl": {
+          "fidel": "አሰርን",
+          "translit": "assärn",
+          "en": "we tie, imprisoned"
+        },
+        "2pl": {
+          "fidel": "አሰራችሁ",
+          "translit": "assäraččəhu",
+          "en": "you tie, imprisoned"
+        },
+        "3pl": {
+          "fidel": "አሰሩ",
+          "translit": "assäru",
+          "en": "they tie, imprisoned"
+        }
+      },
+      "imperfective_compound": {
+        "1sg": {
+          "fidel": "አስራለሁ",
+          "translit": "asrallähu",
+          "en": "I tie, imprison / I will tie, imprison"
+        },
+        "2sgm": {
+          "fidel": "ታስራለህ",
+          "translit": "tasralläh",
+          "en": "you (m.) tie, imprison / you (m.) will tie, imprison"
+        },
+        "2sgf": {
+          "fidel": "ታስሪያለሽ",
+          "translit": "tasriyalläš",
+          "en": "you (f.) tie, imprison / you (f.) will tie, imprison"
+        },
+        "3sgm": {
+          "fidel": "ያስራል",
+          "translit": "yasrall",
+          "en": "he tie, imprisons / he will tie, imprison"
+        },
+        "3sgf": {
+          "fidel": "ታስራለች",
+          "translit": "tasralläčč",
+          "en": "she tie, imprisons / she will tie, imprison"
+        },
+        "1pl": {
+          "fidel": "እናስራለን",
+          "translit": "ənnasrallän",
+          "en": "we tie, imprison / we will tie, imprison"
+        },
+        "2pl": {
+          "fidel": "ታስራላችሁ",
+          "translit": "tasrallaččəhu",
+          "en": "you tie, imprison / you will tie, imprison"
+        },
+        "3pl": {
+          "fidel": "ያስራሉ",
+          "translit": "yasrallu",
+          "en": "they tie, imprison / they will tie, imprison"
+        }
+      },
+      "gerund": {
+        "1sg": {
+          "fidel": "አስሬ",
+          "translit": "asərre",
+          "en": "(I) having tie, imprisoned"
+        },
+        "2sgm": {
+          "fidel": "አስረህ",
+          "translit": "asräh",
+          "en": "[you (m.)] having tie, imprisoned"
+        },
+        "2sgf": {
+          "fidel": "አስረሽ",
+          "translit": "asräš",
+          "en": "[you (f.)] having tie, imprisoned"
+        },
+        "3sgm": {
+          "fidel": "አስሮ",
+          "translit": "asro",
+          "en": "(he) having tie, imprisoned"
+        },
+        "3sgf": {
+          "fidel": "አስራ",
+          "translit": "asra",
+          "en": "(she) having tie, imprisoned"
+        },
+        "1pl": {
+          "fidel": "አስረን",
+          "translit": "asrän",
+          "en": "(we) having tie, imprisoned"
+        },
+        "2pl": {
+          "fidel": "አስራችሁ",
+          "translit": "asraččəhu",
+          "en": "(you) having tie, imprisoned"
+        },
+        "3pl": {
+          "fidel": "አስረው",
+          "translit": "asräw",
+          "en": "(they) having tie, imprisoned"
+        }
+      },
+      "compound_gerund": {
+        "1sg": {
+          "fidel": "አስሬያለሁ",
+          "translit": "asərreyallähu",
+          "en": "I have tie, imprisoned"
+        },
+        "2sgm": {
+          "fidel": "አስረሃል",
+          "translit": "asrähall",
+          "en": "you (m.) have tie, imprisoned"
+        },
+        "2sgf": {
+          "fidel": "አስረሻል",
+          "translit": "asräšall",
+          "en": "you (f.) have tie, imprisoned"
+        },
+        "3sgm": {
+          "fidel": "አስሯል",
+          "translit": "asrwall",
+          "en": "he has tie, imprisoned"
+        },
+        "3sgf": {
+          "fidel": "አስራለች",
+          "translit": "asralläčč",
+          "en": "she has tie, imprisoned"
+        },
+        "1pl": {
+          "fidel": "አስረናል",
+          "translit": "asränall",
+          "en": "we have tie, imprisoned"
+        },
+        "2pl": {
+          "fidel": "አስራችኋል",
+          "translit": "asraččhwall",
+          "en": "you have tie, imprisoned"
+        },
+        "3pl": {
+          "fidel": "አስረዋል",
+          "translit": "asräwall",
+          "en": "they have tie, imprisoned"
+        }
+      },
+      "jussive_imperative": {
+        "1sg": {
+          "fidel": "ልሰር",
+          "translit": "lsär",
+          "en": "let me tie"
+        },
+        "2sgm": {
+          "fidel": "እሰር",
+          "translit": "əsär",
+          "en": "[you(m.)] tie!"
+        },
+        "2sgf": {
+          "fidel": "እሰሪ",
+          "translit": "əsäri",
+          "en": "[you (f.)] tie!"
+        },
+        "3sgm": {
+          "fidel": "ይሰር",
+          "translit": "ysär",
+          "en": "let him tie"
+        },
+        "3sgf": {
+          "fidel": "ትሰር",
+          "translit": "tsär",
+          "en": "let her tie"
+        },
+        "1pl": {
+          "fidel": "እንሰር",
+          "translit": "ənsär",
+          "en": "let us tie"
+        },
+        "2pl": {
+          "fidel": "እሰሩ",
+          "translit": "əsäru",
+          "en": "(you) tie!"
+        },
+        "3pl": {
+          "fidel": "ይሰሩ",
+          "translit": "ysäru",
+          "en": "let them tie"
+        }
+      },
+      "negative_perfect": {
+        "1sg": {
+          "fidel": "አላሰርኩም",
+          "translit": "alassärkumm",
+          "en": "I didn't tie, imprison"
+        },
+        "2sgm": {
+          "fidel": "አላሰርክም",
+          "translit": "alassärkəmm",
+          "en": "you (m.) didn't tie, imprison"
+        },
+        "2sgf": {
+          "fidel": "አላሰርሽም",
+          "translit": "alassäršəmm",
+          "en": "you (f.) didn't tie, imprison"
+        },
+        "3sgm": {
+          "fidel": "አላሰረም",
+          "translit": "alassärämm",
+          "en": "he didn't tie, imprison"
+        },
+        "3sgf": {
+          "fidel": "አላሰረችም",
+          "translit": "alassäräččəmm",
+          "en": "she didn't tie, imprison"
+        },
+        "1pl": {
+          "fidel": "አላሰርንም",
+          "translit": "alassärnəmm",
+          "en": "we didn't tie, imprison"
+        },
+        "2pl": {
+          "fidel": "አላሰራችሁም",
+          "translit": "alassäraččəhumm",
+          "en": "you didn't tie, imprison"
+        },
+        "3pl": {
+          "fidel": "አላሰሩም",
+          "translit": "alassärumm",
+          "en": "they didn't tie, imprison"
+        }
+      },
+      "negative_imperfective": {
+        "1sg": {
+          "fidel": "አላስርም",
+          "translit": "alasrəmm",
+          "en": "I don't tie, imprison"
+        },
+        "2sgm": {
+          "fidel": "አታስርም",
+          "translit": "atasrəmm",
+          "en": "you (m.) don't tie, imprison"
+        },
+        "2sgf": {
+          "fidel": "አታስሪም",
+          "translit": "atasrimm",
+          "en": "you (f.) don't tie, imprison"
+        },
+        "3sgm": {
+          "fidel": "አያስርም",
+          "translit": "ayasrəmm",
+          "en": "he doesn't tie, imprison"
+        },
+        "3sgf": {
+          "fidel": "አታስርም",
+          "translit": "atasrəmm",
+          "en": "she doesn't tie, imprison"
+        },
+        "1pl": {
+          "fidel": "አናስርም",
+          "translit": "anasrəmm",
+          "en": "we don't tie, imprison"
+        },
+        "2pl": {
+          "fidel": "አታስሩም",
+          "translit": "atasrumm",
+          "en": "you don't tie, imprison"
+        },
+        "3pl": {
+          "fidel": "አያስሩም",
+          "translit": "ayasrumm",
+          "en": "they don't tie, imprison"
+        }
+      },
+      "negative_jussive_imperative": {
+        "1sg": {
+          "fidel": "አልሰር",
+          "translit": "aləsär",
+          "en": "let me not tie"
+        },
+        "2sgm": {
+          "fidel": "አትሰር",
+          "translit": "attəsär",
+          "en": "[you(m.)] don't tie"
+        },
+        "2sgf": {
+          "fidel": "አትሰሪ",
+          "translit": "attəsäri",
+          "en": "[you (f.)] don't tie"
+        },
+        "3sgm": {
+          "fidel": "አይሰር",
+          "translit": "ayəsär",
+          "en": "let him not tie"
+        },
+        "3sgf": {
+          "fidel": "አትሰር",
+          "translit": "attəsär",
+          "en": "let her not tie"
+        },
+        "1pl": {
+          "fidel": "አንሰር",
+          "translit": "annəsär",
+          "en": "let us not tie"
+        },
+        "2pl": {
+          "fidel": "አትሰሩ",
+          "translit": "attəsäru",
+          "en": "(you) don't tie"
+        },
+        "3pl": {
+          "fidel": "አይሰሩ",
+          "translit": "ayəsäru",
+          "en": "let them not tie"
+        }
+      },
+      "infinitive": {
+        "fidel": "ማሰር",
+        "translit": "masär"
+      }
+    },
+    "አቀፈ": {
+      "english": "embrace",
+      "perfect": {
+        "1sg": {
+          "fidel": "አቀፍኩ",
+          "translit": "aqqäfku",
+          "en": "I embraced"
+        },
+        "2sgm": {
+          "fidel": "አቀፍክ",
+          "translit": "aqqäfk",
+          "en": "you (m.) embraced"
+        },
+        "2sgf": {
+          "fidel": "አቀፍሽ",
+          "translit": "aqqäfš",
+          "en": "you (f.) embraced"
+        },
+        "3sgm": {
+          "fidel": "አቀፈ",
+          "translit": "aqqäfä",
+          "en": "he embraced"
+        },
+        "3sgf": {
+          "fidel": "አቀፈች",
+          "translit": "aqqäfäčč",
+          "en": "she embraced"
+        },
+        "1pl": {
+          "fidel": "አቀፍን",
+          "translit": "aqqäfn",
+          "en": "we embraced"
+        },
+        "2pl": {
+          "fidel": "አቀፋችሁ",
+          "translit": "aqqäfaččəhu",
+          "en": "you embraced"
+        },
+        "3pl": {
+          "fidel": "አቀፉ",
+          "translit": "aqqäfu",
+          "en": "they embraced"
+        }
+      },
+      "imperfective_compound": {
+        "1sg": {
+          "fidel": "አቅፋለሁ",
+          "translit": "aqfallähu",
+          "en": "I embrace / I will embrace"
+        },
+        "2sgm": {
+          "fidel": "ታቅፋለህ",
+          "translit": "taqfalläh",
+          "en": "you (m.) embrace / you (m.) will embrace"
+        },
+        "2sgf": {
+          "fidel": "ታቅፊያለሽ",
+          "translit": "taqfiyalläš",
+          "en": "you (f.) embrace / you (f.) will embrace"
+        },
+        "3sgm": {
+          "fidel": "ያቅፋል",
+          "translit": "yaqfall",
+          "en": "he embraces / he will embrace"
+        },
+        "3sgf": {
+          "fidel": "ታቅፋለች",
+          "translit": "taqfalläčč",
+          "en": "she embraces / she will embrace"
+        },
+        "1pl": {
+          "fidel": "እናቅፋለን",
+          "translit": "ənnaqfallän",
+          "en": "we embrace / we will embrace"
+        },
+        "2pl": {
+          "fidel": "ታቅፋላችሁ",
+          "translit": "taqfallaččəhu",
+          "en": "you embrace / you will embrace"
+        },
+        "3pl": {
+          "fidel": "ያቅፋሉ",
+          "translit": "yaqfallu",
+          "en": "they embrace / they will embrace"
+        }
+      },
+      "gerund": {
+        "1sg": {
+          "fidel": "አቅፌ",
+          "translit": "aqəffe",
+          "en": "(I) having embraced"
+        },
+        "2sgm": {
+          "fidel": "አቅፈህ",
+          "translit": "aqfäh",
+          "en": "[you (m.)] having embraced"
+        },
+        "2sgf": {
+          "fidel": "አቅፈሽ",
+          "translit": "aqfäš",
+          "en": "[you (f.)] having embraced"
+        },
+        "3sgm": {
+          "fidel": "አቅፎ",
+          "translit": "aqfo",
+          "en": "(he) having embraced"
+        },
+        "3sgf": {
+          "fidel": "አቅፋ",
+          "translit": "aqfa",
+          "en": "(she) having embraced"
+        },
+        "1pl": {
+          "fidel": "አቅፈን",
+          "translit": "aqfän",
+          "en": "(we) having embraced"
+        },
+        "2pl": {
+          "fidel": "አቅፋችሁ",
+          "translit": "aqfaččəhu",
+          "en": "(you) having embraced"
+        },
+        "3pl": {
+          "fidel": "አቅፈው",
+          "translit": "aqfäw",
+          "en": "(they) having embraced"
+        }
+      },
+      "compound_gerund": {
+        "1sg": {
+          "fidel": "አቅፌያለሁ",
+          "translit": "aqəffeyallähu",
+          "en": "I have embraced"
+        },
+        "2sgm": {
+          "fidel": "አቅፈሃል",
+          "translit": "aqfähall",
+          "en": "you (m.) have embraced"
+        },
+        "2sgf": {
+          "fidel": "አቅፈሻል",
+          "translit": "aqfäšall",
+          "en": "you (f.) have embraced"
+        },
+        "3sgm": {
+          "fidel": "አቅፏል",
+          "translit": "aqfwall",
+          "en": "he has embraced"
+        },
+        "3sgf": {
+          "fidel": "አቅፋለች",
+          "translit": "aqfalläčč",
+          "en": "she has embraced"
+        },
+        "1pl": {
+          "fidel": "አቅፈናል",
+          "translit": "aqfänall",
+          "en": "we have embraced"
+        },
+        "2pl": {
+          "fidel": "አቅፋችኋል",
+          "translit": "aqfaččhwall",
+          "en": "you have embraced"
+        },
+        "3pl": {
+          "fidel": "አቅፈዋል",
+          "translit": "aqfäwall",
+          "en": "they have embraced"
+        }
+      },
+      "jussive_imperative": {
+        "1sg": {
+          "fidel": "ልቀፍ",
+          "translit": "lqäf",
+          "en": "let me embrace"
+        },
+        "2sgm": {
+          "fidel": "እቀፍ",
+          "translit": "əqäf",
+          "en": "[you(m.)] embrace!"
+        },
+        "2sgf": {
+          "fidel": "እቀፊ",
+          "translit": "əqäfi",
+          "en": "[you (f.)] embrace!"
+        },
+        "3sgm": {
+          "fidel": "ይቀፍ",
+          "translit": "yqäf",
+          "en": "let him embrace"
+        },
+        "3sgf": {
+          "fidel": "ትቀፍ",
+          "translit": "tqäf",
+          "en": "let her embrace"
+        },
+        "1pl": {
+          "fidel": "እንቀፍ",
+          "translit": "ənqäf",
+          "en": "let us embrace"
+        },
+        "2pl": {
+          "fidel": "እቀፉ",
+          "translit": "əqäfu",
+          "en": "(you) embrace!"
+        },
+        "3pl": {
+          "fidel": "ይቀፉ",
+          "translit": "yqäfu",
+          "en": "let them embrace"
+        }
+      },
+      "negative_perfect": {
+        "1sg": {
+          "fidel": "አላቀፍኩም",
+          "translit": "alaqqäfkumm",
+          "en": "I didn't embrace"
+        },
+        "2sgm": {
+          "fidel": "አላቀፍክም",
+          "translit": "alaqqäfkəmm",
+          "en": "you (m.) didn't embrace"
+        },
+        "2sgf": {
+          "fidel": "አላቀፍሽም",
+          "translit": "alaqqäfšəmm",
+          "en": "you (f.) didn't embrace"
+        },
+        "3sgm": {
+          "fidel": "አላቀፈም",
+          "translit": "alaqqäfämm",
+          "en": "he didn't embrace"
+        },
+        "3sgf": {
+          "fidel": "አላቀፈችም",
+          "translit": "alaqqäfäččəmm",
+          "en": "she didn't embrace"
+        },
+        "1pl": {
+          "fidel": "አላቀፍንም",
+          "translit": "alaqqäfnəmm",
+          "en": "we didn't embrace"
+        },
+        "2pl": {
+          "fidel": "አላቀፋችሁም",
+          "translit": "alaqqäfaččəhumm",
+          "en": "you didn't embrace"
+        },
+        "3pl": {
+          "fidel": "አላቀፉም",
+          "translit": "alaqqäfumm",
+          "en": "they didn't embrace"
+        }
+      },
+      "negative_imperfective": {
+        "1sg": {
+          "fidel": "አላቅፍም",
+          "translit": "alaqfəmm",
+          "en": "I don't embrace"
+        },
+        "2sgm": {
+          "fidel": "አታቅፍም",
+          "translit": "ataqfəmm",
+          "en": "you (m.) don't embrace"
+        },
+        "2sgf": {
+          "fidel": "አታቅፊም",
+          "translit": "ataqfimm",
+          "en": "you (f.) don't embrace"
+        },
+        "3sgm": {
+          "fidel": "አያቅፍም",
+          "translit": "ayaqfəmm",
+          "en": "he doesn't embrace"
+        },
+        "3sgf": {
+          "fidel": "አታቅፍም",
+          "translit": "ataqfəmm",
+          "en": "she doesn't embrace"
+        },
+        "1pl": {
+          "fidel": "አናቅፍም",
+          "translit": "anaqfəmm",
+          "en": "we don't embrace"
+        },
+        "2pl": {
+          "fidel": "አታቅፉም",
+          "translit": "ataqfumm",
+          "en": "you don't embrace"
+        },
+        "3pl": {
+          "fidel": "አያቅፉም",
+          "translit": "ayaqfumm",
+          "en": "they don't embrace"
+        }
+      },
+      "negative_jussive_imperative": {
+        "1sg": {
+          "fidel": "አልቀፍ",
+          "translit": "aləqäf",
+          "en": "let me not embrace"
+        },
+        "2sgm": {
+          "fidel": "አትቀፍ",
+          "translit": "attəqäf",
+          "en": "[you(m.)] don't embrace"
+        },
+        "2sgf": {
+          "fidel": "አትቀፊ",
+          "translit": "attəqäfi",
+          "en": "[you (f.)] don't embrace"
+        },
+        "3sgm": {
+          "fidel": "አይቀፍ",
+          "translit": "ayəqäf",
+          "en": "let him not embrace"
+        },
+        "3sgf": {
+          "fidel": "አትቀፍ",
+          "translit": "attəqäf",
+          "en": "let her not embrace"
+        },
+        "1pl": {
+          "fidel": "አንቀፍ",
+          "translit": "annəqäf",
+          "en": "let us not embrace"
+        },
+        "2pl": {
+          "fidel": "አትቀፉ",
+          "translit": "attəqäfu",
+          "en": "(you) don't embrace"
+        },
+        "3pl": {
+          "fidel": "አይቀፉ",
+          "translit": "ayəqäfu",
+          "en": "let them not embrace"
+        }
+      },
+      "infinitive": {
+        "fidel": "ማቀፍ",
+        "translit": "maqäf"
+      }
+    },
+    "አነቀ": {
+      "english": "choke",
+      "perfect": {
+        "1sg": {
+          "fidel": "አነቅኩ",
+          "translit": "annäkku*",
+          "en": "I choked"
+        },
+        "2sgm": {
+          "fidel": "አነቅክ",
+          "translit": "annäkk*",
+          "en": "you (m.) choked"
+        },
+        "2sgf": {
+          "fidel": "አነቅሽ",
+          "translit": "annäqš",
+          "en": "you (f.) choked"
+        },
+        "3sgm": {
+          "fidel": "አነቀ",
+          "translit": "annäqä",
+          "en": "he choked"
+        },
+        "3sgf": {
+          "fidel": "አነቀች",
+          "translit": "annäqäčč",
+          "en": "she choked"
+        },
+        "1pl": {
+          "fidel": "አነቅን",
+          "translit": "annäqn",
+          "en": "we choked"
+        },
+        "2pl": {
+          "fidel": "አነቃችሁ",
+          "translit": "annäqaččəhu",
+          "en": "you choked"
+        },
+        "3pl": {
+          "fidel": "አነቁ",
+          "translit": "annäqu",
+          "en": "they choked"
+        }
+      },
+      "imperfective_compound": {
+        "1sg": {
+          "fidel": "አንቃለሁ",
+          "translit": "anqallähu",
+          "en": "I choke / I will choke"
+        },
+        "2sgm": {
+          "fidel": "ታንቃለህ",
+          "translit": "tanqalläh",
+          "en": "you (m.) choke / you (m.) will choke"
+        },
+        "2sgf": {
+          "fidel": "ታንቂያለሽ",
+          "translit": "tanqiyalläš",
+          "en": "you (f.) choke / you (f.) will choke"
+        },
+        "3sgm": {
+          "fidel": "ያንቃል",
+          "translit": "yanqall",
+          "en": "he chokes / he will choke"
+        },
+        "3sgf": {
+          "fidel": "ታንቃለች",
+          "translit": "tanqalläčč",
+          "en": "she chokes / she will choke"
+        },
+        "1pl": {
+          "fidel": "እናንቃለን",
+          "translit": "ənnanqallän",
+          "en": "we choke / we will choke"
+        },
+        "2pl": {
+          "fidel": "ታንቃላችሁ",
+          "translit": "tanqallaččəhu",
+          "en": "you choke / you will choke"
+        },
+        "3pl": {
+          "fidel": "ያንቃሉ",
+          "translit": "yanqallu",
+          "en": "they choke / they will choke"
+        }
+      },
+      "gerund": {
+        "1sg": {
+          "fidel": "አንቄ",
+          "translit": "anəqqe",
+          "en": "(I) having choked"
+        },
+        "2sgm": {
+          "fidel": "አንቀህ",
+          "translit": "anqäh",
+          "en": "[you (m.)] having choked"
+        },
+        "2sgf": {
+          "fidel": "አንቀሽ",
+          "translit": "anqäš",
+          "en": "[you (f.)] having choked"
+        },
+        "3sgm": {
+          "fidel": "አንቆ",
+          "translit": "anqo",
+          "en": "(he) having choked"
+        },
+        "3sgf": {
+          "fidel": "አንቃ",
+          "translit": "anqa",
+          "en": "(she) having choked"
+        },
+        "1pl": {
+          "fidel": "አንቀን",
+          "translit": "anqän",
+          "en": "(we) having choked"
+        },
+        "2pl": {
+          "fidel": "አንቃችሁ",
+          "translit": "anqaččəhu",
+          "en": "(you) having choked"
+        },
+        "3pl": {
+          "fidel": "አንቀው",
+          "translit": "anqäw",
+          "en": "(they) having choked"
+        }
+      },
+      "compound_gerund": {
+        "1sg": {
+          "fidel": "አንቄያለሁ",
+          "translit": "anəqqeyallähu",
+          "en": "I have choked"
+        },
+        "2sgm": {
+          "fidel": "አንቀሃል",
+          "translit": "anqähall",
+          "en": "you (m.) have choked"
+        },
+        "2sgf": {
+          "fidel": "አንቀሻል",
+          "translit": "anqäšall",
+          "en": "you (f.) have choked"
+        },
+        "3sgm": {
+          "fidel": "አንቇል",
+          "translit": "anqwall",
+          "en": "he has choked"
+        },
+        "3sgf": {
+          "fidel": "አንቃለች",
+          "translit": "anqalläčč",
+          "en": "she has choked"
+        },
+        "1pl": {
+          "fidel": "አንቀናል",
+          "translit": "anqänall",
+          "en": "we have choked"
+        },
+        "2pl": {
+          "fidel": "አንቃችኋል",
+          "translit": "anqaččhwall",
+          "en": "you have choked"
+        },
+        "3pl": {
+          "fidel": "አንቀዋል",
+          "translit": "anqäwall",
+          "en": "they have choked"
+        }
+      },
+      "jussive_imperative": {
+        "1sg": {
+          "fidel": "ልነቅ",
+          "translit": "lnäq",
+          "en": "let me choke"
+        },
+        "2sgm": {
+          "fidel": "እነቅ",
+          "translit": "ənäq",
+          "en": "[you(m.)] choke!"
+        },
+        "2sgf": {
+          "fidel": "እነቂ",
+          "translit": "ənäqi",
+          "en": "[you (f.)] choke!"
+        },
+        "3sgm": {
+          "fidel": "ይነቅ",
+          "translit": "ynäq",
+          "en": "let him choke"
+        },
+        "3sgf": {
+          "fidel": "ትነቅ",
+          "translit": "tnäq",
+          "en": "let her choke"
+        },
+        "1pl": {
+          "fidel": "እንነቅ",
+          "translit": "ənnäq",
+          "en": "let us choke"
+        },
+        "2pl": {
+          "fidel": "እነቁ",
+          "translit": "ənäqu",
+          "en": "(you) choke!"
+        },
+        "3pl": {
+          "fidel": "ይነቁ",
+          "translit": "ynäqu",
+          "en": "let them choke"
+        }
+      },
+      "negative_perfect": {
+        "1sg": {
+          "fidel": "አላነቅኩም",
+          "translit": "alannäkkumm*",
+          "en": "I didn't choke"
+        },
+        "2sgm": {
+          "fidel": "አላነቅክም",
+          "translit": "alannäkkəmm*",
+          "en": "you (m.) didn't choke"
+        },
+        "2sgf": {
+          "fidel": "አላነቅሽም",
+          "translit": "alannäqšəmm",
+          "en": "you (f.) didn't choke"
+        },
+        "3sgm": {
+          "fidel": "አላነቀም",
+          "translit": "alannäqämm",
+          "en": "he didn't choke"
+        },
+        "3sgf": {
+          "fidel": "አላነቀችም",
+          "translit": "alannäqäččəmm",
+          "en": "she didn't choke"
+        },
+        "1pl": {
+          "fidel": "አላነቅንም",
+          "translit": "alannäqnəmm",
+          "en": "we didn't choke"
+        },
+        "2pl": {
+          "fidel": "አላነቃችሁም",
+          "translit": "alannäqaččəhumm",
+          "en": "you didn't choke"
+        },
+        "3pl": {
+          "fidel": "አላነቁም",
+          "translit": "alannäqumm",
+          "en": "they didn't choke"
+        }
+      },
+      "negative_imperfective": {
+        "1sg": {
+          "fidel": "አላንቅም",
+          "translit": "alanqəmm",
+          "en": "I don't choke"
+        },
+        "2sgm": {
+          "fidel": "አታንቅም",
+          "translit": "atanqəmm",
+          "en": "you (m.) don't choke"
+        },
+        "2sgf": {
+          "fidel": "አታንቂም",
+          "translit": "atanqimm",
+          "en": "you (f.) don't choke"
+        },
+        "3sgm": {
+          "fidel": "አያንቅም",
+          "translit": "ayanqəmm",
+          "en": "he doesn't choke"
+        },
+        "3sgf": {
+          "fidel": "አታንቅም",
+          "translit": "atanqəmm",
+          "en": "she doesn't choke"
+        },
+        "1pl": {
+          "fidel": "አናንቅም",
+          "translit": "ananqəmm",
+          "en": "we don't choke"
+        },
+        "2pl": {
+          "fidel": "አታንቁም",
+          "translit": "atanqumm",
+          "en": "you don't choke"
+        },
+        "3pl": {
+          "fidel": "አያንቁም",
+          "translit": "ayanqumm",
+          "en": "they don't choke"
+        }
+      },
+      "negative_jussive_imperative": {
+        "1sg": {
+          "fidel": "አልነቅ",
+          "translit": "alənäq",
+          "en": "let me not choke"
+        },
+        "2sgm": {
+          "fidel": "አትነቅ",
+          "translit": "attənäq",
+          "en": "[you(m.)] don't choke"
+        },
+        "2sgf": {
+          "fidel": "አትነቂ",
+          "translit": "attənäqi",
+          "en": "[you (f.)] don't choke"
+        },
+        "3sgm": {
+          "fidel": "አይነቅ",
+          "translit": "ayənäq",
+          "en": "let him not choke"
+        },
+        "3sgf": {
+          "fidel": "አትነቅ",
+          "translit": "attənäq",
+          "en": "let her not choke"
+        },
+        "1pl": {
+          "fidel": "አንነቅ",
+          "translit": "annənäq",
+          "en": "let us not choke"
+        },
+        "2pl": {
+          "fidel": "አትነቁ",
+          "translit": "attənäqu",
+          "en": "(you) don't choke"
+        },
+        "3pl": {
+          "fidel": "አይነቁ",
+          "translit": "ayənäqu",
+          "en": "let them not choke"
+        }
+      },
+      "infinitive": {
+        "fidel": "ማነቅ",
+        "translit": "manäq"
+      }
+    },
+    "አወቀ": {
+      "english": "know",
+      "perfect": {
+        "1sg": {
+          "fidel": "አወቅኩ",
+          "translit": "awwäkku*",
+          "en": "I knew"
+        },
+        "2sgm": {
+          "fidel": "አወቅክ",
+          "translit": "awwäkk*",
+          "en": "you (m.) knew"
+        },
+        "2sgf": {
+          "fidel": "አወቅሽ",
+          "translit": "awwäqš",
+          "en": "you (f.) knew"
+        },
+        "3sgm": {
+          "fidel": "አወቀ",
+          "translit": "awwäqä",
+          "en": "he knew"
+        },
+        "3sgf": {
+          "fidel": "አወቀች",
+          "translit": "awwäqäčč",
+          "en": "she knew"
+        },
+        "1pl": {
+          "fidel": "አወቅን",
+          "translit": "awwäqn",
+          "en": "we knew"
+        },
+        "2pl": {
+          "fidel": "አወቃችሁ",
+          "translit": "awwäqaččəhu",
+          "en": "you knew"
+        },
+        "3pl": {
+          "fidel": "አወቁ",
+          "translit": "awwäqu",
+          "en": "they knew"
+        }
+      },
+      "imperfective_compound": {
+        "1sg": {
+          "fidel": "አውቃለሁ",
+          "translit": "awqallähu",
+          "en": "I know / I will know"
+        },
+        "2sgm": {
+          "fidel": "ታውቃለህ",
+          "translit": "tawqalläh",
+          "en": "you (m.) know / you (m.) will know"
+        },
+        "2sgf": {
+          "fidel": "ታውቂያለሽ",
+          "translit": "tawqiyalläš",
+          "en": "you (f.) know / you (f.) will know"
+        },
+        "3sgm": {
+          "fidel": "ያውቃል",
+          "translit": "yawqall",
+          "en": "he knows / he will know"
+        },
+        "3sgf": {
+          "fidel": "ታውቃለች",
+          "translit": "tawqalläčč",
+          "en": "she knows / she will know"
+        },
+        "1pl": {
+          "fidel": "እናውቃለን",
+          "translit": "ənnawqallän",
+          "en": "we know / we will know"
+        },
+        "2pl": {
+          "fidel": "ታውቃላችሁ",
+          "translit": "tawqallaččəhu",
+          "en": "you know / you will know"
+        },
+        "3pl": {
+          "fidel": "ያውቃሉ",
+          "translit": "yawqallu",
+          "en": "they know / they will know"
+        }
+      },
+      "gerund": {
+        "1sg": {
+          "fidel": "አውቄ",
+          "translit": "awəqqe",
+          "en": "(I) having known"
+        },
+        "2sgm": {
+          "fidel": "አውቀህ",
+          "translit": "awqäh",
+          "en": "[you (m.)] having known"
+        },
+        "2sgf": {
+          "fidel": "አውቀሽ",
+          "translit": "awqäš",
+          "en": "[you (f.)] having known"
+        },
+        "3sgm": {
+          "fidel": "አውቆ",
+          "translit": "awqo",
+          "en": "(he) having known"
+        },
+        "3sgf": {
+          "fidel": "አውቃ",
+          "translit": "awqa",
+          "en": "(she) having known"
+        },
+        "1pl": {
+          "fidel": "አውቀን",
+          "translit": "awqän",
+          "en": "(we) having known"
+        },
+        "2pl": {
+          "fidel": "አውቃችሁ",
+          "translit": "awqaččəhu",
+          "en": "(you) having known"
+        },
+        "3pl": {
+          "fidel": "አውቀው",
+          "translit": "awqäw",
+          "en": "(they) having known"
+        }
+      },
+      "compound_gerund": {
+        "1sg": {
+          "fidel": "አውቄያለሁ",
+          "translit": "awəqqeyallähu",
+          "en": "I have knew"
+        },
+        "2sgm": {
+          "fidel": "አውቀሃል",
+          "translit": "awqähall",
+          "en": "you (m.) have knew"
+        },
+        "2sgf": {
+          "fidel": "አውቀሻል",
+          "translit": "awqäšall",
+          "en": "you (f.) have knew"
+        },
+        "3sgm": {
+          "fidel": "አውቇል",
+          "translit": "awqwall",
+          "en": "he has knew"
+        },
+        "3sgf": {
+          "fidel": "አውቃለች",
+          "translit": "awqalläčč",
+          "en": "she has knew"
+        },
+        "1pl": {
+          "fidel": "አውቀናል",
+          "translit": "awqänall",
+          "en": "we have knew"
+        },
+        "2pl": {
+          "fidel": "አውቃችኋል",
+          "translit": "awqaččhwall",
+          "en": "you have knew"
+        },
+        "3pl": {
+          "fidel": "አውቀዋል",
+          "translit": "awqäwall",
+          "en": "they have knew"
+        }
+      },
+      "jussive_imperative": {
+        "1sg": {
+          "fidel": "ልወቅ",
+          "translit": "lwäq",
+          "en": "let me know"
+        },
+        "2sgm": {
+          "fidel": "እወቅ",
+          "translit": "əwäq",
+          "en": "[you(m.)] know!"
+        },
+        "2sgf": {
+          "fidel": "እወቂ",
+          "translit": "əwäqi",
+          "en": "[you (f.)] know!"
+        },
+        "3sgm": {
+          "fidel": "ይወቅ",
+          "translit": "ywäq",
+          "en": "let him know"
+        },
+        "3sgf": {
+          "fidel": "ትወቅ",
+          "translit": "twäq",
+          "en": "let her know"
+        },
+        "1pl": {
+          "fidel": "እንወቅ",
+          "translit": "ənwäq",
+          "en": "let us know"
+        },
+        "2pl": {
+          "fidel": "እወቁ",
+          "translit": "əwäqu",
+          "en": "(you) know!"
+        },
+        "3pl": {
+          "fidel": "ይወቁ",
+          "translit": "ywäqu",
+          "en": "let them know"
+        }
+      },
+      "negative_perfect": {
+        "1sg": {
+          "fidel": "አላወቅኩም",
+          "translit": "alawwäkkumm*",
+          "en": "I didn't know"
+        },
+        "2sgm": {
+          "fidel": "አላወቅክም",
+          "translit": "alawwäkkəmm*",
+          "en": "you (m.) didn't know"
+        },
+        "2sgf": {
+          "fidel": "አላወቅሽም",
+          "translit": "alawwäqšəmm",
+          "en": "you (f.) didn't know"
+        },
+        "3sgm": {
+          "fidel": "አላወቀም",
+          "translit": "alawwäqämm",
+          "en": "he didn't know"
+        },
+        "3sgf": {
+          "fidel": "አላወቀችም",
+          "translit": "alawwäqäččəmm",
+          "en": "she didn't know"
+        },
+        "1pl": {
+          "fidel": "አላወቅንም",
+          "translit": "alawwäqnəmm",
+          "en": "we didn't know"
+        },
+        "2pl": {
+          "fidel": "አላወቃችሁም",
+          "translit": "alawwäqaččəhumm",
+          "en": "you didn't know"
+        },
+        "3pl": {
+          "fidel": "አላወቁም",
+          "translit": "alawwäqumm",
+          "en": "they didn't know"
+        }
+      },
+      "negative_imperfective": {
+        "1sg": {
+          "fidel": "አላውቅም",
+          "translit": "alawqəmm",
+          "en": "I don't know"
+        },
+        "2sgm": {
+          "fidel": "አታውቅም",
+          "translit": "atawqəmm",
+          "en": "you (m.) don't know"
+        },
+        "2sgf": {
+          "fidel": "አታውቂም",
+          "translit": "atawqimm",
+          "en": "you (f.) don't know"
+        },
+        "3sgm": {
+          "fidel": "አያውቅም",
+          "translit": "ayawqəmm",
+          "en": "he doesn't know"
+        },
+        "3sgf": {
+          "fidel": "አታውቅም",
+          "translit": "atawqəmm",
+          "en": "she doesn't know"
+        },
+        "1pl": {
+          "fidel": "አናውቅም",
+          "translit": "anawqəmm",
+          "en": "we don't know"
+        },
+        "2pl": {
+          "fidel": "አታውቁም",
+          "translit": "atawqumm",
+          "en": "you don't know"
+        },
+        "3pl": {
+          "fidel": "አያውቁም",
+          "translit": "ayawqumm",
+          "en": "they don't know"
+        }
+      },
+      "negative_jussive_imperative": {
+        "1sg": {
+          "fidel": "አልወቅ",
+          "translit": "aləwäq",
+          "en": "let me not know"
+        },
+        "2sgm": {
+          "fidel": "አትወቅ",
+          "translit": "attəwäq",
+          "en": "[you(m.)] don't know"
+        },
+        "2sgf": {
+          "fidel": "አትወቂ",
+          "translit": "attəwäqi",
+          "en": "[you (f.)] don't know"
+        },
+        "3sgm": {
+          "fidel": "አይወቅ",
+          "translit": "ayəwäq",
+          "en": "let him not know"
+        },
+        "3sgf": {
+          "fidel": "አትወቅ",
+          "translit": "attəwäq",
+          "en": "let her not know"
+        },
+        "1pl": {
+          "fidel": "አንወቅ",
+          "translit": "annəwäq",
+          "en": "let us not know"
+        },
+        "2pl": {
+          "fidel": "አትወቁ",
+          "translit": "attəwäqu",
+          "en": "(you) don't know"
+        },
+        "3pl": {
+          "fidel": "አይወቁ",
+          "translit": "ayəwäqu",
+          "en": "let them not know"
+        }
+      },
+      "infinitive": {
+        "fidel": "ማወቅ",
+        "translit": "mawäq"
+      }
+    },
+    "አዘነ": {
+      "english": "grieve",
+      "perfect": {
+        "1sg": {
+          "fidel": "አዘንኩ",
+          "translit": "azzänku",
+          "en": "I grieved"
+        },
+        "2sgm": {
+          "fidel": "አዘንክ",
+          "translit": "azzänk",
+          "en": "you (m.) grieved"
+        },
+        "2sgf": {
+          "fidel": "አዘንሽ",
+          "translit": "azzänš",
+          "en": "you (f.) grieved"
+        },
+        "3sgm": {
+          "fidel": "አዘነ",
+          "translit": "azzänä",
+          "en": "he grieved"
+        },
+        "3sgf": {
+          "fidel": "አዘነች",
+          "translit": "azzänäčč",
+          "en": "she grieved"
+        },
+        "1pl": {
+          "fidel": "አዘንን",
+          "translit": "azzänn",
+          "en": "we grieved"
+        },
+        "2pl": {
+          "fidel": "አዘናችሁ",
+          "translit": "azzänaččəhu",
+          "en": "you grieved"
+        },
+        "3pl": {
+          "fidel": "አዘኑ",
+          "translit": "azzänu",
+          "en": "they grieved"
+        }
+      },
+      "imperfective_compound": {
+        "1sg": {
+          "fidel": "አዝናለሁ",
+          "translit": "aznallähu",
+          "en": "I grieve / I will grieve"
+        },
+        "2sgm": {
+          "fidel": "ታዝናለህ",
+          "translit": "taznalläh",
+          "en": "you (m.) grieve / you (m.) will grieve"
+        },
+        "2sgf": {
+          "fidel": "ታዝኚያለሽ",
+          "translit": "tazniyalläš",
+          "en": "you (f.) grieve / you (f.) will grieve"
+        },
+        "3sgm": {
+          "fidel": "ያዝናል",
+          "translit": "yaznall",
+          "en": "he grieves / he will grieve"
+        },
+        "3sgf": {
+          "fidel": "ታዝናለች",
+          "translit": "taznalläčč",
+          "en": "she grieves / she will grieve"
+        },
+        "1pl": {
+          "fidel": "እናዝናለን",
+          "translit": "ənnaznallän",
+          "en": "we grieve / we will grieve"
+        },
+        "2pl": {
+          "fidel": "ታዝናላችሁ",
+          "translit": "taznallaččəhu",
+          "en": "you grieve / you will grieve"
+        },
+        "3pl": {
+          "fidel": "ያዝናሉ",
+          "translit": "yaznallu",
+          "en": "they grieve / they will grieve"
+        }
+      },
+      "gerund": {
+        "1sg": {
+          "fidel": "አዝኜ",
+          "translit": "azənne",
+          "en": "(I) having grieved"
+        },
+        "2sgm": {
+          "fidel": "አዝነህ",
+          "translit": "aznäh",
+          "en": "[you (m.)] having grieved"
+        },
+        "2sgf": {
+          "fidel": "አዝነሽ",
+          "translit": "aznäš",
+          "en": "[you (f.)] having grieved"
+        },
+        "3sgm": {
+          "fidel": "አዝኖ",
+          "translit": "azno",
+          "en": "(he) having grieved"
+        },
+        "3sgf": {
+          "fidel": "አዝና",
+          "translit": "azna",
+          "en": "(she) having grieved"
+        },
+        "1pl": {
+          "fidel": "አዝነን",
+          "translit": "aznän",
+          "en": "(we) having grieved"
+        },
+        "2pl": {
+          "fidel": "አዝናችሁ",
+          "translit": "aznaččəhu",
+          "en": "(you) having grieved"
+        },
+        "3pl": {
+          "fidel": "አዝነው",
+          "translit": "aznäw",
+          "en": "(they) having grieved"
+        }
+      },
+      "compound_gerund": {
+        "1sg": {
+          "fidel": "አዝኜያለሁ",
+          "translit": "azənneyallähu",
+          "en": "I have grieved"
+        },
+        "2sgm": {
+          "fidel": "አዝነሃል",
+          "translit": "aznähall",
+          "en": "you (m.) have grieved"
+        },
+        "2sgf": {
+          "fidel": "አዝነሻል",
+          "translit": "aznäšall",
+          "en": "you (f.) have grieved"
+        },
+        "3sgm": {
+          "fidel": "አዝኗል",
+          "translit": "aznwall",
+          "en": "he has grieved"
+        },
+        "3sgf": {
+          "fidel": "አዝናለች",
+          "translit": "aznalläčč",
+          "en": "she has grieved"
+        },
+        "1pl": {
+          "fidel": "አዝነናል",
+          "translit": "aznänall",
+          "en": "we have grieved"
+        },
+        "2pl": {
+          "fidel": "አዝናችኋል",
+          "translit": "aznaččhwall",
+          "en": "you have grieved"
+        },
+        "3pl": {
+          "fidel": "አዝነዋል",
+          "translit": "aznäwall",
+          "en": "they have grieved"
+        }
+      },
+      "jussive_imperative": {
+        "1sg": {
+          "fidel": "ልዘን",
+          "translit": "lzän",
+          "en": "let me grieve"
+        },
+        "2sgm": {
+          "fidel": "እዘን",
+          "translit": "əzän",
+          "en": "[you(m.)] grieve!"
+        },
+        "2sgf": {
+          "fidel": "እዘኝ",
+          "translit": "əzäni",
+          "en": "[you (f.)] grieve!"
+        },
+        "3sgm": {
+          "fidel": "ይዘን",
+          "translit": "yzän",
+          "en": "let him grieve"
+        },
+        "3sgf": {
+          "fidel": "ትዘን",
+          "translit": "tzän",
+          "en": "let her grieve"
+        },
+        "1pl": {
+          "fidel": "እንዘን",
+          "translit": "ənzän",
+          "en": "let us grieve"
+        },
+        "2pl": {
+          "fidel": "እዘኑ",
+          "translit": "əzänu",
+          "en": "(you) grieve!"
+        },
+        "3pl": {
+          "fidel": "ይዘኑ",
+          "translit": "yzänu",
+          "en": "let them grieve"
+        }
+      },
+      "negative_perfect": {
+        "1sg": {
+          "fidel": "አላዘንኩም",
+          "translit": "alazzänkumm",
+          "en": "I didn't grieve"
+        },
+        "2sgm": {
+          "fidel": "አላዘንክም",
+          "translit": "alazzänkəmm",
+          "en": "you (m.) didn't grieve"
+        },
+        "2sgf": {
+          "fidel": "አላዘንሽም",
+          "translit": "alazzänšəmm",
+          "en": "you (f.) didn't grieve"
+        },
+        "3sgm": {
+          "fidel": "አላዘነም",
+          "translit": "alazzänämm",
+          "en": "he didn't grieve"
+        },
+        "3sgf": {
+          "fidel": "አላዘነችም",
+          "translit": "alazzänäččəmm",
+          "en": "she didn't grieve"
+        },
+        "1pl": {
+          "fidel": "አላዘንንም",
+          "translit": "alazzännəmm",
+          "en": "we didn't grieve"
+        },
+        "2pl": {
+          "fidel": "አላዘናችሁም",
+          "translit": "alazzänaččəhumm",
+          "en": "you didn't grieve"
+        },
+        "3pl": {
+          "fidel": "አላዘኑም",
+          "translit": "alazzänumm",
+          "en": "they didn't grieve"
+        }
+      },
+      "negative_imperfective": {
+        "1sg": {
+          "fidel": "አላዝንም",
+          "translit": "alaznəmm",
+          "en": "I don't grieve"
+        },
+        "2sgm": {
+          "fidel": "አታዝንም",
+          "translit": "ataznəmm",
+          "en": "you (m.) don't grieve"
+        },
+        "2sgf": {
+          "fidel": "አታዝኚም",
+          "translit": "ataznimm",
+          "en": "you (f.) don't grieve"
+        },
+        "3sgm": {
+          "fidel": "አያዝንም",
+          "translit": "ayaznəmm",
+          "en": "he doesn't grieve"
+        },
+        "3sgf": {
+          "fidel": "አታዝንም",
+          "translit": "ataznəmm",
+          "en": "she doesn't grieve"
+        },
+        "1pl": {
+          "fidel": "አናዝንም",
+          "translit": "anaznəmm",
+          "en": "we don't grieve"
+        },
+        "2pl": {
+          "fidel": "አታዝኑም",
+          "translit": "ataznumm",
+          "en": "you don't grieve"
+        },
+        "3pl": {
+          "fidel": "አያዝኑም",
+          "translit": "ayaznumm",
+          "en": "they don't grieve"
+        }
+      },
+      "negative_jussive_imperative": {
+        "1sg": {
+          "fidel": "አልዘን",
+          "translit": "aləzän",
+          "en": "let me not grieve"
+        },
+        "2sgm": {
+          "fidel": "አትዘን",
+          "translit": "attəzän",
+          "en": "[you(m.)] don't grieve"
+        },
+        "2sgf": {
+          "fidel": "አትዘኝ",
+          "translit": "attəzäñi",
+          "en": "[you (f.)] don't grieve"
+        },
+        "3sgm": {
+          "fidel": "አይዘን",
+          "translit": "ayəzän",
+          "en": "let him not grieve"
+        },
+        "3sgf": {
+          "fidel": "አትዘን",
+          "translit": "attəzän",
+          "en": "let her not grieve"
+        },
+        "1pl": {
+          "fidel": "አንዘን",
+          "translit": "annəzän",
+          "en": "let us not grieve"
+        },
+        "2pl": {
+          "fidel": "አትዘኑ",
+          "translit": "attəzänu",
+          "en": "(you) don't grieve"
+        },
+        "3pl": {
+          "fidel": "አይዘኑ",
+          "translit": "ayəzänu",
+          "en": "let them not grieve"
+        }
+      },
+      "infinitive": {
+        "fidel": "ማዘን",
+        "translit": "mazän"
+      }
+    },
+    "አደረ": {
+      "english": "pass the night",
+      "perfect": {
+        "1sg": {
+          "fidel": "አደርኩ",
+          "translit": "addärku",
+          "en": "I passed the night"
+        },
+        "2sgm": {
+          "fidel": "አደርክ",
+          "translit": "addärk",
+          "en": "you (m.) passed the night"
+        },
+        "2sgf": {
+          "fidel": "አደርሽ",
+          "translit": "addärš",
+          "en": "you (f.) passed the night"
+        },
+        "3sgm": {
+          "fidel": "አደረ",
+          "translit": "addärä",
+          "en": "he passed the night"
+        },
+        "3sgf": {
+          "fidel": "አደረች",
+          "translit": "addäräčč",
+          "en": "she passed the night"
+        },
+        "1pl": {
+          "fidel": "አደርን",
+          "translit": "addärn",
+          "en": "we passed the night"
+        },
+        "2pl": {
+          "fidel": "አደራችሁ",
+          "translit": "addäraččəhu",
+          "en": "you passed the night"
+        },
+        "3pl": {
+          "fidel": "አደሩ",
+          "translit": "addäru",
+          "en": "they passed the night"
+        }
+      },
+      "imperfective_compound": {
+        "1sg": {
+          "fidel": "አድራለሁ",
+          "translit": "adrallähu",
+          "en": "I pass the night / I will pass the night"
+        },
+        "2sgm": {
+          "fidel": "ታድራለህ",
+          "translit": "tadralläh",
+          "en": "you (m.) pass the night / you (m.) will pass the night"
+        },
+        "2sgf": {
+          "fidel": "ታድሪያለሽ",
+          "translit": "tadriyalläš",
+          "en": "you (f.) pass the night / you (f.) will pass the night"
+        },
+        "3sgm": {
+          "fidel": "ያድራል",
+          "translit": "yadrall",
+          "en": "he pass the nights / he will pass the night"
+        },
+        "3sgf": {
+          "fidel": "ታድራለች",
+          "translit": "tadralläčč",
+          "en": "she pass the nights / she will pass the night"
+        },
+        "1pl": {
+          "fidel": "እናድራለን",
+          "translit": "ənnadrallän",
+          "en": "we pass the night / we will pass the night"
+        },
+        "2pl": {
+          "fidel": "ታድራላችሁ",
+          "translit": "tadrallaččəhu",
+          "en": "you pass the night / you will pass the night"
+        },
+        "3pl": {
+          "fidel": "ያድራሉ",
+          "translit": "yadrallu",
+          "en": "they pass the night / they will pass the night"
+        }
+      },
+      "gerund": {
+        "1sg": {
+          "fidel": "አድሬ",
+          "translit": "adərre",
+          "en": "(I) having passed the night"
+        },
+        "2sgm": {
+          "fidel": "አድረህ",
+          "translit": "adräh",
+          "en": "[you (m.)] having passed the night"
+        },
+        "2sgf": {
+          "fidel": "አድረሽ",
+          "translit": "adräš",
+          "en": "[you (f.)] having passed the night"
+        },
+        "3sgm": {
+          "fidel": "አድሮ",
+          "translit": "adro",
+          "en": "(he) having passed the night"
+        },
+        "3sgf": {
+          "fidel": "አድራ",
+          "translit": "adra",
+          "en": "(she) having passed the night"
+        },
+        "1pl": {
+          "fidel": "አድረን",
+          "translit": "adrän",
+          "en": "(we) having passed the night"
+        },
+        "2pl": {
+          "fidel": "አድራችሁ",
+          "translit": "adraččəhu",
+          "en": "(you) having passed the night"
+        },
+        "3pl": {
+          "fidel": "አድረው",
+          "translit": "adräw",
+          "en": "(they) having passed the night"
+        }
+      },
+      "compound_gerund": {
+        "1sg": {
+          "fidel": "አድሬያለሁ",
+          "translit": "adərreyallähu",
+          "en": "I have passed the night"
+        },
+        "2sgm": {
+          "fidel": "አድረሃል",
+          "translit": "adrähall",
+          "en": "you (m.) have passed the night"
+        },
+        "2sgf": {
+          "fidel": "አድረሻል",
+          "translit": "adräšall",
+          "en": "you (f.) have passed the night"
+        },
+        "3sgm": {
+          "fidel": "አድሯል",
+          "translit": "adrwall",
+          "en": "he has passed the night"
+        },
+        "3sgf": {
+          "fidel": "አድራለች",
+          "translit": "adralläčč",
+          "en": "she has passed the night"
+        },
+        "1pl": {
+          "fidel": "አድረናል",
+          "translit": "adränall",
+          "en": "we have passed the night"
+        },
+        "2pl": {
+          "fidel": "አድራችኋል",
+          "translit": "adraččhwall",
+          "en": "you have passed the night"
+        },
+        "3pl": {
+          "fidel": "አድረዋል",
+          "translit": "adräwall",
+          "en": "they have passed the night"
+        }
+      },
+      "jussive_imperative": {
+        "1sg": {
+          "fidel": "ልደር",
+          "translit": "ldär",
+          "en": "let me pass the night"
+        },
+        "2sgm": {
+          "fidel": "እደር",
+          "translit": "ədär",
+          "en": "[you(m.)] pass the night!"
+        },
+        "2sgf": {
+          "fidel": "እደሪ",
+          "translit": "ədäri",
+          "en": "[you (f.)] pass the night!"
+        },
+        "3sgm": {
+          "fidel": "ይደር",
+          "translit": "ydär",
+          "en": "let him pass the night"
+        },
+        "3sgf": {
+          "fidel": "ትደር",
+          "translit": "tdär",
+          "en": "let her pass the night"
+        },
+        "1pl": {
+          "fidel": "እንደር",
+          "translit": "əndär",
+          "en": "let us pass the night"
+        },
+        "2pl": {
+          "fidel": "እደሩ",
+          "translit": "ədäru",
+          "en": "(you) pass the night!"
+        },
+        "3pl": {
+          "fidel": "ይደሩ",
+          "translit": "ydäru",
+          "en": "let them pass the night"
+        }
+      },
+      "negative_perfect": {
+        "1sg": {
+          "fidel": "አላደርኩም",
+          "translit": "aladdärkumm",
+          "en": "I didn't pass the night"
+        },
+        "2sgm": {
+          "fidel": "አላደርክም",
+          "translit": "aladdärkəmm",
+          "en": "you (m.) didn't pass the night"
+        },
+        "2sgf": {
+          "fidel": "አላደርሽም",
+          "translit": "aladdäršəmm",
+          "en": "you (f.) didn't pass the night"
+        },
+        "3sgm": {
+          "fidel": "አላደረም",
+          "translit": "aladdärämm",
+          "en": "he didn't pass the night"
+        },
+        "3sgf": {
+          "fidel": "አላደረችም",
+          "translit": "aladdäräččəmm",
+          "en": "she didn't pass the night"
+        },
+        "1pl": {
+          "fidel": "አላደርንም",
+          "translit": "aladdärnəmm",
+          "en": "we didn't pass the night"
+        },
+        "2pl": {
+          "fidel": "አላደራችሁም",
+          "translit": "aladdäraččəhumm",
+          "en": "you didn't pass the night"
+        },
+        "3pl": {
+          "fidel": "አላደሩም",
+          "translit": "aladdärumm",
+          "en": "they didn't pass the night"
+        }
+      },
+      "negative_imperfective": {
+        "1sg": {
+          "fidel": "አላድርም",
+          "translit": "aladrəmm",
+          "en": "I don't pass the night"
+        },
+        "2sgm": {
+          "fidel": "አታድርም",
+          "translit": "atadrəmm",
+          "en": "you (m.) don't pass the night"
+        },
+        "2sgf": {
+          "fidel": "አታድሪም",
+          "translit": "atadrimm",
+          "en": "you (f.) don't pass the night"
+        },
+        "3sgm": {
+          "fidel": "አያድርም",
+          "translit": "ayadrəmm",
+          "en": "he doesn't pass the night"
+        },
+        "3sgf": {
+          "fidel": "አታድርም",
+          "translit": "atadrəmm",
+          "en": "she doesn't pass the night"
+        },
+        "1pl": {
+          "fidel": "አናድርም",
+          "translit": "anadrəmm",
+          "en": "we don't pass the night"
+        },
+        "2pl": {
+          "fidel": "አታድሩም",
+          "translit": "atadrumm",
+          "en": "you don't pass the night"
+        },
+        "3pl": {
+          "fidel": "አያድሩም",
+          "translit": "ayadrumm",
+          "en": "they don't pass the night"
+        }
+      },
+      "negative_jussive_imperative": {
+        "1sg": {
+          "fidel": "አልደር",
+          "translit": "alədär",
+          "en": "let me not pass the night"
+        },
+        "2sgm": {
+          "fidel": "አትደር",
+          "translit": "attədär",
+          "en": "[you(m.)] don't pass the night"
+        },
+        "2sgf": {
+          "fidel": "አትደሪ",
+          "translit": "attədäri",
+          "en": "[you (f.)] don't pass the night"
+        },
+        "3sgm": {
+          "fidel": "አይደር",
+          "translit": "ayədär",
+          "en": "let him not pass the night"
+        },
+        "3sgf": {
+          "fidel": "አትደር",
+          "translit": "attədär",
+          "en": "let her not pass the night"
+        },
+        "1pl": {
+          "fidel": "አንደር",
+          "translit": "annədär",
+          "en": "let us not pass the night"
+        },
+        "2pl": {
+          "fidel": "አትደሩ",
+          "translit": "attədäru",
+          "en": "(you) don't pass the night"
+        },
+        "3pl": {
+          "fidel": "አይደሩ",
+          "translit": "ayədäru",
+          "en": "let them not pass the night"
+        }
+      },
+      "infinitive": {
+        "fidel": "ማደር",
+        "translit": "madär"
+      }
+    },
+    "አደበ": {
+      "english": "behave well",
+      "perfect": {
+        "1sg": {
+          "fidel": "አደብኩ",
+          "translit": "addäbku",
+          "en": "I behaved well"
+        },
+        "2sgm": {
+          "fidel": "አደብክ",
+          "translit": "addäbk",
+          "en": "you (m.) behaved well"
+        },
+        "2sgf": {
+          "fidel": "አደብሽ",
+          "translit": "addäbš",
+          "en": "you (f.) behaved well"
+        },
+        "3sgm": {
+          "fidel": "አደበ",
+          "translit": "addäbä",
+          "en": "he behaved well"
+        },
+        "3sgf": {
+          "fidel": "አደበች",
+          "translit": "addäbäčč",
+          "en": "she behaved well"
+        },
+        "1pl": {
+          "fidel": "አደብን",
+          "translit": "addäbn",
+          "en": "we behaved well"
+        },
+        "2pl": {
+          "fidel": "አደባችሁ",
+          "translit": "addäbaččəhu",
+          "en": "you behaved well"
+        },
+        "3pl": {
+          "fidel": "አደቡ",
+          "translit": "addäbu",
+          "en": "they behaved well"
+        }
+      },
+      "imperfective_compound": {
+        "1sg": {
+          "fidel": "አድባለሁ",
+          "translit": "adballähu",
+          "en": "I behave well / I will behave well"
+        },
+        "2sgm": {
+          "fidel": "ታድባለህ",
+          "translit": "tadballäh",
+          "en": "you (m.) behave well / you (m.) will behave well"
+        },
+        "2sgf": {
+          "fidel": "ታድቢያለሽ",
+          "translit": "tadbiyalläš",
+          "en": "you (f.) behave well / you (f.) will behave well"
+        },
+        "3sgm": {
+          "fidel": "ያድባል",
+          "translit": "yadball",
+          "en": "he behave wells / he will behave well"
+        },
+        "3sgf": {
+          "fidel": "ታድባለች",
+          "translit": "tadballäčč",
+          "en": "she behave wells / she will behave well"
+        },
+        "1pl": {
+          "fidel": "እናድባለን",
+          "translit": "ənnadballän",
+          "en": "we behave well / we will behave well"
+        },
+        "2pl": {
+          "fidel": "ታድባላችሁ",
+          "translit": "tadballaččəhu",
+          "en": "you behave well / you will behave well"
+        },
+        "3pl": {
+          "fidel": "ያድባሉ",
+          "translit": "yadballu",
+          "en": "they behave well / they will behave well"
+        }
+      },
+      "gerund": {
+        "1sg": {
+          "fidel": "አድቤ",
+          "translit": "adəbbe",
+          "en": "(I) having behaved well"
+        },
+        "2sgm": {
+          "fidel": "አድበህ",
+          "translit": "adbäh",
+          "en": "[you (m.)] having behaved well"
+        },
+        "2sgf": {
+          "fidel": "አድበሽ",
+          "translit": "adbäš",
+          "en": "[you (f.)] having behaved well"
+        },
+        "3sgm": {
+          "fidel": "አድቦ",
+          "translit": "adbo",
+          "en": "(he) having behaved well"
+        },
+        "3sgf": {
+          "fidel": "አድባ",
+          "translit": "adba",
+          "en": "(she) having behaved well"
+        },
+        "1pl": {
+          "fidel": "አድበን",
+          "translit": "adbän",
+          "en": "(we) having behaved well"
+        },
+        "2pl": {
+          "fidel": "አድባችሁ",
+          "translit": "adbaččəhu",
+          "en": "(you) having behaved well"
+        },
+        "3pl": {
+          "fidel": "አድበው",
+          "translit": "adbäw",
+          "en": "(they) having behaved well"
+        }
+      },
+      "compound_gerund": {
+        "1sg": {
+          "fidel": "አድቤያለሁ",
+          "translit": "adəbbeyallähu",
+          "en": "I have behaved well"
+        },
+        "2sgm": {
+          "fidel": "አድበሃል",
+          "translit": "adbähall",
+          "en": "you (m.) have behaved well"
+        },
+        "2sgf": {
+          "fidel": "አድበሻል",
+          "translit": "adbäšall",
+          "en": "you (f.) have behaved well"
+        },
+        "3sgm": {
+          "fidel": "አድቧል",
+          "translit": "adbwall",
+          "en": "he has behaved well"
+        },
+        "3sgf": {
+          "fidel": "አድባለች",
+          "translit": "adballäčč",
+          "en": "she has behaved well"
+        },
+        "1pl": {
+          "fidel": "አድበናል",
+          "translit": "adbänall",
+          "en": "we have behaved well"
+        },
+        "2pl": {
+          "fidel": "አድባችኋል",
+          "translit": "adbaččhwall",
+          "en": "you have behaved well"
+        },
+        "3pl": {
+          "fidel": "አድበዋል",
+          "translit": "adbäwall",
+          "en": "they have behaved well"
+        }
+      },
+      "jussive_imperative": {
+        "1sg": {
+          "fidel": "ልደብ",
+          "translit": "ldäb",
+          "en": "let me behave well"
+        },
+        "2sgm": {
+          "fidel": "እደብ",
+          "translit": "ədäb",
+          "en": "[you(m.)] behave well!"
+        },
+        "2sgf": {
+          "fidel": "እደቢ",
+          "translit": "ədäbi",
+          "en": "[you (f.)] behave well!"
+        },
+        "3sgm": {
+          "fidel": "ይደብ",
+          "translit": "ydäb",
+          "en": "let him behave well"
+        },
+        "3sgf": {
+          "fidel": "ትደብ",
+          "translit": "tdäb",
+          "en": "let her behave well"
+        },
+        "1pl": {
+          "fidel": "እንደብ",
+          "translit": "əndäb",
+          "en": "let us behave well"
+        },
+        "2pl": {
+          "fidel": "እደቡ",
+          "translit": "ədäbu",
+          "en": "(you) behave well!"
+        },
+        "3pl": {
+          "fidel": "ይደቡ",
+          "translit": "ydäbu",
+          "en": "let them behave well"
+        }
+      },
+      "negative_perfect": {
+        "1sg": {
+          "fidel": "አላደብኩም",
+          "translit": "aladdäbkumm",
+          "en": "I didn't behave well"
+        },
+        "2sgm": {
+          "fidel": "አላደብክም",
+          "translit": "aladdäbkəmm",
+          "en": "you (m.) didn't behave well"
+        },
+        "2sgf": {
+          "fidel": "አላደብሽም",
+          "translit": "aladdäbšəmm",
+          "en": "you (f.) didn't behave well"
+        },
+        "3sgm": {
+          "fidel": "አላደበም",
+          "translit": "aladdäbämm",
+          "en": "he didn't behave well"
+        },
+        "3sgf": {
+          "fidel": "አላደበችም",
+          "translit": "aladdäbäččəmm",
+          "en": "she didn't behave well"
+        },
+        "1pl": {
+          "fidel": "አላደብንም",
+          "translit": "aladdäbnəmm",
+          "en": "we didn't behave well"
+        },
+        "2pl": {
+          "fidel": "አላደባችሁም",
+          "translit": "aladdäbaččəhumm",
+          "en": "you didn't behave well"
+        },
+        "3pl": {
+          "fidel": "አላደቡም",
+          "translit": "aladdäbumm",
+          "en": "they didn't behave well"
+        }
+      },
+      "negative_imperfective": {
+        "1sg": {
+          "fidel": "አላድብም",
+          "translit": "aladbəmm",
+          "en": "I don't behave well"
+        },
+        "2sgm": {
+          "fidel": "አታድብም",
+          "translit": "atadbəmm",
+          "en": "you (m.) don't behave well"
+        },
+        "2sgf": {
+          "fidel": "አታድቢም",
+          "translit": "atadbimm",
+          "en": "you (f.) don't behave well"
+        },
+        "3sgm": {
+          "fidel": "አያድብም",
+          "translit": "ayadbəmm",
+          "en": "he doesn't behave well"
+        },
+        "3sgf": {
+          "fidel": "አታድብም",
+          "translit": "atadbəmm",
+          "en": "she doesn't behave well"
+        },
+        "1pl": {
+          "fidel": "አናድብም",
+          "translit": "anadbəmm",
+          "en": "we don't behave well"
+        },
+        "2pl": {
+          "fidel": "አታድቡም",
+          "translit": "atadbumm",
+          "en": "you don't behave well"
+        },
+        "3pl": {
+          "fidel": "አያድቡም",
+          "translit": "ayadbumm",
+          "en": "they don't behave well"
+        }
+      },
+      "negative_jussive_imperative": {
+        "1sg": {
+          "fidel": "አልደብ",
+          "translit": "alədäb",
+          "en": "let me not behave well"
+        },
+        "2sgm": {
+          "fidel": "አትደብ",
+          "translit": "attədäb",
+          "en": "[you(m.)] don't behave well"
+        },
+        "2sgf": {
+          "fidel": "አትደቢ",
+          "translit": "attədäbi",
+          "en": "[you (f.)] don't behave well"
+        },
+        "3sgm": {
+          "fidel": "አይደብ",
+          "translit": "ayədäb",
+          "en": "let him not behave well"
+        },
+        "3sgf": {
+          "fidel": "አትደብ",
+          "translit": "attədäb",
+          "en": "let her not behave well"
+        },
+        "1pl": {
+          "fidel": "አንደብ",
+          "translit": "annədäb",
+          "en": "let us not behave well"
+        },
+        "2pl": {
+          "fidel": "አትደቡ",
+          "translit": "attədäbu",
+          "en": "(you) don't behave well"
+        },
+        "3pl": {
+          "fidel": "አይደቡ",
+          "translit": "ayədäbu",
+          "en": "let them not behave well"
+        }
+      },
+      "infinitive": {
+        "fidel": "ማደብ",
+        "translit": "madäb"
+      }
+    },
+    "አደገ": {
+      "english": "grow",
+      "perfect": {
+        "1sg": {
+          "fidel": "አደግኩ",
+          "translit": "addäkku*",
+          "en": "I grew"
+        },
+        "2sgm": {
+          "fidel": "አደግክ",
+          "translit": "addäkk*",
+          "en": "you (m.) grew"
+        },
+        "2sgf": {
+          "fidel": "አደግሽ",
+          "translit": "addägš",
+          "en": "you (f.) grew"
+        },
+        "3sgm": {
+          "fidel": "አደገ",
+          "translit": "addägä",
+          "en": "he grew"
+        },
+        "3sgf": {
+          "fidel": "አደገች",
+          "translit": "addägäčč",
+          "en": "she grew"
+        },
+        "1pl": {
+          "fidel": "አደግን",
+          "translit": "addägn",
+          "en": "we grew"
+        },
+        "2pl": {
+          "fidel": "አደጋችሁ",
+          "translit": "addägaččəhu",
+          "en": "you grew"
+        },
+        "3pl": {
+          "fidel": "አደጉ",
+          "translit": "addägu",
+          "en": "they grew"
+        }
+      },
+      "imperfective_compound": {
+        "1sg": {
+          "fidel": "አድጋለሁ",
+          "translit": "adgallähu",
+          "en": "I grow / I will grow"
+        },
+        "2sgm": {
+          "fidel": "ታድጋለህ",
+          "translit": "tadgalläh",
+          "en": "you (m.) grow / you (m.) will grow"
+        },
+        "2sgf": {
+          "fidel": "ታድጊያለሽ",
+          "translit": "tadgiyalläš",
+          "en": "you (f.) grow / you (f.) will grow"
+        },
+        "3sgm": {
+          "fidel": "ያድጋል",
+          "translit": "yadgall",
+          "en": "he grows / he will grow"
+        },
+        "3sgf": {
+          "fidel": "ታድጋለች",
+          "translit": "tadgalläčč",
+          "en": "she grows / she will grow"
+        },
+        "1pl": {
+          "fidel": "እናድጋለን",
+          "translit": "ənnadgallän",
+          "en": "we grow / we will grow"
+        },
+        "2pl": {
+          "fidel": "ታድጋላችሁ",
+          "translit": "tadgallaččəhu",
+          "en": "you grow / you will grow"
+        },
+        "3pl": {
+          "fidel": "ያድጋሉ",
+          "translit": "yadgallu",
+          "en": "they grow / they will grow"
+        }
+      },
+      "gerund": {
+        "1sg": {
+          "fidel": "አድጌ",
+          "translit": "adəgge",
+          "en": "(I) having grown"
+        },
+        "2sgm": {
+          "fidel": "አድገህ",
+          "translit": "adgäh",
+          "en": "[you (m.)] having grown"
+        },
+        "2sgf": {
+          "fidel": "አድገሽ",
+          "translit": "adgäš",
+          "en": "[you (f.)] having grown"
+        },
+        "3sgm": {
+          "fidel": "አድጎ",
+          "translit": "adgo",
+          "en": "(he) having grown"
+        },
+        "3sgf": {
+          "fidel": "አድጋ",
+          "translit": "adga",
+          "en": "(she) having grown"
+        },
+        "1pl": {
+          "fidel": "አድገን",
+          "translit": "adgän",
+          "en": "(we) having grown"
+        },
+        "2pl": {
+          "fidel": "አድጋችሁ",
+          "translit": "adgaččəhu",
+          "en": "(you) having grown"
+        },
+        "3pl": {
+          "fidel": "አድገው",
+          "translit": "adgäw",
+          "en": "(they) having grown"
+        }
+      },
+      "compound_gerund": {
+        "1sg": {
+          "fidel": "አድጌያለሁ",
+          "translit": "adəggeyallähu",
+          "en": "I have grew"
+        },
+        "2sgm": {
+          "fidel": "አድገሃል",
+          "translit": "adgähall",
+          "en": "you (m.) have grew"
+        },
+        "2sgf": {
+          "fidel": "አድገሻል",
+          "translit": "adgäšall",
+          "en": "you (f.) have grew"
+        },
+        "3sgm": {
+          "fidel": "አድጓል",
+          "translit": "adgwall",
+          "en": "he has grew"
+        },
+        "3sgf": {
+          "fidel": "አድጋለች",
+          "translit": "adgalläčč",
+          "en": "she has grew"
+        },
+        "1pl": {
+          "fidel": "አድገናል",
+          "translit": "adgänall",
+          "en": "we have grew"
+        },
+        "2pl": {
+          "fidel": "አድጋችኋል",
+          "translit": "adgaččhwall",
+          "en": "you have grew"
+        },
+        "3pl": {
+          "fidel": "አድገዋል",
+          "translit": "adgäwall",
+          "en": "they have grew"
+        }
+      },
+      "jussive_imperative": {
+        "1sg": {
+          "fidel": "ልደግ",
+          "translit": "ldäg",
+          "en": "let me grow"
+        },
+        "2sgm": {
+          "fidel": "እደግ",
+          "translit": "ədäg",
+          "en": "[you(m.)] grow!"
+        },
+        "2sgf": {
+          "fidel": "እደጊ",
+          "translit": "ədägi",
+          "en": "[you (f.)] grow!"
+        },
+        "3sgm": {
+          "fidel": "ይደግ",
+          "translit": "ydäg",
+          "en": "let him grow"
+        },
+        "3sgf": {
+          "fidel": "ትደግ",
+          "translit": "tdäg",
+          "en": "let her grow"
+        },
+        "1pl": {
+          "fidel": "እንደግ",
+          "translit": "əndäg",
+          "en": "let us grow"
+        },
+        "2pl": {
+          "fidel": "እደጉ",
+          "translit": "ədägu",
+          "en": "(you) grow!"
+        },
+        "3pl": {
+          "fidel": "ይደጉ",
+          "translit": "ydägu",
+          "en": "let them grow"
+        }
+      },
+      "negative_perfect": {
+        "1sg": {
+          "fidel": "አላደግኩም",
+          "translit": "aladdäkkumm*",
+          "en": "I didn't grow"
+        },
+        "2sgm": {
+          "fidel": "አላደግክም",
+          "translit": "aladdäkkəmm*",
+          "en": "you (m.) didn't grow"
+        },
+        "2sgf": {
+          "fidel": "አላደግሽም",
+          "translit": "aladdägšəmm",
+          "en": "you (f.) didn't grow"
+        },
+        "3sgm": {
+          "fidel": "አላደገም",
+          "translit": "aladdägämm",
+          "en": "he didn't grow"
+        },
+        "3sgf": {
+          "fidel": "አላደገችም",
+          "translit": "aladdägäččəmm",
+          "en": "she didn't grow"
+        },
+        "1pl": {
+          "fidel": "አላደግንም",
+          "translit": "aladdägnəmm",
+          "en": "we didn't grow"
+        },
+        "2pl": {
+          "fidel": "አላደጋችሁም",
+          "translit": "aladdägaččəhumm",
+          "en": "you didn't grow"
+        },
+        "3pl": {
+          "fidel": "አላደጉም",
+          "translit": "aladdägumm",
+          "en": "they didn't grow"
+        }
+      },
+      "negative_imperfective": {
+        "1sg": {
+          "fidel": "አላድግም",
+          "translit": "aladgəmm",
+          "en": "I don't grow"
+        },
+        "2sgm": {
+          "fidel": "አታድግም",
+          "translit": "atadgəmm",
+          "en": "you (m.) don't grow"
+        },
+        "2sgf": {
+          "fidel": "አታድጊም",
+          "translit": "atadgimm",
+          "en": "you (f.) don't grow"
+        },
+        "3sgm": {
+          "fidel": "አያድግም",
+          "translit": "ayadgəmm",
+          "en": "he doesn't grow"
+        },
+        "3sgf": {
+          "fidel": "አታድግም",
+          "translit": "atadgəmm",
+          "en": "she doesn't grow"
+        },
+        "1pl": {
+          "fidel": "አናድግም",
+          "translit": "anadgəmm",
+          "en": "we don't grow"
+        },
+        "2pl": {
+          "fidel": "አታድጉም",
+          "translit": "atadgumm",
+          "en": "you don't grow"
+        },
+        "3pl": {
+          "fidel": "አያድጉም",
+          "translit": "ayadgumm",
+          "en": "they don't grow"
+        }
+      },
+      "negative_jussive_imperative": {
+        "1sg": {
+          "fidel": "አልደግ",
+          "translit": "alədäg",
+          "en": "let me not grow"
+        },
+        "2sgm": {
+          "fidel": "አትደግ",
+          "translit": "attədäg",
+          "en": "[you(m.)] don't grow"
+        },
+        "2sgf": {
+          "fidel": "አትደጊ",
+          "translit": "attədägi",
+          "en": "[you (f.)] don't grow"
+        },
+        "3sgm": {
+          "fidel": "አይደግ",
+          "translit": "ayədäg",
+          "en": "let him not grow"
+        },
+        "3sgf": {
+          "fidel": "አትደግ",
+          "translit": "attədäg",
+          "en": "let her not grow"
+        },
+        "1pl": {
+          "fidel": "አንደግ",
+          "translit": "annədäg",
+          "en": "let us not grow"
+        },
+        "2pl": {
+          "fidel": "አትደጉ",
+          "translit": "attədägu",
+          "en": "(you) don't grow"
+        },
+        "3pl": {
+          "fidel": "አይደጉ",
+          "translit": "ayədägu",
+          "en": "let them not grow"
+        }
+      },
+      "infinitive": {
+        "fidel": "ማደግ",
+        "translit": "madäg"
+      }
+    },
+    "አጠበ": {
+      "english": "wash",
+      "perfect": {
+        "1sg": {
+          "fidel": "አጠብኩ",
+          "translit": "aṭṭäbku",
+          "en": "I washed"
+        },
+        "2sgm": {
+          "fidel": "አጠብክ",
+          "translit": "aṭṭäbk",
+          "en": "you (m.) washed"
+        },
+        "2sgf": {
+          "fidel": "አጠብሽ",
+          "translit": "aṭṭäbš",
+          "en": "you (f.) washed"
+        },
+        "3sgm": {
+          "fidel": "አጠበ",
+          "translit": "aṭṭäbä",
+          "en": "he washed"
+        },
+        "3sgf": {
+          "fidel": "አጠበች",
+          "translit": "aṭṭäbäčč",
+          "en": "she washed"
+        },
+        "1pl": {
+          "fidel": "አጠብን",
+          "translit": "aṭṭäbn",
+          "en": "we washed"
+        },
+        "2pl": {
+          "fidel": "አጠባችሁ",
+          "translit": "aṭṭäbaččəhu",
+          "en": "you washed"
+        },
+        "3pl": {
+          "fidel": "አጠቡ",
+          "translit": "aṭṭäbu",
+          "en": "they washed"
+        }
+      },
+      "imperfective_compound": {
+        "1sg": {
+          "fidel": "አጥባለሁ",
+          "translit": "aṭballähu",
+          "en": "I wash / I will wash"
+        },
+        "2sgm": {
+          "fidel": "ታጥባለህ",
+          "translit": "taṭballäh",
+          "en": "you (m.) wash / you (m.) will wash"
+        },
+        "2sgf": {
+          "fidel": "ታጥቢያለሽ",
+          "translit": "taṭbiyalläš",
+          "en": "you (f.) wash / you (f.) will wash"
+        },
+        "3sgm": {
+          "fidel": "ያጥባል",
+          "translit": "yaṭball",
+          "en": "he washes / he will wash"
+        },
+        "3sgf": {
+          "fidel": "ታጥባለች",
+          "translit": "taṭballäčč",
+          "en": "she washes / she will wash"
+        },
+        "1pl": {
+          "fidel": "እናጥባለን",
+          "translit": "ənnaṭballän",
+          "en": "we wash / we will wash"
+        },
+        "2pl": {
+          "fidel": "ታጥባላችሁ",
+          "translit": "taṭballaččəhu",
+          "en": "you wash / you will wash"
+        },
+        "3pl": {
+          "fidel": "ያጥባሉ",
+          "translit": "yaṭballu",
+          "en": "they wash / they will wash"
+        }
+      },
+      "gerund": {
+        "1sg": {
+          "fidel": "አጥቤ",
+          "translit": "aṭəbbe",
+          "en": "(I) having washed"
+        },
+        "2sgm": {
+          "fidel": "አጥበህ",
+          "translit": "aṭbäh",
+          "en": "[you (m.)] having washed"
+        },
+        "2sgf": {
+          "fidel": "አጥበሽ",
+          "translit": "aṭbäš",
+          "en": "[you (f.)] having washed"
+        },
+        "3sgm": {
+          "fidel": "አጥቦ",
+          "translit": "aṭbo",
+          "en": "(he) having washed"
+        },
+        "3sgf": {
+          "fidel": "አጥባ",
+          "translit": "aṭba",
+          "en": "(she) having washed"
+        },
+        "1pl": {
+          "fidel": "አጥበን",
+          "translit": "aṭbän",
+          "en": "(we) having washed"
+        },
+        "2pl": {
+          "fidel": "አጥባችሁ",
+          "translit": "aṭbaččəhu",
+          "en": "(you) having washed"
+        },
+        "3pl": {
+          "fidel": "አጥበው",
+          "translit": "aṭbäw",
+          "en": "(they) having washed"
+        }
+      },
+      "compound_gerund": {
+        "1sg": {
+          "fidel": "አጥቤያለሁ",
+          "translit": "aṭəbbeyallähu",
+          "en": "I have washed"
+        },
+        "2sgm": {
+          "fidel": "አጥበሃል",
+          "translit": "aṭbähall",
+          "en": "you (m.) have washed"
+        },
+        "2sgf": {
+          "fidel": "አጥበሻል",
+          "translit": "aṭbäšall",
+          "en": "you (f.) have washed"
+        },
+        "3sgm": {
+          "fidel": "አጥቧል",
+          "translit": "aṭbwall",
+          "en": "he has washed"
+        },
+        "3sgf": {
+          "fidel": "አጥባለች",
+          "translit": "aṭballäčč",
+          "en": "she has washed"
+        },
+        "1pl": {
+          "fidel": "አጥበናል",
+          "translit": "aṭbänall",
+          "en": "we have washed"
+        },
+        "2pl": {
+          "fidel": "አጥባችኋል",
+          "translit": "aṭbaččhwall",
+          "en": "you have washed"
+        },
+        "3pl": {
+          "fidel": "አጥበዋል",
+          "translit": "aṭbäwall",
+          "en": "they have washed"
+        }
+      },
+      "jussive_imperative": {
+        "1sg": {
+          "fidel": "ልጠብ",
+          "translit": "lṭäb",
+          "en": "let me wash"
+        },
+        "2sgm": {
+          "fidel": "እጠብ",
+          "translit": "əṭäb",
+          "en": "[you(m.)] wash!"
+        },
+        "2sgf": {
+          "fidel": "እጠቢ",
+          "translit": "əṭäbi",
+          "en": "[you (f.)] wash!"
+        },
+        "3sgm": {
+          "fidel": "ይጠብ",
+          "translit": "yṭäb",
+          "en": "let him wash"
+        },
+        "3sgf": {
+          "fidel": "ትጠብ",
+          "translit": "tṭäb",
+          "en": "let her wash"
+        },
+        "1pl": {
+          "fidel": "እንጠብ",
+          "translit": "ənṭäb",
+          "en": "let us wash"
+        },
+        "2pl": {
+          "fidel": "እጠቡ",
+          "translit": "əṭäbu",
+          "en": "(you) wash!"
+        },
+        "3pl": {
+          "fidel": "ይጠቡ",
+          "translit": "yṭäbu",
+          "en": "let them wash"
+        }
+      },
+      "negative_perfect": {
+        "1sg": {
+          "fidel": "አላጠብኩም",
+          "translit": "alaṭṭäbkumm",
+          "en": "I didn't wash"
+        },
+        "2sgm": {
+          "fidel": "አላጠብክም",
+          "translit": "alaṭṭäbkəmm",
+          "en": "you (m.) didn't wash"
+        },
+        "2sgf": {
+          "fidel": "አላጠብሽም",
+          "translit": "alaṭṭäbšəmm",
+          "en": "you (f.) didn't wash"
+        },
+        "3sgm": {
+          "fidel": "አላጠበም",
+          "translit": "alaṭṭäbämm",
+          "en": "he didn't wash"
+        },
+        "3sgf": {
+          "fidel": "አላጠበችም",
+          "translit": "alaṭṭäbäččəmm",
+          "en": "she didn't wash"
+        },
+        "1pl": {
+          "fidel": "አላጠብንም",
+          "translit": "alaṭṭäbnəmm",
+          "en": "we didn't wash"
+        },
+        "2pl": {
+          "fidel": "አላጠባችሁም",
+          "translit": "alaṭṭäbaččəhumm",
+          "en": "you didn't wash"
+        },
+        "3pl": {
+          "fidel": "አላጠቡም",
+          "translit": "alaṭṭäbumm",
+          "en": "they didn't wash"
+        }
+      },
+      "negative_imperfective": {
+        "1sg": {
+          "fidel": "አላጥብም",
+          "translit": "alaṭbəmm",
+          "en": "I don't wash"
+        },
+        "2sgm": {
+          "fidel": "አታጥብም",
+          "translit": "ataṭbəmm",
+          "en": "you (m.) don't wash"
+        },
+        "2sgf": {
+          "fidel": "አታጥቢም",
+          "translit": "ataṭbimm",
+          "en": "you (f.) don't wash"
+        },
+        "3sgm": {
+          "fidel": "አያጥብም",
+          "translit": "ayaṭbəmm",
+          "en": "he doesn't wash"
+        },
+        "3sgf": {
+          "fidel": "አታጥብም",
+          "translit": "ataṭbəmm",
+          "en": "she doesn't wash"
+        },
+        "1pl": {
+          "fidel": "አናጥብም",
+          "translit": "anaṭbəmm",
+          "en": "we don't wash"
+        },
+        "2pl": {
+          "fidel": "አታጥቡም",
+          "translit": "ataṭbumm",
+          "en": "you don't wash"
+        },
+        "3pl": {
+          "fidel": "አያጥቡም",
+          "translit": "ayaṭbumm",
+          "en": "they don't wash"
+        }
+      },
+      "negative_jussive_imperative": {
+        "1sg": {
+          "fidel": "አልጠብ",
+          "translit": "aləṭäb",
+          "en": "let me not wash"
+        },
+        "2sgm": {
+          "fidel": "አትጠብ",
+          "translit": "attəṭäb",
+          "en": "[you(m.)] don't wash"
+        },
+        "2sgf": {
+          "fidel": "አትጠቢ",
+          "translit": "attəṭäbi",
+          "en": "[you (f.)] don't wash"
+        },
+        "3sgm": {
+          "fidel": "አይጠብ",
+          "translit": "ayəṭäb",
+          "en": "let him not wash"
+        },
+        "3sgf": {
+          "fidel": "አትጠብ",
+          "translit": "attəṭäb",
+          "en": "let her not wash"
+        },
+        "1pl": {
+          "fidel": "አንጠብ",
+          "translit": "annəṭäb",
+          "en": "let us not wash"
+        },
+        "2pl": {
+          "fidel": "አትጠቡ",
+          "translit": "attəṭäbu",
+          "en": "(you) don't wash"
+        },
+        "3pl": {
+          "fidel": "አይጠቡ",
+          "translit": "ayəṭäbu",
+          "en": "let them not wash"
+        }
+      },
+      "infinitive": {
+        "fidel": "ማጠብ",
+        "translit": "maṭäb"
+      }
+    },
+    "አፈረ": {
+      "english": "be shy",
+      "perfect": {
+        "1sg": {
+          "fidel": "አፈርኩ",
+          "translit": "affärku",
+          "en": "I was shy"
+        },
+        "2sgm": {
+          "fidel": "አፈርክ",
+          "translit": "affärk",
+          "en": "you (m.) was shy"
+        },
+        "2sgf": {
+          "fidel": "አፈርሽ",
+          "translit": "affärš",
+          "en": "you (f.) was shy"
+        },
+        "3sgm": {
+          "fidel": "አፈረ",
+          "translit": "affärä",
+          "en": "he was shy"
+        },
+        "3sgf": {
+          "fidel": "አፈረች",
+          "translit": "affäräčč",
+          "en": "she was shy"
+        },
+        "1pl": {
+          "fidel": "አፈርን",
+          "translit": "affärn",
+          "en": "we was shy"
+        },
+        "2pl": {
+          "fidel": "አፈራችሁ",
+          "translit": "affäraččəhu",
+          "en": "you was shy"
+        },
+        "3pl": {
+          "fidel": "አፈሩ",
+          "translit": "affäru",
+          "en": "they was shy"
+        }
+      },
+      "imperfective_compound": {
+        "1sg": {
+          "fidel": "አፍራለሁ",
+          "translit": "afrallähu",
+          "en": "I be shy / I will be shy"
+        },
+        "2sgm": {
+          "fidel": "ታፍራለህ",
+          "translit": "tafralläh",
+          "en": "you (m.) be shy / you (m.) will be shy"
+        },
+        "2sgf": {
+          "fidel": "ታፍሪያለሽ",
+          "translit": "tafriyalläš",
+          "en": "you (f.) be shy / you (f.) will be shy"
+        },
+        "3sgm": {
+          "fidel": "ያፍራል",
+          "translit": "yafrall",
+          "en": "he be shies / he will be shy"
+        },
+        "3sgf": {
+          "fidel": "ታፍራለች",
+          "translit": "tafralläčč",
+          "en": "she be shies / she will be shy"
+        },
+        "1pl": {
+          "fidel": "እናፍራለን",
+          "translit": "ənnafrallän",
+          "en": "we be shy / we will be shy"
+        },
+        "2pl": {
+          "fidel": "ታፍራላችሁ",
+          "translit": "tafrallaččəhu",
+          "en": "you be shy / you will be shy"
+        },
+        "3pl": {
+          "fidel": "ያፍራሉ",
+          "translit": "yafrallu",
+          "en": "they be shy / they will be shy"
+        }
+      },
+      "gerund": {
+        "1sg": {
+          "fidel": "አፍሬ",
+          "translit": "afərre",
+          "en": "(I) having been shy"
+        },
+        "2sgm": {
+          "fidel": "አፍረህ",
+          "translit": "afräh",
+          "en": "[you (m.)] having been shy"
+        },
+        "2sgf": {
+          "fidel": "አፍረሽ",
+          "translit": "afräš",
+          "en": "[you (f.)] having been shy"
+        },
+        "3sgm": {
+          "fidel": "አፍሮ",
+          "translit": "afro",
+          "en": "(he) having been shy"
+        },
+        "3sgf": {
+          "fidel": "አፍራ",
+          "translit": "afra",
+          "en": "(she) having been shy"
+        },
+        "1pl": {
+          "fidel": "አፍረን",
+          "translit": "afrän",
+          "en": "(we) having been shy"
+        },
+        "2pl": {
+          "fidel": "አፍራችሁ",
+          "translit": "afraččəhu",
+          "en": "(you) having been shy"
+        },
+        "3pl": {
+          "fidel": "አፍረው",
+          "translit": "afräw",
+          "en": "(they) having been shy"
+        }
+      },
+      "compound_gerund": {
+        "1sg": {
+          "fidel": "አፍሬያለሁ",
+          "translit": "afərreyallähu",
+          "en": "I have was shy"
+        },
+        "2sgm": {
+          "fidel": "አፍረሃል",
+          "translit": "afrähall",
+          "en": "you (m.) have was shy"
+        },
+        "2sgf": {
+          "fidel": "አፍረሻል",
+          "translit": "afräšall",
+          "en": "you (f.) have was shy"
+        },
+        "3sgm": {
+          "fidel": "አፍሯል",
+          "translit": "afrwall",
+          "en": "he has was shy"
+        },
+        "3sgf": {
+          "fidel": "አፍራለች",
+          "translit": "afralläčč",
+          "en": "she has was shy"
+        },
+        "1pl": {
+          "fidel": "አፍረናል",
+          "translit": "afränall",
+          "en": "we have was shy"
+        },
+        "2pl": {
+          "fidel": "አፍራችኋል",
+          "translit": "afraččhwall",
+          "en": "you have was shy"
+        },
+        "3pl": {
+          "fidel": "አፍረዋል",
+          "translit": "afräwall",
+          "en": "they have was shy"
+        }
+      },
+      "jussive_imperative": {
+        "1sg": {
+          "fidel": "ልፈር",
+          "translit": "lfär",
+          "en": "let me be shy"
+        },
+        "2sgm": {
+          "fidel": "እፈር",
+          "translit": "əfär",
+          "en": "[you(m.)] be shy!"
+        },
+        "2sgf": {
+          "fidel": "እፈሪ",
+          "translit": "əfäri",
+          "en": "[you (f.)] be shy!"
+        },
+        "3sgm": {
+          "fidel": "ይፈር",
+          "translit": "yfär",
+          "en": "let him be shy"
+        },
+        "3sgf": {
+          "fidel": "ትፈር",
+          "translit": "tfär",
+          "en": "let her be shy"
+        },
+        "1pl": {
+          "fidel": "እንፈር",
+          "translit": "ənfär",
+          "en": "let us be shy"
+        },
+        "2pl": {
+          "fidel": "እፈሩ",
+          "translit": "əfäru",
+          "en": "(you) be shy!"
+        },
+        "3pl": {
+          "fidel": "ይፈሩ",
+          "translit": "yfäru",
+          "en": "let them be shy"
+        }
+      },
+      "negative_perfect": {
+        "1sg": {
+          "fidel": "አላፈርኩም",
+          "translit": "alaffärkumm",
+          "en": "I didn't be shy"
+        },
+        "2sgm": {
+          "fidel": "አላፈርክም",
+          "translit": "alaffärkəmm",
+          "en": "you (m.) didn't be shy"
+        },
+        "2sgf": {
+          "fidel": "አላፈርሽም",
+          "translit": "alaffäršəmm",
+          "en": "you (f.) didn't be shy"
+        },
+        "3sgm": {
+          "fidel": "አላፈረም",
+          "translit": "alaffärämm",
+          "en": "he didn't be shy"
+        },
+        "3sgf": {
+          "fidel": "አላፈረችም",
+          "translit": "alaffäräččəmm",
+          "en": "she didn't be shy"
+        },
+        "1pl": {
+          "fidel": "አላፈርንም",
+          "translit": "alaffärnəmm",
+          "en": "we didn't be shy"
+        },
+        "2pl": {
+          "fidel": "አላፈራችሁም",
+          "translit": "alaffäraččəhumm",
+          "en": "you didn't be shy"
+        },
+        "3pl": {
+          "fidel": "አላፈሩም",
+          "translit": "alaffärumm",
+          "en": "they didn't be shy"
+        }
+      },
+      "negative_imperfective": {
+        "1sg": {
+          "fidel": "አላፍርም",
+          "translit": "alafrəmm",
+          "en": "I don't be shy"
+        },
+        "2sgm": {
+          "fidel": "አታፍርም",
+          "translit": "atafrəmm",
+          "en": "you (m.) don't be shy"
+        },
+        "2sgf": {
+          "fidel": "አታፍሪም",
+          "translit": "atafrimm",
+          "en": "you (f.) don't be shy"
+        },
+        "3sgm": {
+          "fidel": "አያፍርም",
+          "translit": "ayafrəmm",
+          "en": "he doesn't be shy"
+        },
+        "3sgf": {
+          "fidel": "አታፍርም",
+          "translit": "atafrəmm",
+          "en": "she doesn't be shy"
+        },
+        "1pl": {
+          "fidel": "አናፍርም",
+          "translit": "anafrəmm",
+          "en": "we don't be shy"
+        },
+        "2pl": {
+          "fidel": "አታፍሩም",
+          "translit": "atafrumm",
+          "en": "you don't be shy"
+        },
+        "3pl": {
+          "fidel": "አያፍሩም",
+          "translit": "ayafrumm",
+          "en": "they don't be shy"
+        }
+      },
+      "negative_jussive_imperative": {
+        "1sg": {
+          "fidel": "አልፈር",
+          "translit": "aləfär",
+          "en": "let me not be shy"
+        },
+        "2sgm": {
+          "fidel": "አትፈር",
+          "translit": "attəfär",
+          "en": "[you(m.)] don't be shy"
+        },
+        "2sgf": {
+          "fidel": "አትፈሪ",
+          "translit": "attəfäri",
+          "en": "[you (f.)] don't be shy"
+        },
+        "3sgm": {
+          "fidel": "አይፈር",
+          "translit": "ayəfär",
+          "en": "let him not be shy"
+        },
+        "3sgf": {
+          "fidel": "አትፈር",
+          "translit": "attəfär",
+          "en": "let her not be shy"
+        },
+        "1pl": {
+          "fidel": "አንፈር",
+          "translit": "annəfär",
+          "en": "let us not be shy"
+        },
+        "2pl": {
+          "fidel": "አትፈሩ",
+          "translit": "attəfäru",
+          "en": "(you) don't be shy"
+        },
+        "3pl": {
+          "fidel": "አይፈሩ",
+          "translit": "ayəfäru",
+          "en": "let them not be shy"
+        }
+      },
+      "infinitive": {
+        "fidel": "ማፈር",
+        "translit": "mafär"
+      }
+    },
+    "አጠፈ": {
+      "english": "fold",
+      "perfect": {
+        "1sg": {
+          "fidel": "አጠፍኩ",
+          "translit": "aṭṭäfku",
+          "en": "I folded"
+        },
+        "2sgm": {
+          "fidel": "አጠፍክ",
+          "translit": "aṭṭäfk",
+          "en": "you (m.) folded"
+        },
+        "2sgf": {
+          "fidel": "አጠፍሽ",
+          "translit": "aṭṭäfš",
+          "en": "you (f.) folded"
+        },
+        "3sgm": {
+          "fidel": "አጠፈ",
+          "translit": "aṭṭäfä",
+          "en": "he folded"
+        },
+        "3sgf": {
+          "fidel": "አጠፈች",
+          "translit": "aṭṭäfäčč",
+          "en": "she folded"
+        },
+        "1pl": {
+          "fidel": "አጠፍን",
+          "translit": "aṭṭäfn",
+          "en": "we folded"
+        },
+        "2pl": {
+          "fidel": "አጠፋችሁ",
+          "translit": "aṭṭäfaččəhu",
+          "en": "you folded"
+        },
+        "3pl": {
+          "fidel": "አጠፉ",
+          "translit": "aṭṭäfu",
+          "en": "they folded"
+        }
+      },
+      "imperfective_compound": {
+        "1sg": {
+          "fidel": "አጥፋለሁ",
+          "translit": "aṭfallähu",
+          "en": "I fold / I will fold"
+        },
+        "2sgm": {
+          "fidel": "ታጥፋለህ",
+          "translit": "taṭfalläh",
+          "en": "you (m.) fold / you (m.) will fold"
+        },
+        "2sgf": {
+          "fidel": "ታጥፊያለሽ",
+          "translit": "taṭfiyalläš",
+          "en": "you (f.) fold / you (f.) will fold"
+        },
+        "3sgm": {
+          "fidel": "ያጥፋል",
+          "translit": "yaṭfall",
+          "en": "he folds / he will fold"
+        },
+        "3sgf": {
+          "fidel": "ታጥፋለች",
+          "translit": "taṭfalläčč",
+          "en": "she folds / she will fold"
+        },
+        "1pl": {
+          "fidel": "እናጥፋለን",
+          "translit": "ənnaṭfallän",
+          "en": "we fold / we will fold"
+        },
+        "2pl": {
+          "fidel": "ታጥፋላችሁ",
+          "translit": "taṭfallaččəhu",
+          "en": "you fold / you will fold"
+        },
+        "3pl": {
+          "fidel": "ያጥፋሉ",
+          "translit": "yaṭfallu",
+          "en": "they fold / they will fold"
+        }
+      },
+      "gerund": {
+        "1sg": {
+          "fidel": "አጥፌ",
+          "translit": "aṭəffe",
+          "en": "(I) having folded"
+        },
+        "2sgm": {
+          "fidel": "አጥፈህ",
+          "translit": "aṭfäh",
+          "en": "[you (m.)] having folded"
+        },
+        "2sgf": {
+          "fidel": "አጥፈሽ",
+          "translit": "aṭfäš",
+          "en": "[you (f.)] having folded"
+        },
+        "3sgm": {
+          "fidel": "አጥፎ",
+          "translit": "aṭfo",
+          "en": "(he) having folded"
+        },
+        "3sgf": {
+          "fidel": "አጥፋ",
+          "translit": "aṭfa",
+          "en": "(she) having folded"
+        },
+        "1pl": {
+          "fidel": "አጥፈን",
+          "translit": "aṭfän",
+          "en": "(we) having folded"
+        },
+        "2pl": {
+          "fidel": "አጥፋችሁ",
+          "translit": "aṭfaččəhu",
+          "en": "(you) having folded"
+        },
+        "3pl": {
+          "fidel": "አጥፈው",
+          "translit": "aṭfäw",
+          "en": "(they) having folded"
+        }
+      },
+      "compound_gerund": {
+        "1sg": {
+          "fidel": "አጥፌያለሁ",
+          "translit": "aṭəffeyallähu",
+          "en": "I have folded"
+        },
+        "2sgm": {
+          "fidel": "አጥፈሃል",
+          "translit": "aṭfähall",
+          "en": "you (m.) have folded"
+        },
+        "2sgf": {
+          "fidel": "አጥፈሻል",
+          "translit": "aṭfäšall",
+          "en": "you (f.) have folded"
+        },
+        "3sgm": {
+          "fidel": "አጥፏል",
+          "translit": "aṭfwall",
+          "en": "he has folded"
+        },
+        "3sgf": {
+          "fidel": "አጥፋለች",
+          "translit": "aṭfalläčč",
+          "en": "she has folded"
+        },
+        "1pl": {
+          "fidel": "አጥፈናል",
+          "translit": "aṭfänall",
+          "en": "we have folded"
+        },
+        "2pl": {
+          "fidel": "አጥፋችኋል",
+          "translit": "aṭfaččhwall",
+          "en": "you have folded"
+        },
+        "3pl": {
+          "fidel": "አጥፈዋል",
+          "translit": "aṭfäwall",
+          "en": "they have folded"
+        }
+      },
+      "jussive_imperative": {
+        "1sg": {
+          "fidel": "ልጠፍ",
+          "translit": "lṭäf",
+          "en": "let me fold"
+        },
+        "2sgm": {
+          "fidel": "እጠፍ",
+          "translit": "əṭäf",
+          "en": "[you(m.)] fold!"
+        },
+        "2sgf": {
+          "fidel": "እጠፊ",
+          "translit": "əṭäfi",
+          "en": "[you (f.)] fold!"
+        },
+        "3sgm": {
+          "fidel": "ይጠፍ",
+          "translit": "yṭäf",
+          "en": "let him fold"
+        },
+        "3sgf": {
+          "fidel": "ትጠፍ",
+          "translit": "tṭäf",
+          "en": "let her fold"
+        },
+        "1pl": {
+          "fidel": "እንጠፍ",
+          "translit": "ənṭäf",
+          "en": "let us fold"
+        },
+        "2pl": {
+          "fidel": "እጠፉ",
+          "translit": "əṭäfu",
+          "en": "(you) fold!"
+        },
+        "3pl": {
+          "fidel": "ይጠፉ",
+          "translit": "yṭäfu",
+          "en": "let them fold"
+        }
+      },
+      "negative_perfect": {
+        "1sg": {
+          "fidel": "አላጠፍኩም",
+          "translit": "alaṭṭäfkumm",
+          "en": "I didn't fold"
+        },
+        "2sgm": {
+          "fidel": "አላጠፍክም",
+          "translit": "alaṭṭäfkəmm",
+          "en": "you (m.) didn't fold"
+        },
+        "2sgf": {
+          "fidel": "አላጠፍሽም",
+          "translit": "alaṭṭäfšəmm",
+          "en": "you (f.) didn't fold"
+        },
+        "3sgm": {
+          "fidel": "አላጠፈም",
+          "translit": "alaṭṭäfämm",
+          "en": "he didn't fold"
+        },
+        "3sgf": {
+          "fidel": "አላጠፈችም",
+          "translit": "alaṭṭäfäččəmm",
+          "en": "she didn't fold"
+        },
+        "1pl": {
+          "fidel": "አላጠፍንም",
+          "translit": "alaṭṭäfnəmm",
+          "en": "we didn't fold"
+        },
+        "2pl": {
+          "fidel": "አላጠፋችሁም",
+          "translit": "alaṭṭäfaččəhumm",
+          "en": "you didn't fold"
+        },
+        "3pl": {
+          "fidel": "አላጠፉም",
+          "translit": "alaṭṭäfumm",
+          "en": "they didn't fold"
+        }
+      },
+      "negative_imperfective": {
+        "1sg": {
+          "fidel": "አላጥፍም",
+          "translit": "alaṭfəmm",
+          "en": "I don't fold"
+        },
+        "2sgm": {
+          "fidel": "አታጥፍም",
+          "translit": "ataṭfəmm",
+          "en": "you (m.) don't fold"
+        },
+        "2sgf": {
+          "fidel": "አታጥፊም",
+          "translit": "ataṭfimm",
+          "en": "you (f.) don't fold"
+        },
+        "3sgm": {
+          "fidel": "አያጥፍም",
+          "translit": "ayaṭfəmm",
+          "en": "he doesn't fold"
+        },
+        "3sgf": {
+          "fidel": "አታጥፍም",
+          "translit": "ataṭfəmm",
+          "en": "she doesn't fold"
+        },
+        "1pl": {
+          "fidel": "አናጥፍም",
+          "translit": "anaṭfəmm",
+          "en": "we don't fold"
+        },
+        "2pl": {
+          "fidel": "አታጥፉም",
+          "translit": "ataṭfumm",
+          "en": "you don't fold"
+        },
+        "3pl": {
+          "fidel": "አያጥፉም",
+          "translit": "ayaṭfumm",
+          "en": "they don't fold"
+        }
+      },
+      "negative_jussive_imperative": {
+        "1sg": {
+          "fidel": "አልጠፍ",
+          "translit": "aləṭäf",
+          "en": "let me not fold"
+        },
+        "2sgm": {
+          "fidel": "አትጠፍ",
+          "translit": "attəṭäf",
+          "en": "[you(m.)] don't fold"
+        },
+        "2sgf": {
+          "fidel": "አትጠፊ",
+          "translit": "attəṭäfi",
+          "en": "[you (f.)] don't fold"
+        },
+        "3sgm": {
+          "fidel": "አይጠፍ",
+          "translit": "ayəṭäf",
+          "en": "let him not fold"
+        },
+        "3sgf": {
+          "fidel": "አትጠፍ",
+          "translit": "attəṭäf",
+          "en": "let her not fold"
+        },
+        "1pl": {
+          "fidel": "አንጠፍ",
+          "translit": "annəṭäf",
+          "en": "let us not fold"
+        },
+        "2pl": {
+          "fidel": "አትጠፉ",
+          "translit": "attəṭäfu",
+          "en": "(you) don't fold"
+        },
+        "3pl": {
+          "fidel": "አይጠፉ",
+          "translit": "ayəṭäfu",
+          "en": "let them not fold"
+        }
+      },
+      "infinitive": {
+        "fidel": "ማጠፍ",
+        "translit": "maṭäf"
+      }
+    },
+    "አደፈ": {
+      "english": "get dirty",
+      "perfect": {
+        "1sg": {
+          "fidel": "አደፍኩ",
+          "translit": "addäfku",
+          "en": "I got dirty"
+        },
+        "2sgm": {
+          "fidel": "አደፍክ",
+          "translit": "addäfk",
+          "en": "you (m.) got dirty"
+        },
+        "2sgf": {
+          "fidel": "አደፍሽ",
+          "translit": "addäfš",
+          "en": "you (f.) got dirty"
+        },
+        "3sgm": {
+          "fidel": "አደፈ",
+          "translit": "addäfä",
+          "en": "he got dirty"
+        },
+        "3sgf": {
+          "fidel": "አደፈች",
+          "translit": "addäfäčč",
+          "en": "she got dirty"
+        },
+        "1pl": {
+          "fidel": "አደፍን",
+          "translit": "addäfn",
+          "en": "we got dirty"
+        },
+        "2pl": {
+          "fidel": "አደፋችሁ",
+          "translit": "addäfaččəhu",
+          "en": "you got dirty"
+        },
+        "3pl": {
+          "fidel": "አደፉ",
+          "translit": "addäfu",
+          "en": "they got dirty"
+        }
+      },
+      "imperfective_compound": {
+        "1sg": {
+          "fidel": "አድፋለሁ",
+          "translit": "adfallähu",
+          "en": "I get dirty / I will get dirty"
+        },
+        "2sgm": {
+          "fidel": "ታድፋለህ",
+          "translit": "tadfalläh",
+          "en": "you (m.) get dirty / you (m.) will get dirty"
+        },
+        "2sgf": {
+          "fidel": "ታድፊያለሽ",
+          "translit": "tadfiyalläš",
+          "en": "you (f.) get dirty / you (f.) will get dirty"
+        },
+        "3sgm": {
+          "fidel": "ያድፋል",
+          "translit": "yadfall",
+          "en": "he get dirties / he will get dirty"
+        },
+        "3sgf": {
+          "fidel": "ታድፋለች",
+          "translit": "tadfalläčč",
+          "en": "she get dirties / she will get dirty"
+        },
+        "1pl": {
+          "fidel": "እናድፋለን",
+          "translit": "ənnadfallän",
+          "en": "we get dirty / we will get dirty"
+        },
+        "2pl": {
+          "fidel": "ታድፋላችሁ",
+          "translit": "tadfallaččəhu",
+          "en": "you get dirty / you will get dirty"
+        },
+        "3pl": {
+          "fidel": "ያድፋሉ",
+          "translit": "yadfallu",
+          "en": "they get dirty / they will get dirty"
+        }
+      },
+      "gerund": {
+        "1sg": {
+          "fidel": "አድፌ",
+          "translit": "adəffe",
+          "en": "(I) having gotten dirty"
+        },
+        "2sgm": {
+          "fidel": "አድፈህ",
+          "translit": "adfäh",
+          "en": "[you(m.)] having gotten dirty"
+        },
+        "2sgf": {
+          "fidel": "አድፈሽ",
+          "translit": "adfäš",
+          "en": "[you (f.)] having gotten dirty"
+        },
+        "3sgm": {
+          "fidel": "አድፎ",
+          "translit": "adfo",
+          "en": "(he) having gotten dirty"
+        },
+        "3sgf": {
+          "fidel": "አድፋ",
+          "translit": "adfa",
+          "en": "(she) having gotten dirty"
+        },
+        "1pl": {
+          "fidel": "አድፈን",
+          "translit": "adfän",
+          "en": "(we) having gotten dirty"
+        },
+        "2pl": {
+          "fidel": "አድፋችሁ",
+          "translit": "adfaččəhu",
+          "en": "(you) having gotten dirty"
+        },
+        "3pl": {
+          "fidel": "አድፈው",
+          "translit": "adfäw",
+          "en": "(they) having gotten dirty"
+        }
+      },
+      "compound_gerund": {
+        "1sg": {
+          "fidel": "አድፌያለሁ",
+          "translit": "adəffeyallähu",
+          "en": "I have got dirty"
+        },
+        "2sgm": {
+          "fidel": "አድፈሃል",
+          "translit": "adfähall",
+          "en": "you (m.) have got dirty"
+        },
+        "2sgf": {
+          "fidel": "አድፈሻል",
+          "translit": "adfäšall",
+          "en": "you (f.) have got dirty"
+        },
+        "3sgm": {
+          "fidel": "አድፏል",
+          "translit": "adfwall",
+          "en": "he has got dirty"
+        },
+        "3sgf": {
+          "fidel": "አድፋለች",
+          "translit": "adfalläčč",
+          "en": "she has got dirty"
+        },
+        "1pl": {
+          "fidel": "አድፈናል",
+          "translit": "adfänall",
+          "en": "we have got dirty"
+        },
+        "2pl": {
+          "fidel": "አድፋችኋል",
+          "translit": "adfaččhwall",
+          "en": "you have got dirty"
+        },
+        "3pl": {
+          "fidel": "አድፈዋል",
+          "translit": "adfäwall",
+          "en": "they have got dirty"
+        }
+      },
+      "jussive_imperative": {
+        "1sg": {
+          "fidel": "ልደፍ",
+          "translit": "ldäf",
+          "en": "let me get dirty"
+        },
+        "2sgm": {
+          "fidel": "እደፍ",
+          "translit": "ədäf",
+          "en": "[you(m.)] get dirty!"
+        },
+        "2sgf": {
+          "fidel": "እደፊ",
+          "translit": "ədäfi",
+          "en": "[you (f.)] get dirty!"
+        },
+        "3sgm": {
+          "fidel": "ይደፍ",
+          "translit": "ydäf",
+          "en": "let him get dirty"
+        },
+        "3sgf": {
+          "fidel": "ትደፍ",
+          "translit": "tdäf",
+          "en": "let her get dirty"
+        },
+        "1pl": {
+          "fidel": "እንደፍ",
+          "translit": "əndäf",
+          "en": "let us get dirty"
+        },
+        "2pl": {
+          "fidel": "እደፉ",
+          "translit": "ədäfu",
+          "en": "(you) get dirty!"
+        },
+        "3pl": {
+          "fidel": "ይደፉ",
+          "translit": "ydäfu",
+          "en": "let them get dirty"
+        }
+      },
+      "negative_perfect": {
+        "1sg": {
+          "fidel": "አላደፍኩም",
+          "translit": "aladdäfkumm",
+          "en": "I didn't get dirty"
+        },
+        "2sgm": {
+          "fidel": "አላደፍክም",
+          "translit": "aladdäfkəmm",
+          "en": "you (m.) didn't get dirty"
+        },
+        "2sgf": {
+          "fidel": "አላደፍሽም",
+          "translit": "aladdäfšəmm",
+          "en": "you (f.) didn't get dirty"
+        },
+        "3sgm": {
+          "fidel": "አላደፈም",
+          "translit": "aladdäfämm",
+          "en": "he didn't get dirty"
+        },
+        "3sgf": {
+          "fidel": "አላደፈችም",
+          "translit": "aladdäfäččəmm",
+          "en": "she didn't get dirty"
+        },
+        "1pl": {
+          "fidel": "አላደፍንም",
+          "translit": "aladdäfnəmm",
+          "en": "we didn't get dirty"
+        },
+        "2pl": {
+          "fidel": "አላደፋችሁም",
+          "translit": "aladdäfaččəhumm",
+          "en": "you didn't get dirty"
+        },
+        "3pl": {
+          "fidel": "አላደፉም",
+          "translit": "aladdäfumm",
+          "en": "they didn't get dirty"
+        }
+      },
+      "negative_imperfective": {
+        "1sg": {
+          "fidel": "አላድፍም",
+          "translit": "aladfəmm",
+          "en": "I don't get dirty"
+        },
+        "2sgm": {
+          "fidel": "አታድፍም",
+          "translit": "atadfəmm",
+          "en": "you (m.) don't get dirty"
+        },
+        "2sgf": {
+          "fidel": "አታድፊም",
+          "translit": "atadfimm",
+          "en": "you (f.) don't get dirty"
+        },
+        "3sgm": {
+          "fidel": "አያድፍም",
+          "translit": "ayadfəmm",
+          "en": "he doesn't get dirty"
+        },
+        "3sgf": {
+          "fidel": "አታድፍም",
+          "translit": "atadfəmm",
+          "en": "she doesn't get dirty"
+        },
+        "1pl": {
+          "fidel": "አናድፍም",
+          "translit": "anadfəmm",
+          "en": "we don't get dirty"
+        },
+        "2pl": {
+          "fidel": "አታድፉም",
+          "translit": "atadfumm",
+          "en": "you don't get dirty"
+        },
+        "3pl": {
+          "fidel": "አያድፉም",
+          "translit": "ayadfumm",
+          "en": "they don't get dirty"
+        }
+      },
+      "negative_jussive_imperative": {
+        "1sg": {
+          "fidel": "አልደፍ",
+          "translit": "alədäf",
+          "en": "let me not get dirty"
+        },
+        "2sgm": {
+          "fidel": "አትደፍ",
+          "translit": "attədäf",
+          "en": "[you(m.)] don't get dirty"
+        },
+        "2sgf": {
+          "fidel": "አትደፊ",
+          "translit": "attədäfi",
+          "en": "[you (f.)] don't get dirty"
+        },
+        "3sgm": {
+          "fidel": "አይደፍ",
+          "translit": "ayədäf",
+          "en": "let him not get dirty"
+        },
+        "3sgf": {
+          "fidel": "አትደፍ",
+          "translit": "attədäf",
+          "en": "let her not get dirty"
+        },
+        "1pl": {
+          "fidel": "አንደፍ",
+          "translit": "annədäf",
+          "en": "let us not get dirty"
+        },
+        "2pl": {
+          "fidel": "አትደፉ",
+          "translit": "attədäfu",
+          "en": "(you) don't get dirty"
+        },
+        "3pl": {
+          "fidel": "አይደፉ",
+          "translit": "ayədäfu",
+          "en": "let them not get dirty"
+        }
+      },
+      "infinitive": {
+        "fidel": "ማደፍ",
+        "translit": "madäf"
+      }
+    }
+  }
+}
