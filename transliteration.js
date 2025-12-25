@@ -120,6 +120,27 @@ const transliterationMap = {
   'a': 'አ', 'u': 'ኡ', 'i': 'ኢ', 'e': 'እ', 'o': 'ኦ'
 };
 
+// Function to check if a capital variant exists for a given lowercase key
+function hasCapitalVariant(lowercaseKey) {
+  // Check if there's a capital mapping that starts with the same capital letter
+  const firstChar = lowercaseKey.charAt(0).toUpperCase();
+  const capitalKey = firstChar + lowercaseKey.slice(1);
+  
+  // Check if the capital version exists in the map
+  if (transliterationMap[capitalKey]) {
+    return true;
+  }
+  
+  // Check for other capital variants (like "SS" for "ss")
+  for (const key in transliterationMap) {
+    if (key.length === lowercaseKey.length && key.toLowerCase() === lowercaseKey && key !== lowercaseKey) {
+      return true;
+    }
+  }
+  
+  return false;
+}
+
 // Function to transliterate Latin text to Amharic
 function transliterate(latinText) {
   if (!latinText) return '';
@@ -134,11 +155,39 @@ function transliterate(latinText) {
     // Try to match longer sequences first (up to 5 characters for sequences like 'shie')
     for (let len = 5; len >= 1; len--) {
       const substr = text.substring(i, i + len);
+      
+      // First, try exact match (case-sensitive)
       if (transliterationMap[substr]) {
         result += transliterationMap[substr];
         i += len;
         matched = true;
         break;
+      }
+      
+      // If no exact match and the substring has uppercase letters,
+      // try variations: first-letter-capitalized, then lowercase
+      if (substr.match(/[A-Z]/)) {
+        // Try first-letter-capitalized version (e.g., "TE" -> "Te")
+        const firstCapital = substr.charAt(0).toUpperCase() + substr.slice(1).toLowerCase();
+        if (transliterationMap[firstCapital]) {
+          result += transliterationMap[firstCapital];
+          i += len;
+          matched = true;
+          break;
+        }
+        
+        // Try lowercase version (e.g., "De" -> "de", but only if no capital variant exists)
+        const lowercaseSubstr = substr.toLowerCase();
+        if (transliterationMap[lowercaseSubstr]) {
+          // Only use lowercase if there's no capital variant for this pattern
+          // This ensures "Te" maps to ጠ (capital T) not ተ (lowercase t)
+          if (!hasCapitalVariant(lowercaseSubstr)) {
+            result += transliterationMap[lowercaseSubstr];
+            i += len;
+            matched = true;
+            break;
+          }
+        }
       }
     }
     
