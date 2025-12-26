@@ -1,81 +1,50 @@
 const verbs = {};
-let originalData = {}; // Store original data structure
-let allOtherVerbsData = []; // Store all other verbs for sorting
-let currentSortOrder = 'english'; // Default sort order
-
-// Verb files organized by folders (1-11 and irregular)
-const verbFiles = [
-  { key: "1", file: "verbs/1/1.json" },
-  { key: "1. a- (4a A1)", file: "verbs/1/1._a-_(4a_A1).json" },
-  { key: "1A (4B 01)", file: "verbs/1/1A_(4B_01).json" },
-  { key: "2 (4A 02)", file: "verbs/2/2_(4A_02).json" },
-  { key: "2A (4B 02)", file: "verbs/2/2A_(4B_02).json" },
-  { key: "3", file: "verbs/3/3.json" },
-  { key: "4", file: "verbs/4/4.json" },
-  { key: "5. class (3A 01)", file: "verbs/5/5._class_(3A_01).json" },
-  { key: "5. class (3B 01)", file: "verbs/5/5._class_(3B_01).json" },
-  { key: "7", file: "verbs/7/7.json" },
-  { key: "8y", file: "verbs/8/8y.json" },
-  { key: "8W (1k 01)", file: "verbs/8/8W_(1k_01).json" },
-  { key: "9", file: "verbs/9/9.json" },
-  { key: "irregular", file: "verbs/irregular/irregular.json" }
-];
+let originalData = null; // Store original data structure
 
 // #region agent log
 const fetchStartTime = performance.now();
 fetch('http://127.0.0.1:7243/ingest/c2e10cd5-8fde-4906-b4f4-c0ba1d717189',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'script.js:3',message:'JSON fetch started',data:{timestamp:Date.now()},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'A'})}).catch(()=>{});
 // #endregion
-
-// Fetch all verb files in parallel
-Promise.all(
-  verbFiles.map(({ key, file }) =>
-    fetch(file)
-      .then(res => {
-        if (!res.ok) {
-          throw new Error(`Failed to load ${file}: ${res.statusText}`);
-        }
-        return res.json();
-      })
-      .then(data => ({ key, data }))
-      .catch(error => {
-        console.warn(`Failed to load ${file}:`, error);
-        return { key, data: null };
-      })
-  )
-)
-  .then(results => {
+fetch('verbs.json')
+  .then(res => {
     // #region agent log
     const fetchEndTime = performance.now();
     fetch('http://127.0.0.1:7243/ingest/c2e10cd5-8fde-4906-b4f4-c0ba1d717189',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'script.js:5',message:'JSON fetch completed',data:{fetchTimeMs:fetchEndTime-fetchStartTime},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'A'})}).catch(()=>{});
     // #endregion
-    
+    return res.json();
+  })
+  .then(data => {
+    originalData = data; // Store original data 
     // #region agent log
     const parseStartTime = performance.now();
-    fetch('http://127.0.0.1:7243/ingest/c2e10cd5-8fde-4906-b4f4-c0ba1d717189',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'script.js:7',message:'JSON parse started',data:{dataKeys:results.length},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'A'})}).catch(()=>{});
+    fetch('http://127.0.0.1:7243/ingest/c2e10cd5-8fde-4906-b4f4-c0ba1d717189',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'script.js:7',message:'JSON parse started',data:{dataKeys:Object.keys(data).length},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'A'})}).catch(()=>{});
     // #endregion
+    // Handle new structure where verbs are organized in lists
+    // Define all list keys
+    const listKeys = ["1", "2 (4A 02)", "3", "4", "5. class (3A 01)", "7", "8y", "irregular", "1. a- (4a A1)", "1A (4B 01)", "2A (4B 02)", "9", "8W (1k 01)"];
     
-    // Merge all verb data
-    for (const { key, data } of results) {
-      if (data && data[key]) {
-        originalData[key] = data[key];
-        // Merge verbs into the main verbs object
-        Object.assign(verbs, data[key]);
+    // Merge verbs from all lists
+    for (const listKey of listKeys) {
+      if (data[listKey] && typeof data[listKey] === "object") {
+        Object.assign(verbs, data[listKey]);
       }
     }
     
+    // Add remaining verbs (excluding list keys)
+    for (const key in data) {
+      if (!listKeys.includes(key)) {
+        verbs[key] = data[key];
+      }
+    }
     // #region agent log
     const parseEndTime = performance.now();
     const verbCount = Object.keys(verbs).length;
     fetch('http://127.0.0.1:7243/ingest/c2e10cd5-8fde-4906-b4f4-c0ba1d717189',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'script.js:45',message:'JSON parse and merge completed',data:{parseTimeMs:parseEndTime-parseStartTime,totalVerbs:verbCount},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'A'})}).catch(()=>{});
     // #endregion
-    
     console.log("All tenses loaded – type በለ and press the button!");
     setupSuggestions();
     displayCommonVerbs();
     displayOtherVerbs();
-  })
-  .catch(error => {
-    console.error("Error loading verb files:", error);
   });
 
 function conjugate(skipHistory = false) {
@@ -122,21 +91,11 @@ function conjugate(skipHistory = false) {
     otherVerbsSection.style.display = 'none';
   }
 
-  // Clear the search input when displaying verb conjugation
-  const verbInput = document.getElementById('verbInput');
-  if (verbInput) {
-    verbInput.value = '';
-  }
-
   let html = `<h2>${matchKey} – ${cleanSpaces(verb.english || "")}</h2>`;
   if (verb.infinitive) {
     html += `<p class="infinitive">Infinitive: <span class="inf-fidel">${verb.infinitive.fidel || ""}</span> <span class="inf-translit">${verb.infinitive.translit || ""}</span></p>`;
   }
-  // Only show "Found X matches" if there are multiple matches AND the input doesn't exactly match the verb key
-  // This prevents showing the message when directly viewing a specific verb
-  const normalizedInput = normalizeQuery(rawInput);
-  const normalizedMatchKey = normalizeQuery(matchKey);
-  if (matches.length > 1 && normalizedInput !== normalizedMatchKey) {
+  if (matches.length > 1) {
     html += `<p style="color:#555;font-size:14px;">Found ${matches.length} matches. Showing the first: ${matches.map(m => {
       const verbText = verbs[m]?.english ? `${m} (${verbs[m].english.split(',')[0].trim()})` : m;
       return `<span class="match-verb-link" data-verb="${m}">${verbText}</span>`;
@@ -279,11 +238,6 @@ function conjugate(skipHistory = false) {
   });
 }
 
-function isEnglishQuery(query) {
-  // Check if query contains Latin letters (likely English)
-  return /[a-zA-Z]/.test(query);
-}
-
 function findVerb(query) {
   // #region agent log
   const findVerbStartTime = performance.now();
@@ -292,13 +246,9 @@ function findVerb(query) {
   const q = normalizeQuery(query);
   if (!q) return { matchKey: null, verb: null, matches: [] };
 
-  const isEnglish = isEnglishQuery(q);
-
   const exactRootMatches = []; // Exact verb root matches (highest priority for roots)
   const exactEnglishMatches = []; // Exact English translation matches (e.g., "be" matches "be")
-  const englishPrefixMatches = []; // English translation prefix matches (e.g., "des" matches "desire")
   const wordBoundaryMatches = []; // Word boundary English matches (e.g., "be" matches "be generous")
-  const englishSubstringMatches = []; // English substring matches
   const prefixRootMatches = []; // Verb root prefix matches (starts with)
   const rootMatches = []; // Verb root substring matches (lower priority)
   const formMatches = []; // Form translation matches (lowest priority)
@@ -314,22 +264,6 @@ function findVerb(query) {
       continue;
     }
     
-    // Check English matches first if query looks like English
-    const englishMatchType = matchesEnglish(verbData.english || "", q);
-    if (englishMatchType === 'exact') {
-      exactEnglishMatches.push(verbKey);
-      continue;
-    } else if (englishMatchType === 'prefix') {
-      englishPrefixMatches.push(verbKey);
-      continue;
-    } else if (englishMatchType === 'word') {
-      wordBoundaryMatches.push(verbKey);
-      continue;
-    } else if (englishMatchType === 'substring') {
-      englishSubstringMatches.push(verbKey);
-      continue;
-    }
-    
     // Prefix match (verb starts with query) - higher priority than substring
     if (verbKeyLower.startsWith(q)) {
       prefixRootMatches.push(verbKey);
@@ -341,7 +275,15 @@ function findVerb(query) {
       rootMatches.push(verbKey);
       continue;
     }
-    
+    // Match by English gloss - check for exact match first, then word boundary
+    const englishMatchType = matchesEnglish(verbData.english || "", q);
+    if (englishMatchType === 'exact') {
+      exactEnglishMatches.push(verbKey);
+      continue;
+    } else if (englishMatchType === 'word') {
+      wordBoundaryMatches.push(verbKey);
+      continue;
+    }
     // Match by infinitive forms (fidel / translit)
     if (verbData.infinitive) {
       const infFidel = (verbData.infinitive.fidel || "").toLowerCase();
@@ -368,16 +310,8 @@ function findVerb(query) {
     }
   }
 
-  // Combine matches in priority order
-  // For English queries: exact root > exact English > English prefix > word boundary > English substring > prefix root > substring root > forms
-  // For non-English queries: exact root > exact English > word boundary > prefix root > substring root > English substring > forms
-  let allMatches;
-  if (isEnglish) {
-    allMatches = [...new Set([...exactRootMatches, ...exactEnglishMatches, ...englishPrefixMatches, ...wordBoundaryMatches, ...englishSubstringMatches, ...prefixRootMatches, ...rootMatches, ...formMatches])];
-  } else {
-    allMatches = [...new Set([...exactRootMatches, ...exactEnglishMatches, ...wordBoundaryMatches, ...prefixRootMatches, ...rootMatches, ...englishSubstringMatches, ...formMatches])];
-  }
-  
+  // Combine matches in priority order: exact root > exact English > word boundary > prefix root > substring root > forms
+  const allMatches = [...new Set([...exactRootMatches, ...exactEnglishMatches, ...wordBoundaryMatches, ...prefixRootMatches, ...rootMatches, ...formMatches])];
   const matchKey = allMatches[0] || null;
   const verb = matchKey ? verbs[matchKey] : null;
   // #region agent log
@@ -437,20 +371,10 @@ function matchesEnglish(englishText, query) {
   const hasExactMatch = parts.some(part => part === lowerQuery);
   if (hasExactMatch) return 'exact';
   
-  // Check for prefix match (e.g., "des" matches "desire", "describe")
-  const hasPrefixMatch = parts.some(part => {
-    const words = part.split(/\s+/);
-    return words.some(word => word.startsWith(lowerQuery));
-  });
-  if (hasPrefixMatch) return 'prefix';
-  
   // Check for word boundary match (e.g., "be" matches "be able" but not "begin")
   const wordBoundaryRegex = new RegExp('\\b' + lowerQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b');
   const hasWordMatch = parts.some(part => wordBoundaryRegex.test(part));
   if (hasWordMatch) return 'word';
-  
-  // Check for substring match anywhere in the translation
-  if (lowerEnglish.includes(lowerQuery)) return 'substring';
   
   return false;
 }
@@ -573,13 +497,9 @@ function searchMatches(q, limit = 8) {
   fetch('http://127.0.0.1:7243/ingest/c2e10cd5-8fde-4906-b4f4-c0ba1d717189',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'script.js:344',message:'searchMatches called',data:{query:q,limit:limit,verbCount:Object.keys(verbs).length},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'B'})}).catch(()=>{});
   // #endregion
   q = normalizeQuery(q);
-  const isEnglish = isEnglishQuery(q);
-  
   const exactRootMatches = []; // Exact verb root matches (highest priority for roots)
   const exactEnglishMatches = []; // Exact English translation matches
-  const englishPrefixMatches = []; // English translation prefix matches
   const wordBoundaryMatches = []; // Word boundary English matches
-  const englishSubstringMatches = []; // English substring matches
   const prefixRootMatches = []; // Verb root prefix matches (starts with)
   const rootMatches = []; // Verb root substring matches (lower priority)
   const formMatches = []; // Form translation matches (lowest priority)
@@ -597,22 +517,6 @@ function searchMatches(q, limit = 8) {
       continue;
     }
     
-    // Check English matches first if query looks like English
-    const englishMatchType = matchesEnglish(verbData.english || '', q);
-    if (englishMatchType === 'exact') {
-      exactEnglishMatches.push(resultItem);
-      continue;
-    } else if (englishMatchType === 'prefix') {
-      englishPrefixMatches.push(resultItem);
-      continue;
-    } else if (englishMatchType === 'word') {
-      wordBoundaryMatches.push(resultItem);
-      continue;
-    } else if (englishMatchType === 'substring') {
-      englishSubstringMatches.push(resultItem);
-      continue;
-    }
-    
     // Prefix match (verb starts with query) - higher priority than substring
     if (verbKeyLower.startsWith(q)) {
       prefixRootMatches.push(resultItem);
@@ -622,6 +526,16 @@ function searchMatches(q, limit = 8) {
     // Substring match (verb contains query) - lower priority
     if (verbKeyLower.includes(q)) {
       rootMatches.push(resultItem);
+      continue;
+    }
+    
+    // Match by English gloss - check for exact match first, then word boundary
+    const englishMatchType = matchesEnglish(verbData.english || '', q);
+    if (englishMatchType === 'exact') {
+      exactEnglishMatches.push(resultItem);
+      continue;
+    } else if (englishMatchType === 'word') {
+      wordBoundaryMatches.push(resultItem);
       continue;
     }
     
@@ -651,15 +565,8 @@ function searchMatches(q, limit = 8) {
     }
   }
   
-  // Combine matches in priority order
-  // For English queries: exact root > exact English > English prefix > word boundary > English substring > prefix root > substring root > forms
-  // For non-English queries: exact root > exact English > word boundary > prefix root > substring root > English substring > forms
-  let allResults;
-  if (isEnglish) {
-    allResults = [...exactRootMatches, ...exactEnglishMatches, ...englishPrefixMatches, ...wordBoundaryMatches, ...englishSubstringMatches, ...prefixRootMatches, ...rootMatches, ...formMatches];
-  } else {
-    allResults = [...exactRootMatches, ...exactEnglishMatches, ...wordBoundaryMatches, ...prefixRootMatches, ...rootMatches, ...englishSubstringMatches, ...formMatches];
-  }
+  // Combine matches in priority order: exact root > exact English > word boundary > prefix root > substring root > forms
+  const allResults = [...exactRootMatches, ...exactEnglishMatches, ...wordBoundaryMatches, ...prefixRootMatches, ...rootMatches, ...formMatches];
   
   // unique by key, preserving order
   const seen = new Set();
@@ -741,71 +648,72 @@ function displayCommonVerbs() {
 
 function displayOtherVerbs() {
   const container = document.getElementById('other-verbs-list');
-  const titleElement = document.getElementById('all-verbs-title');
   if (!container) return;
   
   container.innerHTML = '';
   
-  // Check if verbs object is populated
-  if (!verbs || Object.keys(verbs).length === 0) {
-    if (titleElement) {
-      titleElement.textContent = 'All Verbs (0)';
-    }
-    console.warn("Verbs data not loaded yet");
+  if (!originalData) {
+    console.warn("Original data not loaded yet");
     return;
   }
   
-  // Collect ALL verbs from the verbs object (which already contains all merged verbs)
-  allOtherVerbsData = [];
+  // List of common verb keys to exclude from "Other Verbs"
+  const commonVerbKeys = new Set([
+    "ነው", "አለ", "ሄደ", "መጣ", "ወጣ", "በላ", "ጠጣ", "ቻለ", 
+    "ተማረ", "ጻፈ", "ገዛ", "ዘጋ", "ከፈተ", "ጀመረ", 
+    "ነገረ", "ሰማ", "አወቀ", "ተኛ", "ወሰደ", "ላከ", "ረሳ",
+    "ሠራ / ሰራ", "ኖረ", "አደረገ", "ፈለገ"
+  ]);
   
-  for (const [verbKey, verbData] of Object.entries(verbs)) {
-    if (verbData && typeof verbData === "object" && verbData.english) {
-      allOtherVerbsData.push({
-        key: verbKey,
-        verb: verbData
-      });
+  // Get all other verbs (exclude list keys and common verbs)
+  const listKeys = ["1", "2 (4A 02)", "3", "4", "5. class (3A 01)", "7", "8y", "irregular", "1. a- (4a A1)", "1A (4B 01)", "2A (4B 02)", "9", "8W (1k 01)"];
+  const allOtherVerbs = [];
+  
+  // Collect verbs from all lists
+  for (const listKey of listKeys) {
+    if (originalData[listKey] && typeof originalData[listKey] === "object") {
+      for (const [verbKey, verbData] of Object.entries(originalData[listKey])) {
+        if (!commonVerbKeys.has(verbKey)) {
+          allOtherVerbs.push({
+            key: verbKey,
+            verb: verbData
+          });
+        }
+      }
     }
   }
   
-  // Update title with count
-  const verbCount = allOtherVerbsData.length;
-  if (titleElement) {
-    titleElement.textContent = `All Verbs (${verbCount})`;
+  // Also check for verbs at top level (for backwards compatibility)
+  for (const [key, value] of Object.entries(originalData)) {
+    if (!listKeys.includes(key) && typeof value === "object" && value !== null) {
+      // Check if it's a verb object (has 'english' property) or a list
+      if (value.english) {
+        // It's a verb at top level
+        if (!commonVerbKeys.has(key)) {
+          allOtherVerbs.push({
+            key: key,
+            verb: value
+          });
+        }
+      } else {
+        // It might be a list, check its contents
+        for (const [verbKey, verbData] of Object.entries(value)) {
+          if (verbData && typeof verbData === "object" && verbData.english && !commonVerbKeys.has(verbKey)) {
+            allOtherVerbs.push({
+              key: verbKey,
+              verb: verbData
+            });
+          }
+        }
+      }
+    }
   }
   
-  // Sort and render
-  sortAndRenderOtherVerbs();
-  
-  // Setup sort button event listeners
-  setupSortButtons();
-}
-
-function sortAndRenderOtherVerbs() {
-  const container = document.getElementById('other-verbs-list');
-  if (!container) return;
-  
-  container.innerHTML = '';
-  
-  // Create a copy to sort
-  const sortedVerbs = [...allOtherVerbsData];
-  
-  // Sort based on current sort order
-  if (currentSortOrder === 'amharic') {
-    // Sort by Amharic verb key
-    sortedVerbs.sort((a, b) => a.key.localeCompare(b.key));
-  } else {
-    // Sort by English translation (first translation if multiple)
-    sortedVerbs.sort((a, b) => {
-      const verbA = a.verb;
-      const verbB = b.verb;
-      const englishA = verbA ? (verbA.english || "").split(',')[0].trim().toLowerCase() : "";
-      const englishB = verbB ? (verbB.english || "").split(',')[0].trim().toLowerCase() : "";
-      return englishA.localeCompare(englishB);
-    });
-  }
+  // Sort alphabetically by verb key
+  allOtherVerbs.sort((a, b) => a.key.localeCompare(b.key));
   
   // Display all other verbs
-  sortedVerbs.forEach(verbInfo => {
+  allOtherVerbs.forEach(verbInfo => {
     const verb = verbInfo.verb;
     const english = verb ? (verb.english || "") : "";
     
@@ -824,43 +732,6 @@ function sortAndRenderOtherVerbs() {
     };
     
     container.appendChild(box);
-  });
-}
-
-function setupSortButtons() {
-  const sortAmharic = document.getElementById('sort-amharic');
-  const sortEnglish = document.getElementById('sort-english');
-  
-  if (!sortAmharic || !sortEnglish) return;
-  
-  // Remove existing listeners by cloning and replacing
-  const newSortAmharic = sortAmharic.cloneNode(true);
-  const newSortEnglish = sortEnglish.cloneNode(true);
-  sortAmharic.parentNode.replaceChild(newSortAmharic, sortAmharic);
-  sortEnglish.parentNode.replaceChild(newSortEnglish, sortEnglish);
-  
-  // Set initial active state
-  if (currentSortOrder === 'amharic') {
-    newSortAmharic.classList.add('active');
-    newSortEnglish.classList.remove('active');
-  } else {
-    newSortAmharic.classList.remove('active');
-    newSortEnglish.classList.add('active');
-  }
-  
-  // Add event listeners
-  newSortAmharic.addEventListener('click', () => {
-    currentSortOrder = 'amharic';
-    newSortAmharic.classList.add('active');
-    newSortEnglish.classList.remove('active');
-    sortAndRenderOtherVerbs();
-  });
-  
-  newSortEnglish.addEventListener('click', () => {
-    currentSortOrder = 'english';
-    newSortAmharic.classList.remove('active');
-    newSortEnglish.classList.add('active');
-    sortAndRenderOtherVerbs();
   });
 }
 
@@ -887,6 +758,11 @@ function goToHome(skipHistory = false) {
   const otherVerbsSection = document.getElementById('other-verbs-section');
   if (otherVerbsSection) {
     otherVerbsSection.style.display = 'block';
+  }
+  
+  // Focus on the input field
+  if (input) {
+    input.focus();
   }
   
   // Hide suggestions if visible
@@ -1079,10 +955,72 @@ window.addEventListener('popstate', function(event) {
   restoreState(event.state);
 });
 
+// Visitor counter functionality
+const API_BASE_URL = 'http://127.0.0.1:5000/api';
+
+async function trackVisitor() {
+  // Check if this is a new visit in this browser session
+  const sessionKey = 'visitor_tracked_' + new Date().toDateString();
+  const alreadyTracked = sessionStorage.getItem(sessionKey);
+  
+  if (!alreadyTracked) {
+    try {
+      // Increment visitor count on server
+      const response = await fetch(`${API_BASE_URL}/visitors/increment`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+      
+      if (response.ok) {
+        const data = await response.json();
+        updateVisitorDisplay(data.count);
+        // Mark as tracked for this session
+        sessionStorage.setItem(sessionKey, 'true');
+      }
+    } catch (error) {
+      console.warn('Could not connect to visitor counter API:', error);
+      // Still try to display count even if increment failed
+      loadVisitorCount();
+    }
+  } else {
+    // Already tracked this session, just load the count
+    loadVisitorCount();
+  }
+}
+
+async function loadVisitorCount() {
+  try {
+    const response = await fetch(`${API_BASE_URL}/visitors`);
+    if (response.ok) {
+      const data = await response.json();
+      updateVisitorDisplay(data.count);
+    }
+  } catch (error) {
+    console.warn('Could not load visitor count:', error);
+    // Show error state
+    const countElement = document.getElementById('visitorCount');
+    if (countElement) {
+      countElement.textContent = '?';
+    }
+  }
+}
+
+function updateVisitorDisplay(count) {
+  const countElement = document.getElementById('visitorCount');
+  if (countElement) {
+    countElement.textContent = count.toLocaleString();
+  }
+}
+
 // Initialize dark mode on page load
 document.addEventListener('DOMContentLoaded', function() {
   initDarkMode();
   initTransliteration();
+  
+  // Track visitor and load count
+  trackVisitor();
   
   // Initialize history state on page load
   const urlParams = new URLSearchParams(window.location.search);

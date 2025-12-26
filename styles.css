@@ -134,6 +134,7 @@ input:checked + .slider:before {
 
 /* Search Section */
 .search-section {
+  position: relative;
   background-color: #fff;
   padding: 30px;
   border-radius: 8px;
