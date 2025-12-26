@@ -6782,168 +6782,168 @@
         "1sg": {
           "fidel": "ዛልኩ",
           "translit": "zalku",
-          "en": "I be exhausteded"
+          "en": "I was exhausted"
         },
         "2sgm": {
           "fidel": "ዛልክ",
           "translit": "zalk",
-          "en": "you (m.) be exhausteded"
+          "en": "you (m.) were exhausted"
         },
         "2sgf": {
           "fidel": "ዛልሽ",
           "translit": "zalš",
-          "en": "you (f.) be exhausteded"
+          "en": "you (f.) were exhausted"
         },
         "3sgm": {
           "fidel": "ዛለ",
           "translit": "zalä",
-          "en": "he be exhausteded"
+          "en": "he was exhausted"
         },
         "3sgf": {
           "fidel": "ዛለች",
           "translit": "zaläčč",
-          "en": "she be exhausteded"
+          "en": "she was exhausted"
         },
         "1pl": {
           "fidel": "ዛልን",
           "translit": "zaln",
-          "en": "we be exhausteded"
+          "en": "we were exhausted"
         },
         "2pl": {
           "fidel": "ዛላችሁ",
           "translit": "zalaččəhu",
-          "en": "you be exhausteded"
+          "en": "you were exhausted"
         },
         "3pl": {
           "fidel": "ዛሉ",
           "translit": "zalu",
-          "en": "they be exhausteded"
+          "en": "they were exhausted"
         }
       },
       "imperfective_compound": {
         "1sg": {
           "fidel": "እዝላለሁ",
           "translit": "əzəlallähu",
-          "en": "I be exhausted / I will be exhausted"
+          "en": "I am exhausted / I will be exhausted"
         },
         "2sgm": {
           "fidel": "ትዝላለህ",
           "translit": "təzəlalläh",
-          "en": "you (m.) be exhausted / you (m.) will be exhausted"
+          "en": "you (m.) are exhausted / you (m.) will be exhausted"
         },
         "2sgf": {
           "fidel": "ትዝያለሽ",
           "translit": "təzəyalläš",
-          "en": "you (f.) be exhausted / you (f.) will be exhausted"
+          "en": "you (f.) are exhausted / you (f.) will be exhausted"
         },
         "3sgm": {
           "fidel": "ይዝላል",
           "translit": "yəzəlall",
-          "en": "he be exhausteds / he will be exhausted"
+          "en": "he is exhausted / he will be exhausted"
         },
         "3sgf": {
           "fidel": "ትዝላለች",
           "translit": "təzəlalläčč",
-          "en": "she be exhausteds / she will be exhausted"
+          "en": "she is exhausted / she will be exhausted"
         },
         "1pl": {
           "fidel": "እንዝላለን",
           "translit": "ənzəlallän",
-          "en": "we be exhausted / we will be exhausted"
+          "en": "we are exhausted / we will be exhausted"
         },
         "2pl": {
           "fidel": "ትዝላላችሁ",
           "translit": "təzəlallaččəhu",
-          "en": "you be exhausted / you will be exhausted"
+          "en": "you are exhausted / you will be exhausted"
         },
         "3pl": {
           "fidel": "ይዝላሉ",
           "translit": "yəzəlallu",
-          "en": "they be exhausted / they will be exhausted"
+          "en": "they are exhausted / they will be exhausted"
         }
       },
       "gerund": {
         "1sg": {
           "fidel": "ዝዬ",
           "translit": "zəyye",
-          "en": "[I] having be exhausteded"
+          "en": "[I] having been exhausted"
         },
         "2sgm": {
           "fidel": "ዝለህ",
           "translit": "zəläh",
-          "en": "[you (m.)] having be exhausteded"
+          "en": "[you (m.)] having been exhausted"
         },
         "2sgf": {
           "fidel": "ዝለሽ",
           "translit": "zəläš",
-          "en": "[you (f.)] having be exhausteded"
+          "en": "[you (f.)] having been exhausted"
         },
         "3sgm": {
           "fidel": "ዝሎ",
           "translit": "zəlo",
-          "en": "(he) having be exhausteded"
+          "en": "(he) having been exhausted"
         },
         "3sgf": {
           "fidel": "ዝላ",
           "translit": "zəla",
-          "en": "(she) having be exhausteded"
+          "en": "(she) having been exhausted"
         },
         "1pl": {
           "fidel": "ዝለን",
           "translit": "zəlän",
-          "en": "(we) having be exhausteded"
+          "en": "(we) having been exhausted"
         },
         "2pl": {
           "fidel": "ዝላችሁ",
           "translit": "zəlaččəhu",
-          "en": "(you) having be exhausteded"
+          "en": "(you) having been exhausted"
         },
         "3pl": {
           "fidel": "ዝለው",
           "translit": "zəläw",
-          "en": "(they) having be exhausteded"
+          "en": "(they) having been exhausted"
         }
       },
       "compound_gerund": {
         "1sg": {
           "fidel": "ዝዬያለሁ",
           "translit": "zəyyeyallähu",
-          "en": "I have be exhausteded"
+          "en": "I have been exhausted"
         },
         "2sgm": {
           "fidel": "ዝለሃል",
           "translit": "zəlähall",
-          "en": "you (m.) have be exhausteded"
+          "en": "you (m.) have been exhausted"
         },
         "2sgf": {
           "fidel": "ዝለሻል",
           "translit": "zəläšall",
-          "en": "you (f.) have be exhausteded"
+          "en": "you (f.) have been exhausted"
         },
         "3sgm": {
           "fidel": "ዝሏል",
           "translit": "zəlwall",
-          "en": "he has be exhausteded"
+          "en": "he has been exhausted"
         },
         "3sgf": {
           "fidel": "ዝላለች",
           "translit": "zəlalläčč",
-          "en": "she has be exhausteded"
+          "en": "she has been exhausted"
         },
         "1pl": {
           "fidel": "ዝለናል",
           "translit": "zəlänall",
-          "en": "we have be exhausteded"
+          "en": "we have been exhausted"
         },
         "2pl": {
           "fidel": "ዝላችኋል",
           "translit": "zəlaččhwall",
-          "en": "you have be exhausteded"
+          "en": "you have been exhausted"
         },
         "3pl": {
           "fidel": "ዝለዋል",
           "translit": "zəläwall",
-          "en": "they have be exhausteded"
+          "en": "they have been exhausted"
         }
       },
       "jussive_imperative": {
@@ -6992,84 +6992,84 @@
         "1sg": {
           "fidel": "አልዛልኩም",
           "translit": "alzalkumm",
-          "en": "I didn't be exhausted"
+          "en": "I wasn't exhausted"
         },
         "2sgm": {
           "fidel": "አልዛልክም",
           "translit": "alzalkəmm",
-          "en": "you (m.) didn't be exhausted"
+          "en": "you (m.) weren't exhausted"
         },
         "2sgf": {
           "fidel": "አልዛልሽም",
           "translit": "alzalšəmm",
-          "en": "you (f.) didn't be exhausted"
+          "en": "you (f.) weren't exhausted"
         },
         "3sgm": {
           "fidel": "አልዛለም",
           "translit": "alzalämm",
-          "en": "he didn't be exhausted"
+          "en": "he wasn't exhausted"
         },
         "3sgf": {
           "fidel": "አልዛለችም",
           "translit": "alzaläččəmm",
-          "en": "she didn't be exhausted"
+          "en": "she wasn't exhausted"
         },
         "1pl": {
           "fidel": "አልዛልንም",
           "translit": "alzalnəmm",
-          "en": "we didn't be exhausted"
+          "en": "we weren't exhausted"
         },
         "2pl": {
           "fidel": "አልዛላችሁም",
           "translit": "alzalaččəhumm",
-          "en": "you didn't be exhausted"
+          "en": "you weren't exhausted"
         },
         "3pl": {
           "fidel": "አልዛሉም",
           "translit": "alzalumm",
-          "en": "they didn't be exhausted"
+          "en": "they weren't exhausted"
         }
       },
       "negative_imperfective": {
         "1sg": {
           "fidel": "አልዝልም",
           "translit": "alzələmm",
-          "en": "I don't be exhausted"
+          "en": "I'm not exhausted"
         },
         "2sgm": {
           "fidel": "አትዝልም",
           "translit": "atzələmm",
-          "en": "you (m.) don't be exhausted"
+          "en": "you (m.) aren't exhausted"
         },
         "2sgf": {
           "fidel": "አትዝዪም",
           "translit": "atzəyimm",
-          "en": "you (f.) don't be exhausted"
+          "en": "you (f.) aren't exhausted"
         },
         "3sgm": {
           "fidel": "አይዝልም",
           "translit": "ayzələmm",
-          "en": "he doesn't be exhausted"
+          "en": "he isn't exhausted"
         },
         "3sgf": {
           "fidel": "አትዝልም",
           "translit": "atzələmm",
-          "en": "she doesn't be exhausted"
+          "en": "she isn't exhausted"
         },
         "1pl": {
           "fidel": "አንዝልም",
           "translit": "anzələmm",
-          "en": "we don't be exhausted"
+          "en": "we aren't exhausted"
         },
         "2pl": {
           "fidel": "አትዝሉም",
           "translit": "atzəlumm",
-          "en": "you don't be exhausted"
+          "en": "you aren't exhausted"
         },
         "3pl": {
           "fidel": "አይዝሉም",
           "translit": "ayzəlumm",
-          "en": "they don't be exhausted"
+          "en": "they aren't exhausted"
         }
       },
       "negative_jussive_imperative": {

@@ -45,7 +45,7 @@
       </div>
       
       <div class="search-box">
-    <input type="text" id="verbInput" placeholder="" autofocus>
+    <input type="text" id="verbInput" placeholder="">
     <button onclick="conjugate()">Show Conjugations</button>
       </div>
       <div id="suggestions" class="suggestions"></div>
@@ -54,6 +54,20 @@
     <div id="common-verbs-section" class="common-verbs-section">
       <h2>Common Amharic Verbs</h2>
       <div id="common-verbs-list" class="common-verbs-list"></div>
+    </div>
+    
+    <div id="all-verbs-section" class="common-verbs-section">
+      <div class="section-header">
+        <h2>All Verbs (<span id="all-verbs-count">0</span>)</h2>
+        <div class="sort-controls">
+          <span class="sort-label">Sort by:</span>
+          <div class="sort-options">
+            <button class="sort-btn active" id="sort-english" onclick="sortAllVerbs('english')">English (abcd...)</button>
+            <button class="sort-btn" id="sort-amharic" onclick="sortAllVerbs('amharic')">Amharic (ሀለሐመ...)</button>
+          </div>
+        </div>
+      </div>
+      <div id="all-verbs-list" class="common-verbs-list"></div>
     </div>
     
     <div id="output"></div>

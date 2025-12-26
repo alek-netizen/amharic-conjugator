@@ -1,5 +1,7 @@
 const verbs = {};
 let originalData = null; // Store original data structure
+let allVerbsList = []; // Store all verbs for sorting
+let currentSort = 'english'; // Current sort mode (default: English)
 
 // #region agent log
 const fetchStartTime = performance.now();
@@ -44,7 +46,7 @@ fetch('verbs.json')
     console.log("All tenses loaded – type በለ and press the button!");
     setupSuggestions();
     displayCommonVerbs();
-    displayOtherVerbs();
+    displayAllVerbs();
   });
 
 function conjugate(skipHistory = false) {
@@ -67,10 +69,10 @@ function conjugate(skipHistory = false) {
       commonVerbsSection.style.display = 'block';
     }
     
-    // Show other verbs section if no match found
-    const otherVerbsSection = document.getElementById('other-verbs-section');
-    if (otherVerbsSection) {
-      otherVerbsSection.style.display = 'block';
+    // Show all verbs section if no match found
+    const allVerbsSection = document.getElementById('all-verbs-section');
+    if (allVerbsSection) {
+      allVerbsSection.style.display = 'block';
     }
     
     // Update history for no-match state
@@ -85,21 +87,21 @@ function conjugate(skipHistory = false) {
     commonVerbsSection.style.display = 'none';
   }
   
-  // Hide other verbs section when a verb is found
-  const otherVerbsSection = document.getElementById('other-verbs-section');
-  if (otherVerbsSection) {
-    otherVerbsSection.style.display = 'none';
+  // Hide all verbs section when a verb is found
+  const allVerbsSection = document.getElementById('all-verbs-section');
+  if (allVerbsSection) {
+    allVerbsSection.style.display = 'none';
+  }
+
+  // Clear the search input when conjugations are shown
+  const input = document.getElementById('verbInput');
+  if (input) {
+    input.value = '';
   }
 
   let html = `<h2>${matchKey} – ${cleanSpaces(verb.english || "")}</h2>`;
   if (verb.infinitive) {
     html += `<p class="infinitive">Infinitive: <span class="inf-fidel">${verb.infinitive.fidel || ""}</span> <span class="inf-translit">${verb.infinitive.translit || ""}</span></p>`;
-  }
-  if (matches.length > 1) {
-    html += `<p style="color:#555;font-size:14px;">Found ${matches.length} matches. Showing the first: ${matches.map(m => {
-      const verbText = verbs[m]?.english ? `${m} (${verbs[m].english.split(',')[0].trim()})` : m;
-      return `<span class="match-verb-link" data-verb="${m}">${verbText}</span>`;
-    }).join(" ")} </p>`;
   }
   
   // Add special note for "have" verb
@@ -222,20 +224,6 @@ function conjugate(skipHistory = false) {
   if (!skipHistory) {
     updateHistory({ type: 'verb', verbKey: matchKey, query: rawInput });
   }
-  
-  // Add click handlers for match verb links
-  const matchLinks = output.querySelectorAll('.match-verb-link');
-  matchLinks.forEach(link => {
-    link.addEventListener('click', function() {
-      const verbKey = this.getAttribute('data-verb');
-      if (verbKey) {
-        document.getElementById('verbInput').value = verbKey;
-        conjugate();
-        // Scroll to output after clicking
-        output.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    });
-  });
 }
 
 function findVerb(query) {
@@ -439,12 +427,16 @@ function setupSuggestions() {
       }
     }
     
-    // Show common verbs section if input is empty
+    // Show common verbs section and all verbs section if input is empty
     const commonVerbsSection = document.getElementById('common-verbs-section');
+    const allVerbsSection = document.getElementById('all-verbs-section');
     const output = document.getElementById('output');
     if (input.value.trim() === '') {
       if (commonVerbsSection) {
         commonVerbsSection.style.display = 'block';
+      }
+      if (allVerbsSection) {
+        allVerbsSection.style.display = 'block';
       }
       output.innerHTML = '';
       // Reset transliteration buffer
@@ -646,35 +638,27 @@ function displayCommonVerbs() {
   });
 }
 
-function displayOtherVerbs() {
-  const container = document.getElementById('other-verbs-list');
+function displayAllVerbs() {
+  const container = document.getElementById('all-verbs-list');
   if (!container) return;
-  
-  container.innerHTML = '';
   
   if (!originalData) {
     console.warn("Original data not loaded yet");
     return;
   }
   
-  // List of common verb keys to exclude from "Other Verbs"
-  const commonVerbKeys = new Set([
-    "ነው", "አለ", "ሄደ", "መጣ", "ወጣ", "በላ", "ጠጣ", "ቻለ", 
-    "ተማረ", "ጻፈ", "ገዛ", "ዘጋ", "ከፈተ", "ጀመረ", 
-    "ነገረ", "ሰማ", "አወቀ", "ተኛ", "ወሰደ", "ላከ", "ረሳ",
-    "ሠራ / ሰራ", "ኖረ", "አደረገ", "ፈለገ"
-  ]);
-  
-  // Get all other verbs (exclude list keys and common verbs)
+  // Get all verbs (exclude list keys)
   const listKeys = ["1", "2 (4A 02)", "3", "4", "5. class (3A 01)", "7", "8y", "irregular", "1. a- (4a A1)", "1A (4B 01)", "2A (4B 02)", "9", "8W (1k 01)"];
-  const allOtherVerbs = [];
+  allVerbsList = [];
+  const seenVerbs = new Set(); // Track seen verbs to avoid duplicates
   
   // Collect verbs from all lists
   for (const listKey of listKeys) {
     if (originalData[listKey] && typeof originalData[listKey] === "object") {
       for (const [verbKey, verbData] of Object.entries(originalData[listKey])) {
-        if (!commonVerbKeys.has(verbKey)) {
-          allOtherVerbs.push({
+        if (!seenVerbs.has(verbKey)) {
+          seenVerbs.add(verbKey);
+          allVerbsList.push({
             key: verbKey,
             verb: verbData
           });
@@ -689,8 +673,9 @@ function displayOtherVerbs() {
       // Check if it's a verb object (has 'english' property) or a list
       if (value.english) {
         // It's a verb at top level
-        if (!commonVerbKeys.has(key)) {
-          allOtherVerbs.push({
+        if (!seenVerbs.has(key)) {
+          seenVerbs.add(key);
+          allVerbsList.push({
             key: key,
             verb: value
           });
@@ -698,8 +683,9 @@ function displayOtherVerbs() {
       } else {
         // It might be a list, check its contents
         for (const [verbKey, verbData] of Object.entries(value)) {
-          if (verbData && typeof verbData === "object" && verbData.english && !commonVerbKeys.has(verbKey)) {
-            allOtherVerbs.push({
+          if (verbData && typeof verbData === "object" && verbData.english && !seenVerbs.has(verbKey)) {
+            seenVerbs.add(verbKey);
+            allVerbsList.push({
               key: verbKey,
               verb: verbData
             });
@@ -709,11 +695,48 @@ function displayOtherVerbs() {
     }
   }
   
-  // Sort alphabetically by verb key
-  allOtherVerbs.sort((a, b) => a.key.localeCompare(b.key));
+  // Sort and display
+  sortAllVerbs(currentSort);
+}
+
+function sortAllVerbs(sortBy) {
+  const container = document.getElementById('all-verbs-list');
+  if (!container || !allVerbsList.length) return;
   
-  // Display all other verbs
-  allOtherVerbs.forEach(verbInfo => {
+  currentSort = sortBy;
+  
+  // Sort the verbs array
+  const sorted = [...allVerbsList];
+  if (sortBy === 'amharic') {
+    sorted.sort((a, b) => a.key.localeCompare(b.key));
+  } else if (sortBy === 'english') {
+    sorted.sort((a, b) => {
+      const aEnglish = (a.verb?.english || "").toLowerCase().split(',')[0].trim();
+      const bEnglish = (b.verb?.english || "").toLowerCase().split(',')[0].trim();
+      return aEnglish.localeCompare(bEnglish);
+    });
+  }
+  
+  // Update sort buttons
+  const amharicBtn = document.getElementById('sort-amharic');
+  const englishBtn = document.getElementById('sort-english');
+  if (amharicBtn) {
+    amharicBtn.classList.toggle('active', sortBy === 'amharic');
+  }
+  if (englishBtn) {
+    englishBtn.classList.toggle('active', sortBy === 'english');
+  }
+  
+  // Update the count display
+  const countElement = document.getElementById('all-verbs-count');
+  if (countElement) {
+    countElement.textContent = sorted.length;
+  }
+  
+  // Clear and re-render
+  container.innerHTML = '';
+  
+  sorted.forEach(verbInfo => {
     const verb = verbInfo.verb;
     const english = verb ? (verb.english || "") : "";
     
@@ -754,16 +777,12 @@ function goToHome(skipHistory = false) {
     commonVerbsSection.style.display = 'block';
   }
   
-  // Show the other verbs section
-  const otherVerbsSection = document.getElementById('other-verbs-section');
-  if (otherVerbsSection) {
-    otherVerbsSection.style.display = 'block';
+  // Show the all verbs section
+  const allVerbsSection = document.getElementById('all-verbs-section');
+  if (allVerbsSection) {
+    allVerbsSection.style.display = 'block';
   }
   
-  // Focus on the input field
-  if (input) {
-    input.focus();
-  }
   
   // Hide suggestions if visible
   const suggestions = document.getElementById('suggestions');
