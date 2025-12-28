@@ -2,6 +2,21 @@ const verbs = {};
 let originalData = null; // Store original data structure
 let allVerbsList = []; // Store all verbs for sorting
 let currentSort = 'english'; // Current sort mode (default: English)
+// Imperfective data is now stored directly in verbs.json
+
+// List of verbs in list "1" that should have collapsible imperfective
+// Includes: all verbs before ነከሰ (from 1-imperfective.json) and verbs from ነከሰ to ዘፈነ (from 1.2c.json)
+const verbsWithCollapsibleImperfective = [
+  // Verbs before ነከሰ (from 1-imperfective.json)
+  "ለመደ", "ለቀመ", "ለከፈ", "መከረ", "መከነ", "ረገመ", "ረገጠ", "ሰለበ", "ሰመጠ", "ሰቀለ",
+  "ሰበከ", "ሰነፈ", "ሰከረ", "ሰደበ", "ቀለመ", "ቀለጠ", "ቀመሰ", "ቀረበ", "ቀረጸ", "ቀበረ",
+  "ቀዘነ", "ቀዘፈ", "ቀደመ", "ቀጠረ", "ቀጠፈ", "በለጠ", "በከተ", "ተከለ", "ነቀለ", "ነቀፈ",
+  // Verbs from ነከሰ to ዘፈነ (from 1.2c.json)
+  "ነከሰ", "ነደለ", "ነደፈ", "ነገረ", "ነጠረ", "ነጠቀ", "ነፈረ",
+  "ከረመ", "ከሰረ", "ከሸፈ", "ከበረ", "ከተበ", "ከተፈ", "ከደነ", "ከፈለ", "ከፈተ",
+  "ወረሰ", "ወረደ", "ወሰደ", "ወቀረ", "ወቀሰ", "ወቀጠ", "ወደመ", "ወደቀ",
+  "ዘለፈ", "ዘረፈ", "ዘፈነ"
+];
 
 // #region agent log
 const fetchStartTime = performance.now();
@@ -47,6 +62,8 @@ fetch('verbs.json')
     setupSuggestions();
     displayCommonVerbs();
     displayAllVerbs();
+    
+    // Imperfective data is now stored directly in verbs.json, no need to load separate files
   });
 
 function conjugate(skipHistory = false) {
@@ -215,7 +232,53 @@ function conjugate(skipHistory = false) {
       html += `<p style="color:#666;font-size:14px;font-style:italic;margin-top:10px;">*pronunciation differs from the writing as indicated in transliteration</p>`;
     }
     
-    html += `<br>`;
+    // Add collapsible "Simple Imperfect" section right after "Compound Imperfect" for verbs that have imperfective data
+    if (tenseKey === "imperfective_compound" && verb.imperfective) {
+      const imperfectiveConjugations = verb.imperfective;
+      
+      const uniqueId = `imperfective-${matchKey.replace(/\s+/g, '-')}`;
+      
+      html += `<div class="collapsible-section">
+        <div class="collapsible-header" onclick="toggleCollapsible('${uniqueId}')">
+          <h3>Simple Imperfect</h3>
+          <span class="collapsible-arrow" id="arrow-${uniqueId}">▶</span>
+        </div>
+        <div class="collapsible-content" id="${uniqueId}" style="display: none;">
+          <table>
+            <tr>
+              <th>Person</th>
+              <th>Amharic</th>
+              <th>Transliteration</th>
+            </tr>`;
+      
+      // Track if any transliteration has "*" ending
+      let hasAsteriskEndingImperfective = false;
+      
+      for (const person of personLabels) {
+        const form = imperfectiveConjugations[person.key];
+        if (!form) continue;
+        
+        const translit = form.translit || "";
+        if (translit.endsWith("*")) {
+          hasAsteriskEndingImperfective = true;
+        }
+        
+        html += `<tr>
+          <td>${person.label}</td>
+          <td>${form.fidel || ""}</td>
+          <td>${translit}</td>
+        </tr>`;
+      }
+      
+      html += `</table>`;
+      
+      // Add note if any transliteration has "*" ending
+      if (hasAsteriskEndingImperfective) {
+        html += `<p style="color:#666;font-size:14px;font-style:italic;margin-top:10px;">*pronunciation differs from the writing as indicated in transliteration</p>`;
+      }
+      
+      html += `</div></div>`;
+    }
   }
 
   output.innerHTML = html;
@@ -973,6 +1036,22 @@ function restoreState(state) {
 window.addEventListener('popstate', function(event) {
   restoreState(event.state);
 });
+
+// Toggle collapsible section
+function toggleCollapsible(id) {
+  const content = document.getElementById(id);
+  const arrow = document.getElementById('arrow-' + id);
+  
+  if (content.style.display === 'none') {
+    content.style.display = 'block';
+    arrow.textContent = '▼';
+    arrow.style.transform = 'rotate(0deg)';
+  } else {
+    content.style.display = 'none';
+    arrow.textContent = '▶';
+    arrow.style.transform = 'rotate(0deg)';
+  }
+}
 
 // Visitor counter functionality
 const API_BASE_URL = 'http://127.0.0.1:5000/api';

@@ -335,6 +335,65 @@ button:active {
   border-bottom: 2px solid #e0e0e0;
 }
 
+/* Collapsible section styles */
+.collapsible-section {
+  margin: 0 0 15px 0;
+}
+
+.collapsible-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin: 15px 0 15px 0;
+  padding: 12px 0 10px 0;
+  border-bottom: 2px solid #e0e0e0;
+  transition: background-color 0.2s;
+  min-height: 44px;
+}
+
+.collapsible-header:hover {
+  background-color: #f9f9f9;
+}
+
+.collapsible-header h3 {
+  margin: 0 !important;
+  padding: 0 !important;
+  padding-bottom: 0 !important;
+  border: none !important;
+  border-bottom: none !important;
+  font-size: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+.collapsible-arrow {
+  font-size: 18px;
+  color: #1976d2;
+  transition: transform 0.3s ease;
+  user-select: none;
+  margin-left: 15px;
+  font-weight: bold;
+  min-width: 20px;
+  display: inline-block;
+}
+
+.collapsible-content {
+  margin-top: 15px;
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* Tables */
 table {
   width: 100%;
@@ -986,6 +1045,23 @@ body.dark-mode #output h2 {
 body.dark-mode #output h3 {
   color: #e0e0e0;
   border-bottom-color: #444;
+}
+
+body.dark-mode .collapsible-header {
+  border-bottom-color: #444;
+}
+
+body.dark-mode .collapsible-header:hover {
+  background-color: #2d2d2d;
+}
+
+body.dark-mode .collapsible-header h3 {
+  color: #e0e0e0;
+}
+
+body.dark-mode .collapsible-arrow {
+  color: #64b5f6;
+  font-weight: bold;
 }
 
 body.dark-mode table {
